@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Wasm Testing</title>
+    <script>
+        let timeList = [];
+
+        function checkpoint(label) {
+            console.log(`${label}: ${(performance.now() - startTime).toFixed(2)} ms (+${(performance.now() - lastTime).toFixed(2)})`);
+            timeList.push({label, time: (performance.now() - startTime).toFixed(3), delta: (performance.now() - lastTime).toFixed(3)});
+            lastTime = performance.now();
+        }
+
+        function getTimes() {
+            return timeList;
+        }
+
+        let startTime = performance.now();
+        let lastTime = startTime;
+
+        var Module = {
+            onRuntimeInitialized: function() {
+                checkpoint("wasm initialized");
+                
+                for (let i = 0; i < 3; i++) {
+                    console.log(Module._main());
+                    checkpoint("wasm benchmark");
+                }
+            }
+        };
+    </script>
+    <script defer src="nsievebits.js"></script>
+</head>
+<body>
+    <script>checkpoint("page loaded")</script>
+</body>
+</html>

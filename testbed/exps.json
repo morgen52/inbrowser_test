@@ -1,0 +1,416 @@
+{
+    "misc/fbench": {
+        "url": "http://0.0.0.0:7070/misc/fbench"
+    },
+    "misc/flops5": {
+        "url": "http://0.0.0.0:7070/misc/flops5"
+    },
+    "misc/ffbench": {
+        "url": "http://0.0.0.0:7070/misc/ffbench"
+    },
+    "misc/pi": {
+        "url": "http://0.0.0.0:7070/misc/pi"
+    },
+    "misc/mandel": {
+        "url": "http://0.0.0.0:7070/misc/mandel"
+    },
+    "misc/flops8": {
+        "url": "http://0.0.0.0:7070/misc/flops8"
+    },
+    "misc/revertbits": {
+        "url": "http://0.0.0.0:7070/misc/revertbits"
+    },
+    "misc/richards_benchmark": {
+        "url": "http://0.0.0.0:7070/misc/richards_benchmark"
+    },
+    "misc/dt": {
+        "url": "http://0.0.0.0:7070/misc/dt"
+    },
+    "misc/flops4": {
+        "url": "http://0.0.0.0:7070/misc/flops4"
+    },
+    "misc/reedsolomon": {
+        "url": "http://0.0.0.0:7070/misc/reedsolomon"
+    },
+    "misc/flops3": {
+        "url": "http://0.0.0.0:7070/misc/flops3"
+    },
+    "misc/flops2": {
+        "url": "http://0.0.0.0:7070/misc/flops2"
+    },
+    "misc/matmul_f64_4x4": {
+        "url": "http://0.0.0.0:7070/misc/matmul_f64_4x4"
+    },
+    "misc/perlin": {
+        "url": "http://0.0.0.0:7070/misc/perlin"
+    },
+    "misc/flops1": {
+        "url": "http://0.0.0.0:7070/misc/flops1"
+    },
+    "misc/salsa20": {
+        "url": "http://0.0.0.0:7070/misc/salsa20"
+    },
+    "misc/oourafft": {
+        "url": "http://0.0.0.0:7070/misc/oourafft"
+    },
+    "misc/mandel2": {
+        "url": "http://0.0.0.0:7070/misc/mandel2"
+    },
+    "misc/whetstone": {
+        "url": "http://0.0.0.0:7070/misc/whetstone"
+    },
+    "misc/himenobmtxpa": {
+        "url": "http://0.0.0.0:7070/misc/himenobmtxpa"
+    },
+    "misc/fpconvert": {
+        "url": "http://0.0.0.0:7070/misc/fpconvert"
+    },
+    "misc/flops7": {
+        "url": "http://0.0.0.0:7070/misc/flops7"
+    },
+    "misc/evalloop": {
+        "url": "http://0.0.0.0:7070/misc/evalloop"
+    },
+    "misc/flops": {
+        "url": "http://0.0.0.0:7070/misc/flops"
+    },
+    "misc/lowercase": {
+        "url": "http://0.0.0.0:7070/misc/lowercase"
+    },
+    "misc/flops6": {
+        "url": "http://0.0.0.0:7070/misc/flops6"
+    },
+    "polybench/fdtd2d": {
+        "url": "http://0.0.0.0:7070/polybench/fdtd2d"
+    },
+    "polybench/syr2k": {
+        "url": "http://0.0.0.0:7070/polybench/syr2k"
+    },
+    "polybench/seidel2d": {
+        "url": "http://0.0.0.0:7070/polybench/seidel2d"
+    },
+    "polybench/bicg": {
+        "url": "http://0.0.0.0:7070/polybench/bicg"
+    },
+    "polybench/symm": {
+        "url": "http://0.0.0.0:7070/polybench/symm"
+    },
+    "polybench/floydwarshall": {
+        "url": "http://0.0.0.0:7070/polybench/floydwarshall"
+    },
+    "polybench/trmm": {
+        "url": "http://0.0.0.0:7070/polybench/trmm"
+    },
+    "polybench/correlation": {
+        "url": "http://0.0.0.0:7070/polybench/correlation"
+    },
+    "polybench/gesummv": {
+        "url": "http://0.0.0.0:7070/polybench/gesummv"
+    },
+    "polybench/gemm": {
+        "url": "http://0.0.0.0:7070/polybench/gemm"
+    },
+    "polybench/adi": {
+        "url": "http://0.0.0.0:7070/polybench/adi"
+    },
+    "polybench/gramschmidt": {
+        "url": "http://0.0.0.0:7070/polybench/gramschmidt"
+    },
+    "polybench/3mm": {
+        "url": "http://0.0.0.0:7070/polybench/3mm"
+    },
+    "polybench/mvt": {
+        "url": "http://0.0.0.0:7070/polybench/mvt"
+    },
+    "polybench/syrk": {
+        "url": "http://0.0.0.0:7070/polybench/syrk"
+    },
+    "polybench/nussinov": {
+        "url": "http://0.0.0.0:7070/polybench/nussinov"
+    },
+    "polybench/jacobi1d": {
+        "url": "http://0.0.0.0:7070/polybench/jacobi1d"
+    },
+    "polybench/ludcmp": {
+        "url": "http://0.0.0.0:7070/polybench/ludcmp"
+    },
+    "polybench/doitgen": {
+        "url": "http://0.0.0.0:7070/polybench/doitgen"
+    },
+    "polybench/cholesky": {
+        "url": "http://0.0.0.0:7070/polybench/cholesky"
+    },
+    "polybench/deriche": {
+        "url": "http://0.0.0.0:7070/polybench/deriche"
+    },
+    "polybench/covariance": {
+        "url": "http://0.0.0.0:7070/polybench/covariance"
+    },
+    "polybench/jacobi2d": {
+        "url": "http://0.0.0.0:7070/polybench/jacobi2d"
+    },
+    "polybench/gemver": {
+        "url": "http://0.0.0.0:7070/polybench/gemver"
+    },
+    "polybench/lu": {
+        "url": "http://0.0.0.0:7070/polybench/lu"
+    },
+    "polybench/2mm": {
+        "url": "http://0.0.0.0:7070/polybench/2mm"
+    },
+    "polybench/heat3d": {
+        "url": "http://0.0.0.0:7070/polybench/heat3d"
+    },
+    "polybench/atax": {
+        "url": "http://0.0.0.0:7070/polybench/atax"
+    },
+    "polybench/trisolv": {
+        "url": "http://0.0.0.0:7070/polybench/trisolv"
+    },
+    "polybench/durbin": {
+        "url": "http://0.0.0.0:7070/polybench/durbin"
+    },
+    "adobec/stepanov_abstraction": {
+        "url": "http://0.0.0.0:7070/adobec/stepanov_abstraction"
+    },
+    "adobec/loop_unroll": {
+        "url": "http://0.0.0.0:7070/adobec/loop_unroll"
+    },
+    "adobec/simple_types_loop_invariant": {
+        "url": "http://0.0.0.0:7070/adobec/simple_types_loop_invariant"
+    },
+    "adobec/stepanov_vector": {
+        "url": "http://0.0.0.0:7070/adobec/stepanov_vector"
+    },
+    "adobec/functionobjects": {
+        "url": "http://0.0.0.0:7070/adobec/functionobjects"
+    },
+    "adobec/simple_types_constant_folding": {
+        "url": "http://0.0.0.0:7070/adobec/simple_types_constant_folding"
+    },
+    "miscc/bigfib": {
+        "url": "http://0.0.0.0:7070/miscc/bigfib"
+    },
+    "miscc/oopack_v1p8": {
+        "url": "http://0.0.0.0:7070/miscc/oopack_v1p8"
+    },
+    "miscc/stepanov_container": {
+        "url": "http://0.0.0.0:7070/miscc/stepanov_container"
+    },
+    "miscc/ray": {
+        "url": "http://0.0.0.0:7070/miscc/ray"
+    },
+    "miscc/sphereflake": {
+        "url": "http://0.0.0.0:7070/miscc/sphereflake"
+    },
+    "miscc/stepanov_v1p2": {
+        "url": "http://0.0.0.0:7070/miscc/stepanov_v1p2"
+    },
+    "miscc/mandeltext": {
+        "url": "http://0.0.0.0:7070/miscc/mandeltext"
+    },
+    "shootoutc/fibo": {
+        "url": "http://0.0.0.0:7070/shootoutc/fibo"
+    },
+    "shootoutc/hash2": {
+        "url": "http://0.0.0.0:7070/shootoutc/hash2"
+    },
+    "shootoutc/heapsort": {
+        "url": "http://0.0.0.0:7070/shootoutc/heapsort"
+    },
+    "shootoutc/wc": {
+        "url": "http://0.0.0.0:7070/shootoutc/wc"
+    },
+    "shootoutc/spellcheck": {
+        "url": "http://0.0.0.0:7070/shootoutc/spellcheck"
+    },
+    "shootoutc/ackermann": {
+        "url": "http://0.0.0.0:7070/shootoutc/ackermann"
+    },
+    "shootoutc/lists1": {
+        "url": "http://0.0.0.0:7070/shootoutc/lists1"
+    },
+    "shootoutc/reversefile": {
+        "url": "http://0.0.0.0:7070/shootoutc/reversefile"
+    },
+    "shootoutc/objinst": {
+        "url": "http://0.0.0.0:7070/shootoutc/objinst"
+    },
+    "shootoutc/sumcol": {
+        "url": "http://0.0.0.0:7070/shootoutc/sumcol"
+    },
+    "shootoutc/nestedloop": {
+        "url": "http://0.0.0.0:7070/shootoutc/nestedloop"
+    },
+    "shootoutc/ary3": {
+        "url": "http://0.0.0.0:7070/shootoutc/ary3"
+    },
+    "shootoutc/matrix": {
+        "url": "http://0.0.0.0:7070/shootoutc/matrix"
+    },
+    "shootoutc/hash": {
+        "url": "http://0.0.0.0:7070/shootoutc/hash"
+    },
+    "shootoutc/ary": {
+        "url": "http://0.0.0.0:7070/shootoutc/ary"
+    },
+    "shootoutc/lists": {
+        "url": "http://0.0.0.0:7070/shootoutc/lists"
+    },
+    "shootoutc/hello": {
+        "url": "http://0.0.0.0:7070/shootoutc/hello"
+    },
+    "shootoutc/ary2": {
+        "url": "http://0.0.0.0:7070/shootoutc/ary2"
+    },
+    "shootoutc/moments": {
+        "url": "http://0.0.0.0:7070/shootoutc/moments"
+    },
+    "shootoutc/sieve": {
+        "url": "http://0.0.0.0:7070/shootoutc/sieve"
+    },
+    "shootoutc/random": {
+        "url": "http://0.0.0.0:7070/shootoutc/random"
+    },
+    "shootoutc/methcall": {
+        "url": "http://0.0.0.0:7070/shootoutc/methcall"
+    },
+    "shootoutc/strcat": {
+        "url": "http://0.0.0.0:7070/shootoutc/strcat"
+    },
+    "shootoutc/wordfreq": {
+        "url": "http://0.0.0.0:7070/shootoutc/wordfreq"
+    },
+    "smallpt/smallpt": {
+        "url": "http://0.0.0.0:7070/smallpt/smallpt"
+    },
+    "dhrystone/fldry": {
+        "url": "http://0.0.0.0:7070/dhrystone/fldry"
+    },
+    "dhrystone/dry": {
+        "url": "http://0.0.0.0:7070/dhrystone/dry"
+    },
+    "stanford/perm": {
+        "url": "http://0.0.0.0:7070/stanford/perm"
+    },
+    "stanford/towers": {
+        "url": "http://0.0.0.0:7070/stanford/towers"
+    },
+    "stanford/quicksort": {
+        "url": "http://0.0.0.0:7070/stanford/quicksort"
+    },
+    "stanford/treesort": {
+        "url": "http://0.0.0.0:7070/stanford/treesort"
+    },
+    "stanford/intmm": {
+        "url": "http://0.0.0.0:7070/stanford/intmm"
+    },
+    "stanford/puzzle": {
+        "url": "http://0.0.0.0:7070/stanford/puzzle"
+    },
+    "stanford/realmm": {
+        "url": "http://0.0.0.0:7070/stanford/realmm"
+    },
+    "stanford/queens": {
+        "url": "http://0.0.0.0:7070/stanford/queens"
+    },
+    "stanford/floatmm": {
+        "url": "http://0.0.0.0:7070/stanford/floatmm"
+    },
+    "stanford/oscar": {
+        "url": "http://0.0.0.0:7070/stanford/oscar"
+    },
+    "stanford/bubblesort": {
+        "url": "http://0.0.0.0:7070/stanford/bubblesort"
+    },
+    "shootout/heapsort": {
+        "url": "http://0.0.0.0:7070/shootout/heapsort"
+    },
+    "shootout/ackermann": {
+        "url": "http://0.0.0.0:7070/shootout/ackermann"
+    },
+    "shootout/objinst": {
+        "url": "http://0.0.0.0:7070/shootout/objinst"
+    },
+    "shootout/nestedloop": {
+        "url": "http://0.0.0.0:7070/shootout/nestedloop"
+    },
+    "shootout/ary3": {
+        "url": "http://0.0.0.0:7070/shootout/ary3"
+    },
+    "shootout/fib2": {
+        "url": "http://0.0.0.0:7070/shootout/fib2"
+    },
+    "shootout/matrix": {
+        "url": "http://0.0.0.0:7070/shootout/matrix"
+    },
+    "shootout/hash": {
+        "url": "http://0.0.0.0:7070/shootout/hash"
+    },
+    "shootout/lists": {
+        "url": "http://0.0.0.0:7070/shootout/lists"
+    },
+    "shootout/hello": {
+        "url": "http://0.0.0.0:7070/shootout/hello"
+    },
+    "shootout/sieve": {
+        "url": "http://0.0.0.0:7070/shootout/sieve"
+    },
+    "shootout/random": {
+        "url": "http://0.0.0.0:7070/shootout/random"
+    },
+    "shootout/methcall": {
+        "url": "http://0.0.0.0:7070/shootout/methcall"
+    },
+    "shootout/strcat": {
+        "url": "http://0.0.0.0:7070/shootout/strcat"
+    },
+    "linpack/linpackpc": {
+        "url": "http://0.0.0.0:7070/linpack/linpackpc"
+    },
+    "mcgill/chomp": {
+        "url": "http://0.0.0.0:7070/mcgill/chomp"
+    },
+    "mcgill/exptree": {
+        "url": "http://0.0.0.0:7070/mcgill/exptree"
+    },
+    "mcgill/misr": {
+        "url": "http://0.0.0.0:7070/mcgill/misr"
+    },
+    "mcgill/queens": {
+        "url": "http://0.0.0.0:7070/mcgill/queens"
+    },
+    "benchmarkgame/nbody": {
+        "url": "http://0.0.0.0:7070/benchmarkgame/nbody"
+    },
+    "benchmarkgame/partialsums": {
+        "url": "http://0.0.0.0:7070/benchmarkgame/partialsums"
+    },
+    "benchmarkgame/fasta": {
+        "url": "http://0.0.0.0:7070/benchmarkgame/fasta"
+    },
+    "benchmarkgame/fannkuch": {
+        "url": "http://0.0.0.0:7070/benchmarkgame/fannkuch"
+    },
+    "benchmarkgame/nsievebits": {
+        "url": "http://0.0.0.0:7070/benchmarkgame/nsievebits"
+    },
+    "benchmarkgame/puzzle": {
+        "url": "http://0.0.0.0:7070/benchmarkgame/puzzle"
+    },
+    "benchmarkgame/recursive": {
+        "url": "http://0.0.0.0:7070/benchmarkgame/recursive"
+    },
+    "benchmarkgame/spectralnorm": {
+        "url": "http://0.0.0.0:7070/benchmarkgame/spectralnorm"
+    },
+    "coyotebench/almabench": {
+        "url": "http://0.0.0.0:7070/coyotebench/almabench"
+    },
+    "coyotebench/lpbench": {
+        "url": "http://0.0.0.0:7070/coyotebench/lpbench"
+    },
+    "coyotebench/huffbench": {
+        "url": "http://0.0.0.0:7070/coyotebench/huffbench"
+    }
+}
