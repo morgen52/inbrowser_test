@@ -27,15 +27,20 @@ def page_test(exp, url):
             driver = webdriver.Edge()
 
         # driver.get("http://0.0.0.0:7070")
-        driver.get(url)
+        try:
+            driver.get(url)
 
-        # wait until the wasm scripts are finished.
-        wait = WebDriverWait(driver, timeout=100, poll_frequency=10)
-        wait.until(lambda driver: len(driver.execute_script("return getTimes();")) == 5)
+            # wait until the wasm scripts are finished.
+            wait = WebDriverWait(driver, timeout=100, poll_frequency=10)
+            wait.until(lambda driver: len(driver.execute_script("return getTimes();")) == 5)
 
-        timeList = driver.execute_script("return getTimes();")
-        print(timeList)
-        timeBrowsers[browser] = timeList
+            timeList = driver.execute_script("return getTimes();")
+            print(timeList)
+            timeBrowsers[browser] = timeList
+        except Exception as e:
+            # 追加写入错误信息
+            with open("error.log", "a") as f:
+                f.write(f"{exp} {browser} {url} {e}\n")
 
         driver.quit()
 
