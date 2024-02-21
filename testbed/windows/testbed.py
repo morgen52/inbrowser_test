@@ -17,7 +17,7 @@ firefox_binary_path = r'C:\Program Files\Mozilla Firefox\firefox.exe'  # Provide
 firefox_options = webdriver.FirefoxOptions()
 firefox_options.binary_location = firefox_binary_path
 
-msedgedriver_path = r'C:\Users\cs_li\Desktop\inbrowser_test\testbed\msedgedriver.exe'
+msedgedriver_path = r'C:\Users\cs_li\Desktop\inbrowser_test\testbed\windows\msedgedriver.exe'
 
 def is_complete(results):
     for b in BROWSERS:
