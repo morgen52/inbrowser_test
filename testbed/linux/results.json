@@ -1,0 +1,7086 @@
+{
+    "misc/fbench": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "48.000",
+                "label": "wasm initialized",
+                "time": "51.000"
+            },
+            {
+                "delta": "632.000",
+                "label": "wasm benchmark",
+                "time": "683.000"
+            },
+            {
+                "delta": "621.000",
+                "label": "wasm benchmark",
+                "time": "1304.000"
+            },
+            {
+                "delta": "622.000",
+                "label": "wasm benchmark",
+                "time": "1926.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "18.700",
+                "label": "wasm initialized",
+                "time": "19.000"
+            },
+            {
+                "delta": "700.700",
+                "label": "wasm benchmark",
+                "time": "719.700"
+            },
+            {
+                "delta": "658.300",
+                "label": "wasm benchmark",
+                "time": "1378.000"
+            },
+            {
+                "delta": "635.000",
+                "label": "wasm benchmark",
+                "time": "2013.000"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "23.400",
+                "label": "wasm initialized",
+                "time": "23.600"
+            },
+            {
+                "delta": "662.700",
+                "label": "wasm benchmark",
+                "time": "686.300"
+            },
+            {
+                "delta": "627.600",
+                "label": "wasm benchmark",
+                "time": "1313.900"
+            },
+            {
+                "delta": "629.600",
+                "label": "wasm benchmark",
+                "time": "1943.500"
+            }
+        ]
+    },
+    "misc/flops5": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "44.000",
+                "label": "wasm initialized",
+                "time": "48.000"
+            },
+            {
+                "delta": "841.000",
+                "label": "wasm benchmark",
+                "time": "889.000"
+            },
+            {
+                "delta": "826.000",
+                "label": "wasm benchmark",
+                "time": "1715.000"
+            },
+            {
+                "delta": "825.000",
+                "label": "wasm benchmark",
+                "time": "2540.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "54.600",
+                "label": "wasm initialized",
+                "time": "54.700"
+            },
+            {
+                "delta": "2514.200",
+                "label": "wasm benchmark",
+                "time": "2568.900"
+            },
+            {
+                "delta": "751.000",
+                "label": "wasm benchmark",
+                "time": "3319.900"
+            },
+            {
+                "delta": "751.100",
+                "label": "wasm benchmark",
+                "time": "4071.000"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "21.100",
+                "label": "wasm initialized",
+                "time": "21.400"
+            },
+            {
+                "delta": "2539.100",
+                "label": "wasm benchmark",
+                "time": "2560.500"
+            },
+            {
+                "delta": "701.400",
+                "label": "wasm benchmark",
+                "time": "3261.900"
+            },
+            {
+                "delta": "700.700",
+                "label": "wasm benchmark",
+                "time": "3962.600"
+            }
+        ]
+    },
+    "misc/ffbench": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "55.000",
+                "label": "wasm initialized",
+                "time": "58.000"
+            },
+            {
+                "delta": "504.000",
+                "label": "wasm benchmark",
+                "time": "562.000"
+            },
+            {
+                "delta": "522.000",
+                "label": "wasm benchmark",
+                "time": "1084.000"
+            },
+            {
+                "delta": "486.000",
+                "label": "wasm benchmark",
+                "time": "1570.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "19.500",
+                "label": "wasm initialized",
+                "time": "19.700"
+            },
+            {
+                "delta": "463.900",
+                "label": "wasm benchmark",
+                "time": "483.600"
+            },
+            {
+                "delta": "480.200",
+                "label": "wasm benchmark",
+                "time": "963.800"
+            },
+            {
+                "delta": "443.000",
+                "label": "wasm benchmark",
+                "time": "1406.800"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "20.100",
+                "label": "wasm initialized",
+                "time": "20.300"
+            },
+            {
+                "delta": "446.000",
+                "label": "wasm benchmark",
+                "time": "466.300"
+            },
+            {
+                "delta": "479.600",
+                "label": "wasm benchmark",
+                "time": "945.800"
+            },
+            {
+                "delta": "437.000",
+                "label": "wasm benchmark",
+                "time": "1382.900"
+            }
+        ]
+    },
+    "misc/pi": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "56.000",
+                "label": "wasm initialized",
+                "time": "60.000"
+            },
+            {
+                "delta": "568.000",
+                "label": "wasm benchmark",
+                "time": "628.000"
+            },
+            {
+                "delta": "556.000",
+                "label": "wasm benchmark",
+                "time": "1184.000"
+            },
+            {
+                "delta": "556.000",
+                "label": "wasm benchmark",
+                "time": "1740.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "18.100",
+                "label": "wasm initialized",
+                "time": "18.300"
+            },
+            {
+                "delta": "797.200",
+                "label": "wasm benchmark",
+                "time": "815.500"
+            },
+            {
+                "delta": "688.700",
+                "label": "wasm benchmark",
+                "time": "1504.200"
+            },
+            {
+                "delta": "668.500",
+                "label": "wasm benchmark",
+                "time": "2172.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "16.000",
+                "label": "wasm initialized",
+                "time": "16.300"
+            },
+            {
+                "delta": "776.300",
+                "label": "wasm benchmark",
+                "time": "792.600"
+            },
+            {
+                "delta": "653.200",
+                "label": "wasm benchmark",
+                "time": "1445.900"
+            },
+            {
+                "delta": "652.600",
+                "label": "wasm benchmark",
+                "time": "2098.500"
+            }
+        ]
+    },
+    "misc/mandel": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "57.000",
+                "label": "wasm initialized",
+                "time": "60.000"
+            },
+            {
+                "delta": "319.000",
+                "label": "wasm benchmark",
+                "time": "379.000"
+            },
+            {
+                "delta": "309.000",
+                "label": "wasm benchmark",
+                "time": "688.000"
+            },
+            {
+                "delta": "305.000",
+                "label": "wasm benchmark",
+                "time": "993.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "67.500",
+                "label": "wasm initialized",
+                "time": "67.800"
+            },
+            {
+                "delta": "571.900",
+                "label": "wasm benchmark",
+                "time": "639.700"
+            },
+            {
+                "delta": "308.700",
+                "label": "wasm benchmark",
+                "time": "948.400"
+            },
+            {
+                "delta": "310.000",
+                "label": "wasm benchmark",
+                "time": "1258.400"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "20.100",
+                "label": "wasm initialized",
+                "time": "20.300"
+            },
+            {
+                "delta": "575.900",
+                "label": "wasm benchmark",
+                "time": "596.200"
+            },
+            {
+                "delta": "286.100",
+                "label": "wasm benchmark",
+                "time": "882.300"
+            },
+            {
+                "delta": "286.300",
+                "label": "wasm benchmark",
+                "time": "1168.600"
+            }
+        ]
+    },
+    "misc/flops8": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "47.000",
+                "label": "wasm initialized",
+                "time": "51.000"
+            },
+            {
+                "delta": "859.000",
+                "label": "wasm benchmark",
+                "time": "910.000"
+            },
+            {
+                "delta": "823.000",
+                "label": "wasm benchmark",
+                "time": "1733.000"
+            },
+            {
+                "delta": "821.000",
+                "label": "wasm benchmark",
+                "time": "2554.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "25.900",
+                "label": "wasm initialized",
+                "time": "26.100"
+            },
+            {
+                "delta": "2453.500",
+                "label": "wasm benchmark",
+                "time": "2479.500"
+            },
+            {
+                "delta": "740.200",
+                "label": "wasm benchmark",
+                "time": "3219.800"
+            },
+            {
+                "delta": "742.300",
+                "label": "wasm benchmark",
+                "time": "3962.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "16.000",
+                "label": "wasm initialized",
+                "time": "16.300"
+            },
+            {
+                "delta": "2447.100",
+                "label": "wasm benchmark",
+                "time": "2463.400"
+            },
+            {
+                "delta": "689.300",
+                "label": "wasm benchmark",
+                "time": "3152.700"
+            },
+            {
+                "delta": "688.400",
+                "label": "wasm benchmark",
+                "time": "3841.100"
+            }
+        ]
+    },
+    "misc/revertbits": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "5.000"
+            },
+            {
+                "delta": "53.000",
+                "label": "wasm initialized",
+                "time": "58.000"
+            },
+            {
+                "delta": "232.000",
+                "label": "wasm benchmark",
+                "time": "290.000"
+            },
+            {
+                "delta": "226.000",
+                "label": "wasm benchmark",
+                "time": "516.000"
+            },
+            {
+                "delta": "214.000",
+                "label": "wasm benchmark",
+                "time": "730.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "19.400",
+                "label": "wasm initialized",
+                "time": "19.600"
+            },
+            {
+                "delta": "380.400",
+                "label": "wasm benchmark",
+                "time": "400.000"
+            },
+            {
+                "delta": "166.400",
+                "label": "wasm benchmark",
+                "time": "566.400"
+            },
+            {
+                "delta": "166.200",
+                "label": "wasm benchmark",
+                "time": "732.600"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "15.800",
+                "label": "wasm initialized",
+                "time": "16.100"
+            },
+            {
+                "delta": "382.300",
+                "label": "wasm benchmark",
+                "time": "398.400"
+            },
+            {
+                "delta": "171.900",
+                "label": "wasm benchmark",
+                "time": "570.300"
+            },
+            {
+                "delta": "167.200",
+                "label": "wasm benchmark",
+                "time": "737.500"
+            }
+        ]
+    },
+    "misc/richards_benchmark": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "64.000",
+                "label": "wasm initialized",
+                "time": "68.000"
+            },
+            {
+                "delta": "869.000",
+                "label": "wasm benchmark",
+                "time": "937.000"
+            },
+            {
+                "delta": "831.000",
+                "label": "wasm benchmark",
+                "time": "1768.000"
+            },
+            {
+                "delta": "829.000",
+                "label": "wasm benchmark",
+                "time": "2597.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "21.800",
+                "label": "wasm initialized",
+                "time": "21.900"
+            },
+            {
+                "delta": "1448.300",
+                "label": "wasm benchmark",
+                "time": "1470.200"
+            },
+            {
+                "delta": "1024.000",
+                "label": "wasm benchmark",
+                "time": "2494.200"
+            },
+            {
+                "delta": "1019.500",
+                "label": "wasm benchmark",
+                "time": "3513.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "28.000",
+                "label": "wasm initialized",
+                "time": "28.300"
+            },
+            {
+                "delta": "1472.900",
+                "label": "wasm benchmark",
+                "time": "1501.200"
+            },
+            {
+                "delta": "1125.500",
+                "label": "wasm benchmark",
+                "time": "2626.700"
+            },
+            {
+                "delta": "1117.300",
+                "label": "wasm benchmark",
+                "time": "3744.000"
+            }
+        ]
+    },
+    "misc/dt": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "40.000",
+                "label": "wasm initialized",
+                "time": "44.000"
+            },
+            {
+                "delta": "423.000",
+                "label": "wasm benchmark",
+                "time": "467.000"
+            },
+            {
+                "delta": "413.000",
+                "label": "wasm benchmark",
+                "time": "880.000"
+            },
+            {
+                "delta": "413.000",
+                "label": "wasm benchmark",
+                "time": "1293.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "21.600",
+                "label": "wasm initialized",
+                "time": "21.900"
+            },
+            {
+                "delta": "1094.900",
+                "label": "wasm benchmark",
+                "time": "1116.800"
+            },
+            {
+                "delta": "236.900",
+                "label": "wasm benchmark",
+                "time": "1353.700"
+            },
+            {
+                "delta": "235.500",
+                "label": "wasm benchmark",
+                "time": "1589.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "24.200",
+                "label": "wasm initialized",
+                "time": "24.400"
+            },
+            {
+                "delta": "989.500",
+                "label": "wasm benchmark",
+                "time": "1013.900"
+            },
+            {
+                "delta": "235.700",
+                "label": "wasm benchmark",
+                "time": "1249.600"
+            },
+            {
+                "delta": "238.200",
+                "label": "wasm benchmark",
+                "time": "1487.800"
+            }
+        ]
+    },
+    "misc/flops4": {
+        "firefox": [
+            {
+                "delta": "2.000",
+                "label": "page loaded",
+                "time": "2.000"
+            },
+            {
+                "delta": "77.000",
+                "label": "wasm initialized",
+                "time": "79.000"
+            },
+            {
+                "delta": "469.000",
+                "label": "wasm benchmark",
+                "time": "548.000"
+            },
+            {
+                "delta": "451.000",
+                "label": "wasm benchmark",
+                "time": "999.000"
+            },
+            {
+                "delta": "447.000",
+                "label": "wasm benchmark",
+                "time": "1446.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "71.400",
+                "label": "wasm initialized",
+                "time": "71.700"
+            },
+            {
+                "delta": "1609.400",
+                "label": "wasm benchmark",
+                "time": "1681.100"
+            },
+            {
+                "delta": "376.000",
+                "label": "wasm benchmark",
+                "time": "2057.100"
+            },
+            {
+                "delta": "376.000",
+                "label": "wasm benchmark",
+                "time": "2433.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "23.300",
+                "label": "wasm initialized",
+                "time": "23.500"
+            },
+            {
+                "delta": "1611.600",
+                "label": "wasm benchmark",
+                "time": "1635.100"
+            },
+            {
+                "delta": "374.200",
+                "label": "wasm benchmark",
+                "time": "2009.300"
+            },
+            {
+                "delta": "374.600",
+                "label": "wasm benchmark",
+                "time": "2383.900"
+            }
+        ]
+    },
+    "misc/reedsolomon": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "52.000",
+                "label": "wasm initialized",
+                "time": "55.000"
+            },
+            {
+                "delta": "4292.000",
+                "label": "wasm benchmark",
+                "time": "4347.000"
+            },
+            {
+                "delta": "4306.000",
+                "label": "wasm benchmark",
+                "time": "8653.000"
+            },
+            {
+                "delta": "4265.000",
+                "label": "wasm benchmark",
+                "time": "12918.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "19.100",
+                "label": "wasm initialized",
+                "time": "19.300"
+            },
+            {
+                "delta": "3595.700",
+                "label": "wasm benchmark",
+                "time": "3615.000"
+            },
+            {
+                "delta": "3457.800",
+                "label": "wasm benchmark",
+                "time": "7072.800"
+            },
+            {
+                "delta": "3450.900",
+                "label": "wasm benchmark",
+                "time": "10523.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "18.400",
+                "label": "wasm initialized",
+                "time": "18.700"
+            },
+            {
+                "delta": "3560.100",
+                "label": "wasm benchmark",
+                "time": "3578.800"
+            },
+            {
+                "delta": "3456.600",
+                "label": "wasm benchmark",
+                "time": "7035.400"
+            },
+            {
+                "delta": "3449.800",
+                "label": "wasm benchmark",
+                "time": "10485.200"
+            }
+        ]
+    },
+    "misc/flops3": {
+        "firefox": [
+            {
+                "delta": "6.000",
+                "label": "page loaded",
+                "time": "6.000"
+            },
+            {
+                "delta": "41.000",
+                "label": "wasm initialized",
+                "time": "47.000"
+            },
+            {
+                "delta": "1141.000",
+                "label": "wasm benchmark",
+                "time": "1188.000"
+            },
+            {
+                "delta": "1114.000",
+                "label": "wasm benchmark",
+                "time": "2302.000"
+            },
+            {
+                "delta": "1113.000",
+                "label": "wasm benchmark",
+                "time": "3415.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "18.300",
+                "label": "wasm initialized",
+                "time": "18.400"
+            },
+            {
+                "delta": "3489.800",
+                "label": "wasm benchmark",
+                "time": "3508.200"
+            },
+            {
+                "delta": "1014.600",
+                "label": "wasm benchmark",
+                "time": "4522.800"
+            },
+            {
+                "delta": "1014.900",
+                "label": "wasm benchmark",
+                "time": "5537.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "21.100",
+                "label": "wasm initialized",
+                "time": "21.300"
+            },
+            {
+                "delta": "3470.900",
+                "label": "wasm benchmark",
+                "time": "3492.200"
+            },
+            {
+                "delta": "1005.600",
+                "label": "wasm benchmark",
+                "time": "4497.800"
+            },
+            {
+                "delta": "1005.700",
+                "label": "wasm benchmark",
+                "time": "5503.500"
+            }
+        ]
+    },
+    "misc/flops2": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "40.000",
+                "label": "wasm initialized",
+                "time": "43.000"
+            },
+            {
+                "delta": "710.000",
+                "label": "wasm benchmark",
+                "time": "753.000"
+            },
+            {
+                "delta": "687.000",
+                "label": "wasm benchmark",
+                "time": "1440.000"
+            },
+            {
+                "delta": "688.000",
+                "label": "wasm benchmark",
+                "time": "2128.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "24.200",
+                "label": "wasm initialized",
+                "time": "24.400"
+            },
+            {
+                "delta": "1352.300",
+                "label": "wasm benchmark",
+                "time": "1376.700"
+            },
+            {
+                "delta": "705.100",
+                "label": "wasm benchmark",
+                "time": "2081.800"
+            },
+            {
+                "delta": "704.400",
+                "label": "wasm benchmark",
+                "time": "2786.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "22.000",
+                "label": "wasm initialized",
+                "time": "22.300"
+            },
+            {
+                "delta": "1343.600",
+                "label": "wasm benchmark",
+                "time": "1365.900"
+            },
+            {
+                "delta": "720.400",
+                "label": "wasm benchmark",
+                "time": "2086.300"
+            },
+            {
+                "delta": "719.700",
+                "label": "wasm benchmark",
+                "time": "2806.000"
+            }
+        ]
+    },
+    "misc/matmul_f64_4x4": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "39.000",
+                "label": "wasm initialized",
+                "time": "42.000"
+            },
+            {
+                "delta": "2214.000",
+                "label": "wasm benchmark",
+                "time": "2256.000"
+            },
+            {
+                "delta": "2194.000",
+                "label": "wasm benchmark",
+                "time": "4450.000"
+            },
+            {
+                "delta": "2206.000",
+                "label": "wasm benchmark",
+                "time": "6656.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "63.500",
+                "label": "wasm initialized",
+                "time": "63.700"
+            },
+            {
+                "delta": "2413.100",
+                "label": "wasm benchmark",
+                "time": "2476.800"
+            },
+            {
+                "delta": "2283.600",
+                "label": "wasm benchmark",
+                "time": "4760.400"
+            },
+            {
+                "delta": "2282.300",
+                "label": "wasm benchmark",
+                "time": "7042.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "28.700",
+                "label": "wasm initialized",
+                "time": "29.000"
+            },
+            {
+                "delta": "2533.300",
+                "label": "wasm benchmark",
+                "time": "2562.300"
+            },
+            {
+                "delta": "2449.100",
+                "label": "wasm benchmark",
+                "time": "5011.400"
+            },
+            {
+                "delta": "2464.400",
+                "label": "wasm benchmark",
+                "time": "7475.800"
+            }
+        ]
+    },
+    "misc/perlin": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "37.000",
+                "label": "wasm initialized",
+                "time": "42.000"
+            },
+            {
+                "delta": "3300.000",
+                "label": "wasm benchmark",
+                "time": "3342.000"
+            },
+            {
+                "delta": "3307.000",
+                "label": "wasm benchmark",
+                "time": "6649.000"
+            },
+            {
+                "delta": "3347.000",
+                "label": "wasm benchmark",
+                "time": "9996.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "19.700",
+                "label": "wasm initialized",
+                "time": "19.800"
+            },
+            {
+                "delta": "3476.400",
+                "label": "wasm benchmark",
+                "time": "3496.200"
+            },
+            {
+                "delta": "3409.800",
+                "label": "wasm benchmark",
+                "time": "6906.000"
+            },
+            {
+                "delta": "3405.600",
+                "label": "wasm benchmark",
+                "time": "10311.600"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "22.500",
+                "label": "wasm initialized",
+                "time": "22.700"
+            },
+            {
+                "delta": "3490.000",
+                "label": "wasm benchmark",
+                "time": "3512.700"
+            },
+            {
+                "delta": "3427.500",
+                "label": "wasm benchmark",
+                "time": "6940.300"
+            },
+            {
+                "delta": "3422.800",
+                "label": "wasm benchmark",
+                "time": "10363.100"
+            }
+        ]
+    },
+    "misc/flops1": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "43.000",
+                "label": "wasm initialized",
+                "time": "47.000"
+            },
+            {
+                "delta": "884.000",
+                "label": "wasm benchmark",
+                "time": "931.000"
+            },
+            {
+                "delta": "862.000",
+                "label": "wasm benchmark",
+                "time": "1793.000"
+            },
+            {
+                "delta": "865.000",
+                "label": "wasm benchmark",
+                "time": "2658.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "20.300",
+                "label": "wasm initialized",
+                "time": "20.500"
+            },
+            {
+                "delta": "2645.100",
+                "label": "wasm benchmark",
+                "time": "2665.600"
+            },
+            {
+                "delta": "806.800",
+                "label": "wasm benchmark",
+                "time": "3472.400"
+            },
+            {
+                "delta": "807.400",
+                "label": "wasm benchmark",
+                "time": "4279.800"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "17.100",
+                "label": "wasm initialized",
+                "time": "17.400"
+            },
+            {
+                "delta": "2636.000",
+                "label": "wasm benchmark",
+                "time": "2653.300"
+            },
+            {
+                "delta": "803.400",
+                "label": "wasm benchmark",
+                "time": "3456.800"
+            },
+            {
+                "delta": "804.100",
+                "label": "wasm benchmark",
+                "time": "4260.900"
+            }
+        ]
+    },
+    "misc/salsa20": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "41.000",
+                "label": "wasm initialized",
+                "time": "45.000"
+            },
+            {
+                "delta": "9628.000",
+                "label": "wasm benchmark",
+                "time": "9673.000"
+            },
+            {
+                "delta": "9542.000",
+                "label": "wasm benchmark",
+                "time": "19215.000"
+            },
+            {
+                "delta": "9698.000",
+                "label": "wasm benchmark",
+                "time": "28913.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "23.100",
+                "label": "wasm initialized",
+                "time": "23.300"
+            },
+            {
+                "delta": "7904.200",
+                "label": "wasm benchmark",
+                "time": "7927.500"
+            },
+            {
+                "delta": "6852.000",
+                "label": "wasm benchmark",
+                "time": "14779.500"
+            },
+            {
+                "delta": "6820.900",
+                "label": "wasm benchmark",
+                "time": "21600.400"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.400",
+                "label": "page loaded",
+                "time": "0.400"
+            },
+            {
+                "delta": "20.200",
+                "label": "wasm initialized",
+                "time": "20.600"
+            },
+            {
+                "delta": "7759.400",
+                "label": "wasm benchmark",
+                "time": "7780.000"
+            },
+            {
+                "delta": "6882.700",
+                "label": "wasm benchmark",
+                "time": "14662.700"
+            },
+            {
+                "delta": "6854.800",
+                "label": "wasm benchmark",
+                "time": "21517.500"
+            }
+        ]
+    },
+    "misc/oourafft": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "64.000",
+                "label": "wasm initialized",
+                "time": "68.000"
+            },
+            {
+                "delta": "5847.000",
+                "label": "wasm benchmark",
+                "time": "5915.000"
+            },
+            {
+                "delta": "5836.000",
+                "label": "wasm benchmark",
+                "time": "11751.000"
+            },
+            {
+                "delta": "5811.000",
+                "label": "wasm benchmark",
+                "time": "17562.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "78.900",
+                "label": "wasm initialized",
+                "time": "79.100"
+            },
+            {
+                "delta": "6809.500",
+                "label": "wasm benchmark",
+                "time": "6888.600"
+            },
+            {
+                "delta": "5369.000",
+                "label": "wasm benchmark",
+                "time": "12257.600"
+            },
+            {
+                "delta": "5356.900",
+                "label": "wasm benchmark",
+                "time": "17614.500"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "24.600",
+                "label": "wasm initialized",
+                "time": "24.700"
+            },
+            {
+                "delta": "6640.500",
+                "label": "wasm benchmark",
+                "time": "6665.300"
+            },
+            {
+                "delta": "5231.800",
+                "label": "wasm benchmark",
+                "time": "11897.100"
+            },
+            {
+                "delta": "5235.100",
+                "label": "wasm benchmark",
+                "time": "17132.200"
+            }
+        ]
+    },
+    "misc/mandel2": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "5.000"
+            },
+            {
+                "delta": "36.000",
+                "label": "wasm initialized",
+                "time": "41.000"
+            },
+            {
+                "delta": "893.000",
+                "label": "wasm benchmark",
+                "time": "934.000"
+            },
+            {
+                "delta": "867.000",
+                "label": "wasm benchmark",
+                "time": "1801.000"
+            },
+            {
+                "delta": "870.000",
+                "label": "wasm benchmark",
+                "time": "2671.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "70.700",
+                "label": "wasm initialized",
+                "time": "70.900"
+            },
+            {
+                "delta": "1044.100",
+                "label": "wasm benchmark",
+                "time": "1115.000"
+            },
+            {
+                "delta": "1036.300",
+                "label": "wasm benchmark",
+                "time": "2151.300"
+            },
+            {
+                "delta": "1033.000",
+                "label": "wasm benchmark",
+                "time": "3184.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "20.200",
+                "label": "wasm initialized",
+                "time": "20.500"
+            },
+            {
+                "delta": "1057.700",
+                "label": "wasm benchmark",
+                "time": "1078.200"
+            },
+            {
+                "delta": "1037.200",
+                "label": "wasm benchmark",
+                "time": "2115.400"
+            },
+            {
+                "delta": "1031.200",
+                "label": "wasm benchmark",
+                "time": "3146.600"
+            }
+        ]
+    },
+    "misc/whetstone": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "48.000",
+                "label": "wasm initialized",
+                "time": "52.000"
+            },
+            {
+                "delta": "1040.000",
+                "label": "wasm benchmark",
+                "time": "1092.000"
+            },
+            {
+                "delta": "1018.000",
+                "label": "wasm benchmark",
+                "time": "2110.000"
+            },
+            {
+                "delta": "1019.000",
+                "label": "wasm benchmark",
+                "time": "3129.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "20.400",
+                "label": "wasm initialized",
+                "time": "20.600"
+            },
+            {
+                "delta": "1692.600",
+                "label": "wasm benchmark",
+                "time": "1713.200"
+            },
+            {
+                "delta": "1081.900",
+                "label": "wasm benchmark",
+                "time": "2795.100"
+            },
+            {
+                "delta": "1080.100",
+                "label": "wasm benchmark",
+                "time": "3875.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "16.900",
+                "label": "wasm initialized",
+                "time": "17.200"
+            },
+            {
+                "delta": "1645.400",
+                "label": "wasm benchmark",
+                "time": "1662.600"
+            },
+            {
+                "delta": "1073.800",
+                "label": "wasm benchmark",
+                "time": "2736.400"
+            },
+            {
+                "delta": "1071.500",
+                "label": "wasm benchmark",
+                "time": "3807.900"
+            }
+        ]
+    },
+    "misc/himenobmtxpa": {},
+    "misc/fpconvert": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "49.000",
+                "label": "wasm initialized",
+                "time": "53.000"
+            },
+            {
+                "delta": "4002.000",
+                "label": "wasm benchmark",
+                "time": "4055.000"
+            },
+            {
+                "delta": "3988.000",
+                "label": "wasm benchmark",
+                "time": "8043.000"
+            },
+            {
+                "delta": "3972.000",
+                "label": "wasm benchmark",
+                "time": "12015.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "19.700",
+                "label": "wasm initialized",
+                "time": "19.900"
+            },
+            {
+                "delta": "6739.000",
+                "label": "wasm benchmark",
+                "time": "6758.900"
+            },
+            {
+                "delta": "3163.200",
+                "label": "wasm benchmark",
+                "time": "9922.100"
+            },
+            {
+                "delta": "3161.900",
+                "label": "wasm benchmark",
+                "time": "13084.000"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "29.400",
+                "label": "wasm initialized",
+                "time": "29.600"
+            },
+            {
+                "delta": "6906.300",
+                "label": "wasm benchmark",
+                "time": "6935.900"
+            },
+            {
+                "delta": "3052.600",
+                "label": "wasm benchmark",
+                "time": "9988.500"
+            },
+            {
+                "delta": "3015.300",
+                "label": "wasm benchmark",
+                "time": "13003.800"
+            }
+        ]
+    },
+    "misc/flops7": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "42.000",
+                "label": "wasm initialized",
+                "time": "46.000"
+            },
+            {
+                "delta": "438.000",
+                "label": "wasm benchmark",
+                "time": "484.000"
+            },
+            {
+                "delta": "422.000",
+                "label": "wasm benchmark",
+                "time": "906.000"
+            },
+            {
+                "delta": "418.000",
+                "label": "wasm benchmark",
+                "time": "1324.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "33.100",
+                "label": "wasm initialized",
+                "time": "33.300"
+            },
+            {
+                "delta": "1136.200",
+                "label": "wasm benchmark",
+                "time": "1169.500"
+            },
+            {
+                "delta": "420.400",
+                "label": "wasm benchmark",
+                "time": "1589.900"
+            },
+            {
+                "delta": "420.100",
+                "label": "wasm benchmark",
+                "time": "2010.000"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "20.300",
+                "label": "wasm initialized",
+                "time": "20.400"
+            },
+            {
+                "delta": "1130.400",
+                "label": "wasm benchmark",
+                "time": "1150.800"
+            },
+            {
+                "delta": "422.300",
+                "label": "wasm benchmark",
+                "time": "1573.100"
+            },
+            {
+                "delta": "421.000",
+                "label": "wasm benchmark",
+                "time": "1994.100"
+            }
+        ]
+    },
+    "misc/evalloop": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "43.000",
+                "label": "wasm initialized",
+                "time": "47.000"
+            },
+            {
+                "delta": "685.000",
+                "label": "wasm benchmark",
+                "time": "732.000"
+            },
+            {
+                "delta": "672.000",
+                "label": "wasm benchmark",
+                "time": "1404.000"
+            },
+            {
+                "delta": "655.000",
+                "label": "wasm benchmark",
+                "time": "2059.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "87.400",
+                "label": "wasm initialized",
+                "time": "87.500"
+            },
+            {
+                "delta": "607.700",
+                "label": "wasm benchmark",
+                "time": "695.200"
+            },
+            {
+                "delta": "594.300",
+                "label": "wasm benchmark",
+                "time": "1289.500"
+            },
+            {
+                "delta": "587.700",
+                "label": "wasm benchmark",
+                "time": "1877.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "22.000",
+                "label": "wasm initialized",
+                "time": "22.200"
+            },
+            {
+                "delta": "638.800",
+                "label": "wasm benchmark",
+                "time": "661.000"
+            },
+            {
+                "delta": "615.200",
+                "label": "wasm benchmark",
+                "time": "1276.200"
+            },
+            {
+                "delta": "616.100",
+                "label": "wasm benchmark",
+                "time": "1892.300"
+            }
+        ]
+    },
+    "misc/flops": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "51.000",
+                "label": "wasm initialized",
+                "time": "54.000"
+            },
+            {
+                "delta": "5454.000",
+                "label": "wasm benchmark",
+                "time": "5508.000"
+            },
+            {
+                "delta": "5515.000",
+                "label": "wasm benchmark",
+                "time": "11023.000"
+            },
+            {
+                "delta": "5426.000",
+                "label": "wasm benchmark",
+                "time": "16449.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "22.400",
+                "label": "wasm initialized",
+                "time": "22.600"
+            },
+            {
+                "delta": "8009.600",
+                "label": "wasm benchmark",
+                "time": "8032.200"
+            },
+            {
+                "delta": "4464.000",
+                "label": "wasm benchmark",
+                "time": "12496.300"
+            },
+            {
+                "delta": "4735.700",
+                "label": "wasm benchmark",
+                "time": "17232.000"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "19.700",
+                "label": "wasm initialized",
+                "time": "19.800"
+            },
+            {
+                "delta": "7819.600",
+                "label": "wasm benchmark",
+                "time": "7839.500"
+            },
+            {
+                "delta": "4776.600",
+                "label": "wasm benchmark",
+                "time": "12616.100"
+            },
+            {
+                "delta": "4418.800",
+                "label": "wasm benchmark",
+                "time": "17034.900"
+            }
+        ]
+    },
+    "misc/lowercase": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "5.000"
+            },
+            {
+                "delta": "51.000",
+                "label": "wasm initialized",
+                "time": "56.000"
+            },
+            {
+                "delta": "15200.000",
+                "label": "wasm benchmark",
+                "time": "15256.000"
+            },
+            {
+                "delta": "14746.000",
+                "label": "wasm benchmark",
+                "time": "30002.000"
+            },
+            {
+                "delta": "15702.000",
+                "label": "wasm benchmark",
+                "time": "45704.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "61.000",
+                "label": "wasm initialized",
+                "time": "61.200"
+            },
+            {
+                "delta": "16425.600",
+                "label": "wasm benchmark",
+                "time": "16486.800"
+            },
+            {
+                "delta": "16352.900",
+                "label": "wasm benchmark",
+                "time": "32839.700"
+            },
+            {
+                "delta": "16325.300",
+                "label": "wasm benchmark",
+                "time": "49165.000"
+            }
+        ]
+    },
+    "misc/flops6": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "45.000",
+                "label": "wasm initialized",
+                "time": "49.000"
+            },
+            {
+                "delta": "805.000",
+                "label": "wasm benchmark",
+                "time": "854.000"
+            },
+            {
+                "delta": "777.000",
+                "label": "wasm benchmark",
+                "time": "1631.000"
+            },
+            {
+                "delta": "775.000",
+                "label": "wasm benchmark",
+                "time": "2406.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "16.300",
+                "label": "wasm initialized",
+                "time": "16.600"
+            },
+            {
+                "delta": "2434.000",
+                "label": "wasm benchmark",
+                "time": "2450.600"
+            },
+            {
+                "delta": "680.500",
+                "label": "wasm benchmark",
+                "time": "3131.100"
+            },
+            {
+                "delta": "682.300",
+                "label": "wasm benchmark",
+                "time": "3813.400"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "31.900",
+                "label": "wasm initialized",
+                "time": "32.100"
+            },
+            {
+                "delta": "2437.900",
+                "label": "wasm benchmark",
+                "time": "2470.000"
+            },
+            {
+                "delta": "675.700",
+                "label": "wasm benchmark",
+                "time": "3145.700"
+            },
+            {
+                "delta": "675.700",
+                "label": "wasm benchmark",
+                "time": "3821.400"
+            }
+        ]
+    },
+    "polybench/fdtd2d": {},
+    "polybench/syr2k": {},
+    "polybench/seidel2d": {},
+    "polybench/bicg": {},
+    "polybench/symm": {
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "16.800",
+                "label": "wasm initialized",
+                "time": "17.000"
+            },
+            {
+                "delta": "4.200",
+                "label": "wasm benchmark",
+                "time": "21.200"
+            },
+            {
+                "delta": "1.300",
+                "label": "wasm benchmark",
+                "time": "22.500"
+            },
+            {
+                "delta": "1.200",
+                "label": "wasm benchmark",
+                "time": "23.700"
+            }
+        ]
+    },
+    "polybench/floydwarshall": {},
+    "polybench/trmm": {},
+    "polybench/correlation": {},
+    "polybench/gesummv": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "52.000",
+                "label": "wasm initialized",
+                "time": "56.000"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "56.000"
+            },
+            {
+                "delta": "1.000",
+                "label": "wasm benchmark",
+                "time": "57.000"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "57.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "21.700",
+                "label": "wasm initialized",
+                "time": "21.900"
+            },
+            {
+                "delta": "1.000",
+                "label": "wasm benchmark",
+                "time": "22.900"
+            },
+            {
+                "delta": "0.400",
+                "label": "wasm benchmark",
+                "time": "23.200"
+            },
+            {
+                "delta": "0.200",
+                "label": "wasm benchmark",
+                "time": "23.500"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "15.900",
+                "label": "wasm initialized",
+                "time": "16.200"
+            },
+            {
+                "delta": "1.200",
+                "label": "wasm benchmark",
+                "time": "17.400"
+            },
+            {
+                "delta": "0.200",
+                "label": "wasm benchmark",
+                "time": "17.600"
+            },
+            {
+                "delta": "0.500",
+                "label": "wasm benchmark",
+                "time": "18.100"
+            }
+        ]
+    },
+    "polybench/gemm": {},
+    "polybench/adi": {},
+    "polybench/gramschmidt": {},
+    "polybench/3mm": {},
+    "polybench/mvt": {},
+    "polybench/syrk": {},
+    "polybench/nussinov": {},
+    "polybench/jacobi1d": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "4133.000",
+                "label": "wasm initialized",
+                "time": "4137.000"
+            },
+            {
+                "delta": "7.000",
+                "label": "wasm benchmark",
+                "time": "4144.000"
+            },
+            {
+                "delta": "9.000",
+                "label": "wasm benchmark",
+                "time": "4153.000"
+            },
+            {
+                "delta": "7.000",
+                "label": "wasm benchmark",
+                "time": "4160.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "25.400",
+                "label": "wasm initialized",
+                "time": "25.700"
+            },
+            {
+                "delta": "29.600",
+                "label": "wasm benchmark",
+                "time": "55.300"
+            },
+            {
+                "delta": "6.100",
+                "label": "wasm benchmark",
+                "time": "61.400"
+            },
+            {
+                "delta": "6.300",
+                "label": "wasm benchmark",
+                "time": "67.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.400",
+                "label": "page loaded",
+                "time": "0.400"
+            },
+            {
+                "delta": "15.200",
+                "label": "wasm initialized",
+                "time": "15.600"
+            },
+            {
+                "delta": "29.100",
+                "label": "wasm benchmark",
+                "time": "44.700"
+            },
+            {
+                "delta": "5.700",
+                "label": "wasm benchmark",
+                "time": "50.500"
+            },
+            {
+                "delta": "6.100",
+                "label": "wasm benchmark",
+                "time": "56.600"
+            }
+        ]
+    },
+    "polybench/ludcmp": {},
+    "polybench/doitgen": {},
+    "polybench/cholesky": {},
+    "polybench/deriche": {},
+    "polybench/covariance": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "49.000",
+                "label": "wasm initialized",
+                "time": "53.000"
+            },
+            {
+                "delta": "3.000",
+                "label": "wasm benchmark",
+                "time": "56.000"
+            },
+            {
+                "delta": "2.000",
+                "label": "wasm benchmark",
+                "time": "58.000"
+            },
+            {
+                "delta": "3.000",
+                "label": "wasm benchmark",
+                "time": "61.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "19.100",
+                "label": "wasm initialized",
+                "time": "19.300"
+            },
+            {
+                "delta": "6.200",
+                "label": "wasm benchmark",
+                "time": "25.500"
+            },
+            {
+                "delta": "2.000",
+                "label": "wasm benchmark",
+                "time": "27.500"
+            },
+            {
+                "delta": "1.900",
+                "label": "wasm benchmark",
+                "time": "29.400"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "20.100",
+                "label": "wasm initialized",
+                "time": "20.300"
+            },
+            {
+                "delta": "8.000",
+                "label": "wasm benchmark",
+                "time": "28.300"
+            },
+            {
+                "delta": "2.000",
+                "label": "wasm benchmark",
+                "time": "30.300"
+            },
+            {
+                "delta": "1.800",
+                "label": "wasm benchmark",
+                "time": "32.100"
+            }
+        ]
+    },
+    "polybench/jacobi2d": {},
+    "polybench/gemver": {},
+    "polybench/lu": {},
+    "polybench/2mm": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "65.000",
+                "label": "wasm initialized",
+                "time": "69.000"
+            },
+            {
+                "delta": "1.000",
+                "label": "wasm benchmark",
+                "time": "70.000"
+            },
+            {
+                "delta": "2.000",
+                "label": "wasm benchmark",
+                "time": "72.000"
+            },
+            {
+                "delta": "1.000",
+                "label": "wasm benchmark",
+                "time": "73.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "53.100",
+                "label": "wasm initialized",
+                "time": "53.300"
+            },
+            {
+                "delta": "4.300",
+                "label": "wasm benchmark",
+                "time": "57.600"
+            },
+            {
+                "delta": "1.500",
+                "label": "wasm benchmark",
+                "time": "59.100"
+            },
+            {
+                "delta": "1.300",
+                "label": "wasm benchmark",
+                "time": "60.400"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "18.600",
+                "label": "wasm initialized",
+                "time": "18.800"
+            },
+            {
+                "delta": "4.100",
+                "label": "wasm benchmark",
+                "time": "22.900"
+            },
+            {
+                "delta": "1.400",
+                "label": "wasm benchmark",
+                "time": "24.300"
+            },
+            {
+                "delta": "1.300",
+                "label": "wasm benchmark",
+                "time": "25.600"
+            }
+        ]
+    },
+    "polybench/heat3d": {},
+    "polybench/atax": {},
+    "polybench/trisolv": {},
+    "polybench/durbin": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "5.000"
+            },
+            {
+                "delta": "47.000",
+                "label": "wasm initialized",
+                "time": "52.000"
+            },
+            {
+                "delta": "26.000",
+                "label": "wasm benchmark",
+                "time": "78.000"
+            },
+            {
+                "delta": "27.000",
+                "label": "wasm benchmark",
+                "time": "105.000"
+            },
+            {
+                "delta": "23.000",
+                "label": "wasm benchmark",
+                "time": "128.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "99.500",
+                "label": "wasm initialized",
+                "time": "99.700"
+            },
+            {
+                "delta": "68.800",
+                "label": "wasm benchmark",
+                "time": "168.500"
+            },
+            {
+                "delta": "18.500",
+                "label": "wasm benchmark",
+                "time": "187.000"
+            },
+            {
+                "delta": "18.500",
+                "label": "wasm benchmark",
+                "time": "205.500"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "25.000",
+                "label": "wasm initialized",
+                "time": "25.300"
+            },
+            {
+                "delta": "64.300",
+                "label": "wasm benchmark",
+                "time": "89.600"
+            },
+            {
+                "delta": "18.700",
+                "label": "wasm benchmark",
+                "time": "108.300"
+            },
+            {
+                "delta": "18.900",
+                "label": "wasm benchmark",
+                "time": "127.200"
+            }
+        ]
+    },
+    "adobec/stepanov_abstraction": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "51.000",
+                "label": "wasm initialized",
+                "time": "54.000"
+            },
+            {
+                "delta": "44041.000",
+                "label": "wasm benchmark",
+                "time": "44095.000"
+            },
+            {
+                "delta": "142.000",
+                "label": "wasm benchmark",
+                "time": "44237.000"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "44237.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "20.200",
+                "label": "wasm initialized",
+                "time": "20.300"
+            },
+            {
+                "delta": "50129.600",
+                "label": "wasm benchmark",
+                "time": "50149.800"
+            },
+            {
+                "delta": "157.700",
+                "label": "wasm benchmark",
+                "time": "50307.600"
+            },
+            {
+                "delta": "0.200",
+                "label": "wasm benchmark",
+                "time": "50307.800"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "26.500",
+                "label": "wasm initialized",
+                "time": "26.700"
+            },
+            {
+                "delta": "53409.800",
+                "label": "wasm benchmark",
+                "time": "53436.500"
+            },
+            {
+                "delta": "167.700",
+                "label": "wasm benchmark",
+                "time": "53604.200"
+            },
+            {
+                "delta": "0.200",
+                "label": "wasm benchmark",
+                "time": "53604.400"
+            }
+        ]
+    },
+    "adobec/loop_unroll": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "65.000",
+                "label": "wasm initialized",
+                "time": "68.000"
+            },
+            {
+                "delta": "8117.000",
+                "label": "wasm benchmark",
+                "time": "8185.000"
+            },
+            {
+                "delta": "2108.000",
+                "label": "wasm benchmark",
+                "time": "10293.000"
+            },
+            {
+                "delta": "590.000",
+                "label": "wasm benchmark",
+                "time": "10883.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "24.700",
+                "label": "wasm initialized",
+                "time": "24.900"
+            },
+            {
+                "delta": "10885.700",
+                "label": "wasm benchmark",
+                "time": "10910.600"
+            },
+            {
+                "delta": "2687.200",
+                "label": "wasm benchmark",
+                "time": "13597.800"
+            },
+            {
+                "delta": "719.300",
+                "label": "wasm benchmark",
+                "time": "14317.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "24.700",
+                "label": "wasm initialized",
+                "time": "25.000"
+            },
+            {
+                "delta": "12346.000",
+                "label": "wasm benchmark",
+                "time": "12371.000"
+            },
+            {
+                "delta": "3026.900",
+                "label": "wasm benchmark",
+                "time": "15397.900"
+            },
+            {
+                "delta": "756.600",
+                "label": "wasm benchmark",
+                "time": "16154.500"
+            }
+        ]
+    },
+    "adobec/simple_types_loop_invariant": {
+        "firefox": [
+            {
+                "delta": "2.000",
+                "label": "page loaded",
+                "time": "2.000"
+            },
+            {
+                "delta": "57.000",
+                "label": "wasm initialized",
+                "time": "59.000"
+            },
+            {
+                "delta": "3559.000",
+                "label": "wasm benchmark",
+                "time": "3618.000"
+            },
+            {
+                "delta": "3535.000",
+                "label": "wasm benchmark",
+                "time": "7153.000"
+            },
+            {
+                "delta": "3500.000",
+                "label": "wasm benchmark",
+                "time": "10653.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "28.100",
+                "label": "wasm initialized",
+                "time": "28.300"
+            },
+            {
+                "delta": "9133.000",
+                "label": "wasm benchmark",
+                "time": "9161.300"
+            },
+            {
+                "delta": "3672.700",
+                "label": "wasm benchmark",
+                "time": "12834.000"
+            },
+            {
+                "delta": "3717.700",
+                "label": "wasm benchmark",
+                "time": "16551.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "24.100",
+                "label": "wasm initialized",
+                "time": "24.400"
+            },
+            {
+                "delta": "7562.000",
+                "label": "wasm benchmark",
+                "time": "7586.400"
+            },
+            {
+                "delta": "3692.800",
+                "label": "wasm benchmark",
+                "time": "11279.200"
+            },
+            {
+                "delta": "3684.500",
+                "label": "wasm benchmark",
+                "time": "14963.700"
+            }
+        ]
+    },
+    "adobec/stepanov_vector": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "49.000",
+                "label": "wasm initialized",
+                "time": "53.000"
+            },
+            {
+                "delta": "28504.000",
+                "label": "wasm benchmark",
+                "time": "28557.000"
+            },
+            {
+                "delta": "86.000",
+                "label": "wasm benchmark",
+                "time": "28643.000"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "28643.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "21.000",
+                "label": "wasm initialized",
+                "time": "21.200"
+            },
+            {
+                "delta": "38062.700",
+                "label": "wasm benchmark",
+                "time": "38083.900"
+            },
+            {
+                "delta": "129.600",
+                "label": "wasm benchmark",
+                "time": "38213.600"
+            },
+            {
+                "delta": "0.500",
+                "label": "wasm benchmark",
+                "time": "38214.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "22.700",
+                "label": "wasm initialized",
+                "time": "22.900"
+            },
+            {
+                "delta": "38115.000",
+                "label": "wasm benchmark",
+                "time": "38137.900"
+            },
+            {
+                "delta": "133.300",
+                "label": "wasm benchmark",
+                "time": "38271.200"
+            },
+            {
+                "delta": "0.400",
+                "label": "wasm benchmark",
+                "time": "38271.600"
+            }
+        ]
+    },
+    "adobec/functionobjects": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "54.000",
+                "label": "wasm initialized",
+                "time": "58.000"
+            },
+            {
+                "delta": "5020.000",
+                "label": "wasm benchmark",
+                "time": "5078.000"
+            },
+            {
+                "delta": "5017.000",
+                "label": "wasm benchmark",
+                "time": "10095.000"
+            },
+            {
+                "delta": "4976.000",
+                "label": "wasm benchmark",
+                "time": "15071.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "15.900",
+                "label": "wasm initialized",
+                "time": "16.100"
+            },
+            {
+                "delta": "5229.400",
+                "label": "wasm benchmark",
+                "time": "5245.500"
+            },
+            {
+                "delta": "5202.900",
+                "label": "wasm benchmark",
+                "time": "10448.400"
+            },
+            {
+                "delta": "5203.300",
+                "label": "wasm benchmark",
+                "time": "15651.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "21.200",
+                "label": "wasm initialized",
+                "time": "21.400"
+            },
+            {
+                "delta": "5075.300",
+                "label": "wasm benchmark",
+                "time": "5096.700"
+            },
+            {
+                "delta": "5053.700",
+                "label": "wasm benchmark",
+                "time": "10150.400"
+            },
+            {
+                "delta": "5068.400",
+                "label": "wasm benchmark",
+                "time": "15218.800"
+            }
+        ]
+    },
+    "adobec/simple_types_constant_folding": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "56.000",
+                "label": "wasm initialized",
+                "time": "60.000"
+            },
+            {
+                "delta": "9945.000",
+                "label": "wasm benchmark",
+                "time": "10005.000"
+            },
+            {
+                "delta": "9771.000",
+                "label": "wasm benchmark",
+                "time": "19776.000"
+            },
+            {
+                "delta": "9769.000",
+                "label": "wasm benchmark",
+                "time": "29545.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "60.600",
+                "label": "wasm initialized",
+                "time": "60.800"
+            },
+            {
+                "delta": "23452.400",
+                "label": "wasm benchmark",
+                "time": "23513.200"
+            },
+            {
+                "delta": "10390.600",
+                "label": "wasm benchmark",
+                "time": "33903.800"
+            },
+            {
+                "delta": "10383.800",
+                "label": "wasm benchmark",
+                "time": "44287.600"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "40.700",
+                "label": "wasm initialized",
+                "time": "41.000"
+            },
+            {
+                "delta": "23388.200",
+                "label": "wasm benchmark",
+                "time": "23429.200"
+            },
+            {
+                "delta": "10334.400",
+                "label": "wasm benchmark",
+                "time": "33763.600"
+            },
+            {
+                "delta": "10321.800",
+                "label": "wasm benchmark",
+                "time": "44085.400"
+            }
+        ]
+    },
+    "miscc/bigfib": {},
+    "miscc/oopack_v1p8": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "41.000",
+                "label": "wasm initialized",
+                "time": "45.000"
+            },
+            {
+                "delta": "356.000",
+                "label": "wasm benchmark",
+                "time": "401.000"
+            },
+            {
+                "delta": "343.000",
+                "label": "wasm benchmark",
+                "time": "744.000"
+            },
+            {
+                "delta": "339.000",
+                "label": "wasm benchmark",
+                "time": "1083.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "107.600",
+                "label": "wasm initialized",
+                "time": "107.800"
+            },
+            {
+                "delta": "387.300",
+                "label": "wasm benchmark",
+                "time": "495.100"
+            },
+            {
+                "delta": "362.400",
+                "label": "wasm benchmark",
+                "time": "857.500"
+            },
+            {
+                "delta": "364.200",
+                "label": "wasm benchmark",
+                "time": "1221.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "28.400",
+                "label": "wasm initialized",
+                "time": "28.700"
+            },
+            {
+                "delta": "385.800",
+                "label": "wasm benchmark",
+                "time": "414.500"
+            },
+            {
+                "delta": "364.000",
+                "label": "wasm benchmark",
+                "time": "778.500"
+            },
+            {
+                "delta": "361.100",
+                "label": "wasm benchmark",
+                "time": "1139.600"
+            }
+        ]
+    },
+    "miscc/stepanov_container": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "5.000"
+            },
+            {
+                "delta": "47.000",
+                "label": "wasm initialized",
+                "time": "52.000"
+            },
+            {
+                "delta": "5226.000",
+                "label": "wasm benchmark",
+                "time": "5278.000"
+            },
+            {
+                "delta": "5198.000",
+                "label": "wasm benchmark",
+                "time": "10476.000"
+            },
+            {
+                "delta": "5153.000",
+                "label": "wasm benchmark",
+                "time": "15629.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.400",
+                "label": "page loaded",
+                "time": "0.400"
+            },
+            {
+                "delta": "94.700",
+                "label": "wasm initialized",
+                "time": "95.100"
+            },
+            {
+                "delta": "5576.300",
+                "label": "wasm benchmark",
+                "time": "5671.400"
+            },
+            {
+                "delta": "5491.400",
+                "label": "wasm benchmark",
+                "time": "11162.800"
+            },
+            {
+                "delta": "5503.600",
+                "label": "wasm benchmark",
+                "time": "16666.400"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "19.200",
+                "label": "wasm initialized",
+                "time": "19.400"
+            },
+            {
+                "delta": "5654.900",
+                "label": "wasm benchmark",
+                "time": "5674.300"
+            },
+            {
+                "delta": "5484.700",
+                "label": "wasm benchmark",
+                "time": "11159.000"
+            },
+            {
+                "delta": "5482.800",
+                "label": "wasm benchmark",
+                "time": "16641.800"
+            }
+        ]
+    },
+    "miscc/ray": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "70.000",
+                "label": "wasm initialized",
+                "time": "73.000"
+            },
+            {
+                "delta": "6496.000",
+                "label": "wasm benchmark",
+                "time": "6569.000"
+            },
+            {
+                "delta": "6572.000",
+                "label": "wasm benchmark",
+                "time": "13141.000"
+            },
+            {
+                "delta": "6548.000",
+                "label": "wasm benchmark",
+                "time": "19689.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "85.800",
+                "label": "wasm initialized",
+                "time": "86.000"
+            },
+            {
+                "delta": "7974.800",
+                "label": "wasm benchmark",
+                "time": "8060.800"
+            },
+            {
+                "delta": "8038.300",
+                "label": "wasm benchmark",
+                "time": "16099.100"
+            },
+            {
+                "delta": "8057.200",
+                "label": "wasm benchmark",
+                "time": "24156.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "40.400",
+                "label": "wasm initialized",
+                "time": "40.600"
+            },
+            {
+                "delta": "8101.800",
+                "label": "wasm benchmark",
+                "time": "8142.400"
+            },
+            {
+                "delta": "7964.000",
+                "label": "wasm benchmark",
+                "time": "16106.400"
+            },
+            {
+                "delta": "7960.000",
+                "label": "wasm benchmark",
+                "time": "24066.400"
+            }
+        ]
+    },
+    "miscc/sphereflake": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "61.000",
+                "label": "wasm initialized",
+                "time": "65.000"
+            },
+            {
+                "delta": "6940.000",
+                "label": "wasm benchmark",
+                "time": "7005.000"
+            },
+            {
+                "delta": "6874.000",
+                "label": "wasm benchmark",
+                "time": "13879.000"
+            },
+            {
+                "delta": "6884.000",
+                "label": "wasm benchmark",
+                "time": "20763.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "36.100",
+                "label": "wasm initialized",
+                "time": "36.300"
+            },
+            {
+                "delta": "7341.500",
+                "label": "wasm benchmark",
+                "time": "7377.800"
+            },
+            {
+                "delta": "7197.500",
+                "label": "wasm benchmark",
+                "time": "14575.300"
+            },
+            {
+                "delta": "7203.300",
+                "label": "wasm benchmark",
+                "time": "21778.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "33.400",
+                "label": "wasm initialized",
+                "time": "33.700"
+            },
+            {
+                "delta": "7342.200",
+                "label": "wasm benchmark",
+                "time": "7375.900"
+            },
+            {
+                "delta": "7236.900",
+                "label": "wasm benchmark",
+                "time": "14612.800"
+            },
+            {
+                "delta": "7308.800",
+                "label": "wasm benchmark",
+                "time": "21921.600"
+            }
+        ]
+    },
+    "miscc/stepanov_v1p2": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "49.000",
+                "label": "wasm initialized",
+                "time": "53.000"
+            },
+            {
+                "delta": "61527.000",
+                "label": "wasm benchmark",
+                "time": "61580.000"
+            },
+            {
+                "delta": "62203.000",
+                "label": "wasm benchmark",
+                "time": "123783.000"
+            },
+            {
+                "delta": "69490.000",
+                "label": "wasm benchmark",
+                "time": "193273.000"
+            }
+        ]
+    },
+    "miscc/mandeltext": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "44.000",
+                "label": "wasm initialized",
+                "time": "48.000"
+            },
+            {
+                "delta": "1527.000",
+                "label": "wasm benchmark",
+                "time": "1575.000"
+            },
+            {
+                "delta": "1505.000",
+                "label": "wasm benchmark",
+                "time": "3080.000"
+            },
+            {
+                "delta": "1505.000",
+                "label": "wasm benchmark",
+                "time": "4585.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "15.100",
+                "label": "wasm initialized",
+                "time": "15.400"
+            },
+            {
+                "delta": "1972.700",
+                "label": "wasm benchmark",
+                "time": "1988.100"
+            },
+            {
+                "delta": "1412.000",
+                "label": "wasm benchmark",
+                "time": "3400.100"
+            },
+            {
+                "delta": "1412.200",
+                "label": "wasm benchmark",
+                "time": "4812.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "20.700",
+                "label": "wasm initialized",
+                "time": "20.900"
+            },
+            {
+                "delta": "1934.000",
+                "label": "wasm benchmark",
+                "time": "1954.900"
+            },
+            {
+                "delta": "1412.100",
+                "label": "wasm benchmark",
+                "time": "3367.000"
+            },
+            {
+                "delta": "1411.900",
+                "label": "wasm benchmark",
+                "time": "4778.900"
+            }
+        ]
+    },
+    "shootoutc/fibo": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "59.000",
+                "label": "wasm initialized",
+                "time": "62.000"
+            },
+            {
+                "delta": "4148.000",
+                "label": "wasm benchmark",
+                "time": "4210.000"
+            },
+            {
+                "delta": "4068.000",
+                "label": "wasm benchmark",
+                "time": "8278.000"
+            },
+            {
+                "delta": "4070.000",
+                "label": "wasm benchmark",
+                "time": "12348.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "111.900",
+                "label": "wasm initialized",
+                "time": "112.100"
+            },
+            {
+                "delta": "5556.100",
+                "label": "wasm benchmark",
+                "time": "5668.200"
+            },
+            {
+                "delta": "5552.200",
+                "label": "wasm benchmark",
+                "time": "11220.400"
+            },
+            {
+                "delta": "5537.900",
+                "label": "wasm benchmark",
+                "time": "16758.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "31.500",
+                "label": "wasm initialized",
+                "time": "31.700"
+            },
+            {
+                "delta": "5172.900",
+                "label": "wasm benchmark",
+                "time": "5204.600"
+            },
+            {
+                "delta": "5119.100",
+                "label": "wasm benchmark",
+                "time": "10323.700"
+            },
+            {
+                "delta": "5102.600",
+                "label": "wasm benchmark",
+                "time": "15426.300"
+            }
+        ]
+    },
+    "shootoutc/hash2": {
+        "firefox": [
+            {
+                "delta": "2.000",
+                "label": "page loaded",
+                "time": "2.000"
+            },
+            {
+                "delta": "62.000",
+                "label": "wasm initialized",
+                "time": "64.000"
+            },
+            {
+                "delta": "4122.000",
+                "label": "wasm benchmark",
+                "time": "4186.000"
+            },
+            {
+                "delta": "3967.000",
+                "label": "wasm benchmark",
+                "time": "8153.000"
+            },
+            {
+                "delta": "3978.000",
+                "label": "wasm benchmark",
+                "time": "12131.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "40.900",
+                "label": "wasm initialized",
+                "time": "41.100"
+            },
+            {
+                "delta": "4501.600",
+                "label": "wasm benchmark",
+                "time": "4542.700"
+            },
+            {
+                "delta": "4388.700",
+                "label": "wasm benchmark",
+                "time": "8931.400"
+            },
+            {
+                "delta": "4391.500",
+                "label": "wasm benchmark",
+                "time": "13322.900"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "43.500",
+                "label": "wasm initialized",
+                "time": "43.800"
+            },
+            {
+                "delta": "4702.200",
+                "label": "wasm benchmark",
+                "time": "4746.000"
+            },
+            {
+                "delta": "4692.100",
+                "label": "wasm benchmark",
+                "time": "9438.100"
+            },
+            {
+                "delta": "4608.200",
+                "label": "wasm benchmark",
+                "time": "14046.300"
+            }
+        ]
+    },
+    "shootoutc/heapsort": {},
+    "shootoutc/wc": {},
+    "shootoutc/spellcheck": {},
+    "shootoutc/ackermann": {},
+    "shootoutc/lists1": {},
+    "shootoutc/reversefile": {},
+    "shootoutc/objinst": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "58.000",
+                "label": "wasm initialized",
+                "time": "62.000"
+            },
+            {
+                "delta": "2043.000",
+                "label": "wasm benchmark",
+                "time": "2105.000"
+            },
+            {
+                "delta": "1517.000",
+                "label": "wasm benchmark",
+                "time": "3622.000"
+            },
+            {
+                "delta": "1516.000",
+                "label": "wasm benchmark",
+                "time": "5138.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "37.600",
+                "label": "wasm initialized",
+                "time": "37.700"
+            },
+            {
+                "delta": "2488.400",
+                "label": "wasm benchmark",
+                "time": "2526.100"
+            },
+            {
+                "delta": "1873.700",
+                "label": "wasm benchmark",
+                "time": "4399.800"
+            },
+            {
+                "delta": "1878.400",
+                "label": "wasm benchmark",
+                "time": "6278.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "37.700",
+                "label": "wasm initialized",
+                "time": "38.000"
+            },
+            {
+                "delta": "2524.000",
+                "label": "wasm benchmark",
+                "time": "2562.000"
+            },
+            {
+                "delta": "1891.700",
+                "label": "wasm benchmark",
+                "time": "4453.700"
+            },
+            {
+                "delta": "1911.700",
+                "label": "wasm benchmark",
+                "time": "6365.400"
+            }
+        ]
+    },
+    "shootoutc/sumcol": {},
+    "shootoutc/nestedloop": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "5.000"
+            },
+            {
+                "delta": "66.000",
+                "label": "wasm initialized",
+                "time": "71.000"
+            },
+            {
+                "delta": "21974.000",
+                "label": "wasm benchmark",
+                "time": "22045.000"
+            },
+            {
+                "delta": "16709.000",
+                "label": "wasm benchmark",
+                "time": "38754.000"
+            },
+            {
+                "delta": "16628.000",
+                "label": "wasm benchmark",
+                "time": "55382.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "34.400",
+                "label": "wasm initialized",
+                "time": "34.500"
+            },
+            {
+                "delta": "21205.500",
+                "label": "wasm benchmark",
+                "time": "21240.000"
+            },
+            {
+                "delta": "6838.800",
+                "label": "wasm benchmark",
+                "time": "28078.800"
+            },
+            {
+                "delta": "6883.500",
+                "label": "wasm benchmark",
+                "time": "34962.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "33.400",
+                "label": "wasm initialized",
+                "time": "33.700"
+            },
+            {
+                "delta": "22992.600",
+                "label": "wasm benchmark",
+                "time": "23026.300"
+            },
+            {
+                "delta": "6105.600",
+                "label": "wasm benchmark",
+                "time": "29131.900"
+            },
+            {
+                "delta": "5740.900",
+                "label": "wasm benchmark",
+                "time": "34872.800"
+            }
+        ]
+    },
+    "shootoutc/ary3": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "55.000",
+                "label": "wasm initialized",
+                "time": "59.000"
+            },
+            {
+                "delta": "8347.000",
+                "label": "wasm benchmark",
+                "time": "8406.000"
+            },
+            {
+                "delta": "4236.000",
+                "label": "wasm benchmark",
+                "time": "12642.000"
+            },
+            {
+                "delta": "4209.000",
+                "label": "wasm benchmark",
+                "time": "16852.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "36.900",
+                "label": "wasm initialized",
+                "time": "37.100"
+            },
+            {
+                "delta": "7663.800",
+                "label": "wasm benchmark",
+                "time": "7700.900"
+            },
+            {
+                "delta": "5423.300",
+                "label": "wasm benchmark",
+                "time": "13124.200"
+            },
+            {
+                "delta": "5430.400",
+                "label": "wasm benchmark",
+                "time": "18554.600"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "45.000",
+                "label": "wasm initialized",
+                "time": "45.300"
+            },
+            {
+                "delta": "7699.200",
+                "label": "wasm benchmark",
+                "time": "7744.500"
+            },
+            {
+                "delta": "5467.400",
+                "label": "wasm benchmark",
+                "time": "13211.900"
+            },
+            {
+                "delta": "5458.900",
+                "label": "wasm benchmark",
+                "time": "18670.800"
+            }
+        ]
+    },
+    "shootoutc/matrix": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "49.000",
+                "label": "wasm initialized",
+                "time": "52.000"
+            },
+            {
+                "delta": "5024.000",
+                "label": "wasm benchmark",
+                "time": "5076.000"
+            },
+            {
+                "delta": "5026.000",
+                "label": "wasm benchmark",
+                "time": "10102.000"
+            },
+            {
+                "delta": "4990.000",
+                "label": "wasm benchmark",
+                "time": "15092.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "35.300",
+                "label": "wasm initialized",
+                "time": "35.500"
+            },
+            {
+                "delta": "4237.200",
+                "label": "wasm benchmark",
+                "time": "4272.700"
+            },
+            {
+                "delta": "4224.800",
+                "label": "wasm benchmark",
+                "time": "8497.500"
+            },
+            {
+                "delta": "4215.100",
+                "label": "wasm benchmark",
+                "time": "12712.600"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "28.500",
+                "label": "wasm initialized",
+                "time": "28.700"
+            },
+            {
+                "delta": "4247.500",
+                "label": "wasm benchmark",
+                "time": "4276.200"
+            },
+            {
+                "delta": "4241.800",
+                "label": "wasm benchmark",
+                "time": "8518.000"
+            },
+            {
+                "delta": "4237.800",
+                "label": "wasm benchmark",
+                "time": "12755.800"
+            }
+        ]
+    },
+    "shootoutc/hash": {},
+    "shootoutc/ary": {},
+    "shootoutc/lists": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "71.000",
+                "label": "wasm initialized",
+                "time": "75.000"
+            },
+            {
+                "delta": "10970.000",
+                "label": "wasm benchmark",
+                "time": "11045.000"
+            },
+            {
+                "delta": "10929.000",
+                "label": "wasm benchmark",
+                "time": "21974.000"
+            },
+            {
+                "delta": "10953.000",
+                "label": "wasm benchmark",
+                "time": "32927.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "36.800",
+                "label": "wasm initialized",
+                "time": "37.000"
+            },
+            {
+                "delta": "14771.200",
+                "label": "wasm benchmark",
+                "time": "14808.200"
+            },
+            {
+                "delta": "14739.000",
+                "label": "wasm benchmark",
+                "time": "29547.200"
+            },
+            {
+                "delta": "14739.100",
+                "label": "wasm benchmark",
+                "time": "44286.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "32.100",
+                "label": "wasm initialized",
+                "time": "32.300"
+            },
+            {
+                "delta": "15075.400",
+                "label": "wasm benchmark",
+                "time": "15107.700"
+            },
+            {
+                "delta": "14699.900",
+                "label": "wasm benchmark",
+                "time": "29807.600"
+            },
+            {
+                "delta": "14689.900",
+                "label": "wasm benchmark",
+                "time": "44497.500"
+            }
+        ]
+    },
+    "shootoutc/hello": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "57.000",
+                "label": "wasm initialized",
+                "time": "60.000"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "60.000"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "60.000"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "60.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "99.300",
+                "label": "wasm initialized",
+                "time": "99.500"
+            },
+            {
+                "delta": "0.800",
+                "label": "wasm benchmark",
+                "time": "100.300"
+            },
+            {
+                "delta": "0.100",
+                "label": "wasm benchmark",
+                "time": "100.400"
+            },
+            {
+                "delta": "0.200",
+                "label": "wasm benchmark",
+                "time": "100.600"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "38.400",
+                "label": "wasm initialized",
+                "time": "38.600"
+            },
+            {
+                "delta": "0.900",
+                "label": "wasm benchmark",
+                "time": "39.500"
+            },
+            {
+                "delta": "0.100",
+                "label": "wasm benchmark",
+                "time": "39.600"
+            },
+            {
+                "delta": "0.200",
+                "label": "wasm benchmark",
+                "time": "39.800"
+            }
+        ]
+    },
+    "shootoutc/ary2": {},
+    "shootoutc/moments": {},
+    "shootoutc/sieve": {
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "112.800",
+                "label": "wasm initialized",
+                "time": "113.000"
+            },
+            {
+                "delta": "6685.300",
+                "label": "wasm benchmark",
+                "time": "6798.300"
+            },
+            {
+                "delta": "6487.100",
+                "label": "wasm benchmark",
+                "time": "13285.400"
+            },
+            {
+                "delta": "6477.800",
+                "label": "wasm benchmark",
+                "time": "19763.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "35.100",
+                "label": "wasm initialized",
+                "time": "35.300"
+            },
+            {
+                "delta": "5871.400",
+                "label": "wasm benchmark",
+                "time": "5906.700"
+            },
+            {
+                "delta": "5898.100",
+                "label": "wasm benchmark",
+                "time": "11804.800"
+            },
+            {
+                "delta": "5872.900",
+                "label": "wasm benchmark",
+                "time": "17677.700"
+            }
+        ]
+    },
+    "shootoutc/random": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "61.000",
+                "label": "wasm initialized",
+                "time": "64.000"
+            },
+            {
+                "delta": "1302.000",
+                "label": "wasm benchmark",
+                "time": "1366.000"
+            },
+            {
+                "delta": "1233.000",
+                "label": "wasm benchmark",
+                "time": "2599.000"
+            },
+            {
+                "delta": "1233.000",
+                "label": "wasm benchmark",
+                "time": "3832.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "36.000",
+                "label": "wasm initialized",
+                "time": "36.300"
+            },
+            {
+                "delta": "2289.800",
+                "label": "wasm benchmark",
+                "time": "2326.100"
+            },
+            {
+                "delta": "1268.600",
+                "label": "wasm benchmark",
+                "time": "3594.700"
+            },
+            {
+                "delta": "1268.000",
+                "label": "wasm benchmark",
+                "time": "4862.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "38.400",
+                "label": "wasm initialized",
+                "time": "38.700"
+            },
+            {
+                "delta": "2290.400",
+                "label": "wasm benchmark",
+                "time": "2329.100"
+            },
+            {
+                "delta": "1251.400",
+                "label": "wasm benchmark",
+                "time": "3580.600"
+            },
+            {
+                "delta": "1244.200",
+                "label": "wasm benchmark",
+                "time": "4824.800"
+            }
+        ]
+    },
+    "shootoutc/methcall": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "59.000",
+                "label": "wasm initialized",
+                "time": "62.000"
+            },
+            {
+                "delta": "10061.000",
+                "label": "wasm benchmark",
+                "time": "10123.000"
+            },
+            {
+                "delta": "5968.000",
+                "label": "wasm benchmark",
+                "time": "16091.000"
+            },
+            {
+                "delta": "5963.000",
+                "label": "wasm benchmark",
+                "time": "22054.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "82.100",
+                "label": "wasm initialized",
+                "time": "82.300"
+            },
+            {
+                "delta": "11489.100",
+                "label": "wasm benchmark",
+                "time": "11571.400"
+            },
+            {
+                "delta": "7913.400",
+                "label": "wasm benchmark",
+                "time": "19484.800"
+            },
+            {
+                "delta": "7930.900",
+                "label": "wasm benchmark",
+                "time": "27415.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.600",
+                "label": "page loaded",
+                "time": "0.600"
+            },
+            {
+                "delta": "37.000",
+                "label": "wasm initialized",
+                "time": "37.600"
+            },
+            {
+                "delta": "12332.700",
+                "label": "wasm benchmark",
+                "time": "12370.300"
+            },
+            {
+                "delta": "8128.500",
+                "label": "wasm benchmark",
+                "time": "20498.800"
+            },
+            {
+                "delta": "8125.400",
+                "label": "wasm benchmark",
+                "time": "28624.200"
+            }
+        ]
+    },
+    "shootoutc/strcat": {},
+    "shootoutc/wordfreq": {},
+    "smallpt/smallpt": {},
+    "dhrystone/fldry": {
+        "firefox": [
+            {
+                "delta": "7.000",
+                "label": "page loaded",
+                "time": "7.000"
+            },
+            {
+                "delta": "51.000",
+                "label": "wasm initialized",
+                "time": "58.000"
+            },
+            {
+                "delta": "5595.000",
+                "label": "wasm benchmark",
+                "time": "5653.000"
+            },
+            {
+                "delta": "5582.000",
+                "label": "wasm benchmark",
+                "time": "11235.000"
+            },
+            {
+                "delta": "5612.000",
+                "label": "wasm benchmark",
+                "time": "16847.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "82.400",
+                "label": "wasm initialized",
+                "time": "82.600"
+            },
+            {
+                "delta": "7615.100",
+                "label": "wasm benchmark",
+                "time": "7697.700"
+            },
+            {
+                "delta": "6283.900",
+                "label": "wasm benchmark",
+                "time": "13981.600"
+            },
+            {
+                "delta": "6130.600",
+                "label": "wasm benchmark",
+                "time": "20112.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "20.000",
+                "label": "wasm initialized",
+                "time": "20.300"
+            },
+            {
+                "delta": "8113.600",
+                "label": "wasm benchmark",
+                "time": "8133.900"
+            },
+            {
+                "delta": "6183.500",
+                "label": "wasm benchmark",
+                "time": "14317.400"
+            },
+            {
+                "delta": "6166.200",
+                "label": "wasm benchmark",
+                "time": "20483.600"
+            }
+        ]
+    },
+    "dhrystone/dry": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "46.000",
+                "label": "wasm initialized",
+                "time": "50.000"
+            },
+            {
+                "delta": "4821.000",
+                "label": "wasm benchmark",
+                "time": "4871.000"
+            },
+            {
+                "delta": "4809.000",
+                "label": "wasm benchmark",
+                "time": "9680.000"
+            },
+            {
+                "delta": "4782.000",
+                "label": "wasm benchmark",
+                "time": "14462.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "93.800",
+                "label": "wasm initialized",
+                "time": "94.000"
+            },
+            {
+                "delta": "5904.600",
+                "label": "wasm benchmark",
+                "time": "5998.500"
+            },
+            {
+                "delta": "4424.000",
+                "label": "wasm benchmark",
+                "time": "10422.600"
+            },
+            {
+                "delta": "4432.500",
+                "label": "wasm benchmark",
+                "time": "14855.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "25.500",
+                "label": "wasm initialized",
+                "time": "25.800"
+            },
+            {
+                "delta": "5929.300",
+                "label": "wasm benchmark",
+                "time": "5955.100"
+            },
+            {
+                "delta": "4455.900",
+                "label": "wasm benchmark",
+                "time": "10411.000"
+            },
+            {
+                "delta": "4429.500",
+                "label": "wasm benchmark",
+                "time": "14840.500"
+            }
+        ]
+    },
+    "stanford/perm": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "58.000",
+                "label": "wasm initialized",
+                "time": "61.000"
+            },
+            {
+                "delta": "27.000",
+                "label": "wasm benchmark",
+                "time": "88.000"
+            },
+            {
+                "delta": "22.000",
+                "label": "wasm benchmark",
+                "time": "110.000"
+            },
+            {
+                "delta": "25.000",
+                "label": "wasm benchmark",
+                "time": "135.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "25.300",
+                "label": "wasm initialized",
+                "time": "25.400"
+            },
+            {
+                "delta": "37.700",
+                "label": "wasm benchmark",
+                "time": "63.100"
+            },
+            {
+                "delta": "34.200",
+                "label": "wasm benchmark",
+                "time": "97.300"
+            },
+            {
+                "delta": "34.200",
+                "label": "wasm benchmark",
+                "time": "131.500"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "25.500",
+                "label": "wasm initialized",
+                "time": "25.800"
+            },
+            {
+                "delta": "35.300",
+                "label": "wasm benchmark",
+                "time": "61.100"
+            },
+            {
+                "delta": "34.600",
+                "label": "wasm benchmark",
+                "time": "95.700"
+            },
+            {
+                "delta": "33.900",
+                "label": "wasm benchmark",
+                "time": "129.600"
+            }
+        ]
+    },
+    "stanford/towers": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "43.000",
+                "label": "wasm initialized",
+                "time": "47.000"
+            },
+            {
+                "delta": "22.000",
+                "label": "wasm benchmark",
+                "time": "69.000"
+            },
+            {
+                "delta": "23.000",
+                "label": "wasm benchmark",
+                "time": "92.000"
+            },
+            {
+                "delta": "19.000",
+                "label": "wasm benchmark",
+                "time": "111.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "18.300",
+                "label": "wasm initialized",
+                "time": "18.500"
+            },
+            {
+                "delta": "31.300",
+                "label": "wasm benchmark",
+                "time": "49.800"
+            },
+            {
+                "delta": "28.000",
+                "label": "wasm benchmark",
+                "time": "77.800"
+            },
+            {
+                "delta": "28.300",
+                "label": "wasm benchmark",
+                "time": "106.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.400",
+                "label": "page loaded",
+                "time": "0.400"
+            },
+            {
+                "delta": "13.300",
+                "label": "wasm initialized",
+                "time": "13.700"
+            },
+            {
+                "delta": "30.700",
+                "label": "wasm benchmark",
+                "time": "44.400"
+            },
+            {
+                "delta": "27.700",
+                "label": "wasm benchmark",
+                "time": "72.100"
+            },
+            {
+                "delta": "27.500",
+                "label": "wasm benchmark",
+                "time": "99.600"
+            }
+        ]
+    },
+    "stanford/quicksort": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "40.000",
+                "label": "wasm initialized",
+                "time": "44.000"
+            },
+            {
+                "delta": "47.000",
+                "label": "wasm benchmark",
+                "time": "91.000"
+            },
+            {
+                "delta": "42.000",
+                "label": "wasm benchmark",
+                "time": "133.000"
+            },
+            {
+                "delta": "41.000",
+                "label": "wasm benchmark",
+                "time": "174.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "23.400",
+                "label": "wasm initialized",
+                "time": "23.500"
+            },
+            {
+                "delta": "46.000",
+                "label": "wasm benchmark",
+                "time": "69.500"
+            },
+            {
+                "delta": "41.500",
+                "label": "wasm benchmark",
+                "time": "111.000"
+            },
+            {
+                "delta": "41.200",
+                "label": "wasm benchmark",
+                "time": "152.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "20.200",
+                "label": "wasm initialized",
+                "time": "20.500"
+            },
+            {
+                "delta": "44.000",
+                "label": "wasm benchmark",
+                "time": "64.500"
+            },
+            {
+                "delta": "40.500",
+                "label": "wasm benchmark",
+                "time": "105.000"
+            },
+            {
+                "delta": "40.500",
+                "label": "wasm benchmark",
+                "time": "145.500"
+            }
+        ]
+    },
+    "stanford/treesort": {},
+    "stanford/intmm": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "45.000",
+                "label": "wasm initialized",
+                "time": "48.000"
+            },
+            {
+                "delta": "2.000",
+                "label": "wasm benchmark",
+                "time": "50.000"
+            },
+            {
+                "delta": "2.000",
+                "label": "wasm benchmark",
+                "time": "52.000"
+            },
+            {
+                "delta": "1.000",
+                "label": "wasm benchmark",
+                "time": "53.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "55.600",
+                "label": "wasm initialized",
+                "time": "55.800"
+            },
+            {
+                "delta": "3.000",
+                "label": "wasm benchmark",
+                "time": "58.800"
+            },
+            {
+                "delta": "2.100",
+                "label": "wasm benchmark",
+                "time": "60.900"
+            },
+            {
+                "delta": "2.100",
+                "label": "wasm benchmark",
+                "time": "63.000"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "23.000",
+                "label": "wasm initialized",
+                "time": "23.200"
+            },
+            {
+                "delta": "3.300",
+                "label": "wasm benchmark",
+                "time": "26.500"
+            },
+            {
+                "delta": "2.300",
+                "label": "wasm benchmark",
+                "time": "28.800"
+            },
+            {
+                "delta": "2.000",
+                "label": "wasm benchmark",
+                "time": "30.800"
+            }
+        ]
+    },
+    "stanford/puzzle": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "44.000",
+                "label": "wasm initialized",
+                "time": "48.000"
+            },
+            {
+                "delta": "159.000",
+                "label": "wasm benchmark",
+                "time": "207.000"
+            },
+            {
+                "delta": "151.000",
+                "label": "wasm benchmark",
+                "time": "358.000"
+            },
+            {
+                "delta": "148.000",
+                "label": "wasm benchmark",
+                "time": "506.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "64.800",
+                "label": "wasm initialized",
+                "time": "65.100"
+            },
+            {
+                "delta": "165.600",
+                "label": "wasm benchmark",
+                "time": "230.700"
+            },
+            {
+                "delta": "154.600",
+                "label": "wasm benchmark",
+                "time": "385.300"
+            },
+            {
+                "delta": "152.600",
+                "label": "wasm benchmark",
+                "time": "537.900"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "21.100",
+                "label": "wasm initialized",
+                "time": "21.400"
+            },
+            {
+                "delta": "169.000",
+                "label": "wasm benchmark",
+                "time": "190.400"
+            },
+            {
+                "delta": "158.000",
+                "label": "wasm benchmark",
+                "time": "348.400"
+            },
+            {
+                "delta": "160.600",
+                "label": "wasm benchmark",
+                "time": "509.000"
+            }
+        ]
+    },
+    "stanford/realmm": {
+        "firefox": [
+            {
+                "delta": "6.000",
+                "label": "page loaded",
+                "time": "6.000"
+            },
+            {
+                "delta": "56.000",
+                "label": "wasm initialized",
+                "time": "62.000"
+            },
+            {
+                "delta": "3.000",
+                "label": "wasm benchmark",
+                "time": "65.000"
+            },
+            {
+                "delta": "3.000",
+                "label": "wasm benchmark",
+                "time": "68.000"
+            },
+            {
+                "delta": "3.000",
+                "label": "wasm benchmark",
+                "time": "71.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "19.000",
+                "label": "wasm initialized",
+                "time": "19.200"
+            },
+            {
+                "delta": "4.000",
+                "label": "wasm benchmark",
+                "time": "23.200"
+            },
+            {
+                "delta": "2.300",
+                "label": "wasm benchmark",
+                "time": "25.500"
+            },
+            {
+                "delta": "2.200",
+                "label": "wasm benchmark",
+                "time": "27.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.400",
+                "label": "page loaded",
+                "time": "0.400"
+            },
+            {
+                "delta": "21.200",
+                "label": "wasm initialized",
+                "time": "21.500"
+            },
+            {
+                "delta": "3.200",
+                "label": "wasm benchmark",
+                "time": "24.800"
+            },
+            {
+                "delta": "2.200",
+                "label": "wasm benchmark",
+                "time": "27.000"
+            },
+            {
+                "delta": "2.200",
+                "label": "wasm benchmark",
+                "time": "29.200"
+            }
+        ]
+    },
+    "stanford/queens": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "43.000",
+                "label": "wasm initialized",
+                "time": "46.000"
+            },
+            {
+                "delta": "13.000",
+                "label": "wasm benchmark",
+                "time": "59.000"
+            },
+            {
+                "delta": "12.000",
+                "label": "wasm benchmark",
+                "time": "71.000"
+            },
+            {
+                "delta": "13.000",
+                "label": "wasm benchmark",
+                "time": "84.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "23.300",
+                "label": "wasm initialized",
+                "time": "23.600"
+            },
+            {
+                "delta": "23.400",
+                "label": "wasm benchmark",
+                "time": "47.000"
+            },
+            {
+                "delta": "22.000",
+                "label": "wasm benchmark",
+                "time": "69.000"
+            },
+            {
+                "delta": "21.700",
+                "label": "wasm benchmark",
+                "time": "90.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "23.200",
+                "label": "wasm initialized",
+                "time": "23.400"
+            },
+            {
+                "delta": "21.700",
+                "label": "wasm benchmark",
+                "time": "45.100"
+            },
+            {
+                "delta": "21.000",
+                "label": "wasm benchmark",
+                "time": "66.100"
+            },
+            {
+                "delta": "21.400",
+                "label": "wasm benchmark",
+                "time": "87.500"
+            }
+        ]
+    },
+    "stanford/floatmm": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "44.000",
+                "label": "wasm initialized",
+                "time": "47.000"
+            },
+            {
+                "delta": "740.000",
+                "label": "wasm benchmark",
+                "time": "787.000"
+            },
+            {
+                "delta": "715.000",
+                "label": "wasm benchmark",
+                "time": "1502.000"
+            },
+            {
+                "delta": "715.000",
+                "label": "wasm benchmark",
+                "time": "2217.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "70.800",
+                "label": "wasm initialized",
+                "time": "71.200"
+            },
+            {
+                "delta": "660.500",
+                "label": "wasm benchmark",
+                "time": "731.700"
+            },
+            {
+                "delta": "647.500",
+                "label": "wasm benchmark",
+                "time": "1379.200"
+            },
+            {
+                "delta": "643.900",
+                "label": "wasm benchmark",
+                "time": "2023.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "28.400",
+                "label": "wasm initialized",
+                "time": "28.600"
+            },
+            {
+                "delta": "668.600",
+                "label": "wasm benchmark",
+                "time": "697.200"
+            },
+            {
+                "delta": "653.600",
+                "label": "wasm benchmark",
+                "time": "1350.800"
+            },
+            {
+                "delta": "653.200",
+                "label": "wasm benchmark",
+                "time": "2004.000"
+            }
+        ]
+    },
+    "stanford/oscar": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "55.000",
+                "label": "wasm initialized",
+                "time": "58.000"
+            },
+            {
+                "delta": "4.000",
+                "label": "wasm benchmark",
+                "time": "62.000"
+            },
+            {
+                "delta": "3.000",
+                "label": "wasm benchmark",
+                "time": "65.000"
+            },
+            {
+                "delta": "3.000",
+                "label": "wasm benchmark",
+                "time": "68.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "24.000",
+                "label": "wasm initialized",
+                "time": "24.200"
+            },
+            {
+                "delta": "8.200",
+                "label": "wasm benchmark",
+                "time": "32.400"
+            },
+            {
+                "delta": "5.500",
+                "label": "wasm benchmark",
+                "time": "37.900"
+            },
+            {
+                "delta": "5.600",
+                "label": "wasm benchmark",
+                "time": "43.500"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "19.700",
+                "label": "wasm initialized",
+                "time": "20.000"
+            },
+            {
+                "delta": "8.100",
+                "label": "wasm benchmark",
+                "time": "28.100"
+            },
+            {
+                "delta": "5.300",
+                "label": "wasm benchmark",
+                "time": "33.400"
+            },
+            {
+                "delta": "5.000",
+                "label": "wasm benchmark",
+                "time": "38.400"
+            }
+        ]
+    },
+    "stanford/bubblesort": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "44.000",
+                "label": "wasm initialized",
+                "time": "47.000"
+            },
+            {
+                "delta": "37.000",
+                "label": "wasm benchmark",
+                "time": "84.000"
+            },
+            {
+                "delta": "36.000",
+                "label": "wasm benchmark",
+                "time": "120.000"
+            },
+            {
+                "delta": "34.000",
+                "label": "wasm benchmark",
+                "time": "154.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "13.800",
+                "label": "wasm initialized",
+                "time": "13.900"
+            },
+            {
+                "delta": "30.700",
+                "label": "wasm benchmark",
+                "time": "44.600"
+            },
+            {
+                "delta": "27.700",
+                "label": "wasm benchmark",
+                "time": "72.300"
+            },
+            {
+                "delta": "28.000",
+                "label": "wasm benchmark",
+                "time": "100.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "15.700",
+                "label": "wasm initialized",
+                "time": "16.000"
+            },
+            {
+                "delta": "29.800",
+                "label": "wasm benchmark",
+                "time": "45.800"
+            },
+            {
+                "delta": "28.700",
+                "label": "wasm benchmark",
+                "time": "74.500"
+            },
+            {
+                "delta": "27.800",
+                "label": "wasm benchmark",
+                "time": "102.300"
+            }
+        ]
+    },
+    "shootout/heapsort": {},
+    "shootout/ackermann": {
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "72.900",
+                "label": "wasm initialized",
+                "time": "73.200"
+            },
+            {
+                "delta": "17.300",
+                "label": "wasm benchmark",
+                "time": "90.500"
+            },
+            {
+                "delta": "16.500",
+                "label": "wasm benchmark",
+                "time": "107.000"
+            },
+            {
+                "delta": "15.300",
+                "label": "wasm benchmark",
+                "time": "122.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "21.600",
+                "label": "wasm initialized",
+                "time": "21.900"
+            },
+            {
+                "delta": "18.100",
+                "label": "wasm benchmark",
+                "time": "40.000"
+            },
+            {
+                "delta": "16.800",
+                "label": "wasm benchmark",
+                "time": "56.800"
+            },
+            {
+                "delta": "16.300",
+                "label": "wasm benchmark",
+                "time": "73.100"
+            }
+        ]
+    },
+    "shootout/objinst": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "39.000",
+                "label": "wasm initialized",
+                "time": "42.000"
+            },
+            {
+                "delta": "1249.000",
+                "label": "wasm benchmark",
+                "time": "1291.000"
+            },
+            {
+                "delta": "1206.000",
+                "label": "wasm benchmark",
+                "time": "2497.000"
+            },
+            {
+                "delta": "1208.000",
+                "label": "wasm benchmark",
+                "time": "3705.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "49.100",
+                "label": "wasm initialized",
+                "time": "49.300"
+            },
+            {
+                "delta": "1417.400",
+                "label": "wasm benchmark",
+                "time": "1466.700"
+            },
+            {
+                "delta": "1140.100",
+                "label": "wasm benchmark",
+                "time": "2606.800"
+            },
+            {
+                "delta": "1135.100",
+                "label": "wasm benchmark",
+                "time": "3741.900"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "10.000",
+                "label": "wasm initialized",
+                "time": "10.300"
+            },
+            {
+                "delta": "1408.000",
+                "label": "wasm benchmark",
+                "time": "1418.300"
+            },
+            {
+                "delta": "1176.900",
+                "label": "wasm benchmark",
+                "time": "2595.200"
+            },
+            {
+                "delta": "1174.500",
+                "label": "wasm benchmark",
+                "time": "3769.700"
+            }
+        ]
+    },
+    "shootout/nestedloop": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "49.000",
+                "label": "wasm initialized",
+                "time": "52.000"
+            },
+            {
+                "delta": "16426.000",
+                "label": "wasm benchmark",
+                "time": "16478.000"
+            },
+            {
+                "delta": "16375.000",
+                "label": "wasm benchmark",
+                "time": "32853.000"
+            },
+            {
+                "delta": "16401.000",
+                "label": "wasm benchmark",
+                "time": "49254.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "22.300",
+                "label": "wasm initialized",
+                "time": "22.600"
+            },
+            {
+                "delta": "21118.100",
+                "label": "wasm benchmark",
+                "time": "21140.700"
+            },
+            {
+                "delta": "5450.300",
+                "label": "wasm benchmark",
+                "time": "26591.000"
+            },
+            {
+                "delta": "5476.000",
+                "label": "wasm benchmark",
+                "time": "32067.000"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "23.000",
+                "label": "wasm initialized",
+                "time": "23.300"
+            },
+            {
+                "delta": "21189.600",
+                "label": "wasm benchmark",
+                "time": "21212.900"
+            },
+            {
+                "delta": "9198.600",
+                "label": "wasm benchmark",
+                "time": "30411.500"
+            },
+            {
+                "delta": "9083.800",
+                "label": "wasm benchmark",
+                "time": "39495.300"
+            }
+        ]
+    },
+    "shootout/ary3": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "5.000"
+            },
+            {
+                "delta": "54.000",
+                "label": "wasm initialized",
+                "time": "59.000"
+            },
+            {
+                "delta": "2408.000",
+                "label": "wasm benchmark",
+                "time": "2467.000"
+            },
+            {
+                "delta": "2389.000",
+                "label": "wasm benchmark",
+                "time": "4856.000"
+            },
+            {
+                "delta": "2412.000",
+                "label": "wasm benchmark",
+                "time": "7268.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "20.500",
+                "label": "wasm initialized",
+                "time": "20.700"
+            },
+            {
+                "delta": "5577.900",
+                "label": "wasm benchmark",
+                "time": "5598.600"
+            },
+            {
+                "delta": "1233.600",
+                "label": "wasm benchmark",
+                "time": "6832.200"
+            },
+            {
+                "delta": "1213.300",
+                "label": "wasm benchmark",
+                "time": "8045.500"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.400",
+                "label": "page loaded",
+                "time": "0.400"
+            },
+            {
+                "delta": "20.500",
+                "label": "wasm initialized",
+                "time": "20.900"
+            },
+            {
+                "delta": "5730.400",
+                "label": "wasm benchmark",
+                "time": "5751.300"
+            },
+            {
+                "delta": "1186.300",
+                "label": "wasm benchmark",
+                "time": "6937.600"
+            },
+            {
+                "delta": "1184.900",
+                "label": "wasm benchmark",
+                "time": "8122.500"
+            }
+        ]
+    },
+    "shootout/fib2": {
+        "firefox": [
+            {
+                "delta": "2.000",
+                "label": "page loaded",
+                "time": "2.000"
+            },
+            {
+                "delta": "53.000",
+                "label": "wasm initialized",
+                "time": "55.000"
+            },
+            {
+                "delta": "4090.000",
+                "label": "wasm benchmark",
+                "time": "4145.000"
+            },
+            {
+                "delta": "4103.000",
+                "label": "wasm benchmark",
+                "time": "8248.000"
+            },
+            {
+                "delta": "4068.000",
+                "label": "wasm benchmark",
+                "time": "12316.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "20.700",
+                "label": "wasm initialized",
+                "time": "20.900"
+            },
+            {
+                "delta": "5208.500",
+                "label": "wasm benchmark",
+                "time": "5229.400"
+            },
+            {
+                "delta": "5191.700",
+                "label": "wasm benchmark",
+                "time": "10421.100"
+            },
+            {
+                "delta": "5183.000",
+                "label": "wasm benchmark",
+                "time": "15604.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "22.500",
+                "label": "wasm initialized",
+                "time": "22.700"
+            },
+            {
+                "delta": "5214.800",
+                "label": "wasm benchmark",
+                "time": "5237.500"
+            },
+            {
+                "delta": "5144.000",
+                "label": "wasm benchmark",
+                "time": "10381.500"
+            },
+            {
+                "delta": "5160.800",
+                "label": "wasm benchmark",
+                "time": "15542.300"
+            }
+        ]
+    },
+    "shootout/matrix": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "43.000",
+                "label": "wasm initialized",
+                "time": "46.000"
+            },
+            {
+                "delta": "4917.000",
+                "label": "wasm benchmark",
+                "time": "4963.000"
+            },
+            {
+                "delta": "4874.000",
+                "label": "wasm benchmark",
+                "time": "9837.000"
+            },
+            {
+                "delta": "4862.000",
+                "label": "wasm benchmark",
+                "time": "14699.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "54.000",
+                "label": "wasm initialized",
+                "time": "54.300"
+            },
+            {
+                "delta": "4781.100",
+                "label": "wasm benchmark",
+                "time": "4835.400"
+            },
+            {
+                "delta": "4762.800",
+                "label": "wasm benchmark",
+                "time": "9598.200"
+            },
+            {
+                "delta": "4761.000",
+                "label": "wasm benchmark",
+                "time": "14359.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "24.200",
+                "label": "wasm initialized",
+                "time": "24.400"
+            },
+            {
+                "delta": "4784.400",
+                "label": "wasm benchmark",
+                "time": "4808.800"
+            },
+            {
+                "delta": "4760.300",
+                "label": "wasm benchmark",
+                "time": "9569.100"
+            },
+            {
+                "delta": "4757.900",
+                "label": "wasm benchmark",
+                "time": "14327.000"
+            }
+        ]
+    },
+    "shootout/hash": {},
+    "shootout/lists": {
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "15.000",
+                "label": "wasm initialized",
+                "time": "15.200"
+            },
+            {
+                "delta": "9368.000",
+                "label": "wasm benchmark",
+                "time": "9383.200"
+            },
+            {
+                "delta": "9304.600",
+                "label": "wasm benchmark",
+                "time": "18687.800"
+            },
+            {
+                "delta": "9316.800",
+                "label": "wasm benchmark",
+                "time": "28004.700"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "19.500",
+                "label": "wasm initialized",
+                "time": "19.800"
+            },
+            {
+                "delta": "9460.500",
+                "label": "wasm benchmark",
+                "time": "9480.300"
+            },
+            {
+                "delta": "9426.900",
+                "label": "wasm benchmark",
+                "time": "18907.200"
+            },
+            {
+                "delta": "9391.200",
+                "label": "wasm benchmark",
+                "time": "28298.400"
+            }
+        ]
+    },
+    "shootout/hello": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "162.000",
+                "label": "wasm initialized",
+                "time": "166.000"
+            },
+            {
+                "delta": "1.000",
+                "label": "wasm benchmark",
+                "time": "167.000"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "167.000"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "167.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "86.400",
+                "label": "wasm initialized",
+                "time": "86.700"
+            },
+            {
+                "delta": "0.500",
+                "label": "wasm benchmark",
+                "time": "87.200"
+            },
+            {
+                "delta": "0.100",
+                "label": "wasm benchmark",
+                "time": "87.300"
+            },
+            {
+                "delta": "0.100",
+                "label": "wasm benchmark",
+                "time": "87.400"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "26.500",
+                "label": "wasm initialized",
+                "time": "26.700"
+            },
+            {
+                "delta": "0.500",
+                "label": "wasm benchmark",
+                "time": "27.200"
+            },
+            {
+                "delta": "0.200",
+                "label": "wasm benchmark",
+                "time": "27.300"
+            },
+            {
+                "delta": "0.000",
+                "label": "wasm benchmark",
+                "time": "27.400"
+            }
+        ]
+    },
+    "shootout/sieve": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "102.000",
+                "label": "wasm initialized",
+                "time": "105.000"
+            },
+            {
+                "delta": "10760.000",
+                "label": "wasm benchmark",
+                "time": "10865.000"
+            },
+            {
+                "delta": "10670.000",
+                "label": "wasm benchmark",
+                "time": "21535.000"
+            },
+            {
+                "delta": "10682.000",
+                "label": "wasm benchmark",
+                "time": "32217.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "21.700",
+                "label": "wasm initialized",
+                "time": "22.000"
+            },
+            {
+                "delta": "14181.900",
+                "label": "wasm benchmark",
+                "time": "14203.900"
+            },
+            {
+                "delta": "3016.300",
+                "label": "wasm benchmark",
+                "time": "17220.200"
+            },
+            {
+                "delta": "3049.300",
+                "label": "wasm benchmark",
+                "time": "20269.500"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "19.400",
+                "label": "wasm initialized",
+                "time": "19.700"
+            },
+            {
+                "delta": "15980.500",
+                "label": "wasm benchmark",
+                "time": "16000.200"
+            },
+            {
+                "delta": "3545.900",
+                "label": "wasm benchmark",
+                "time": "19546.100"
+            },
+            {
+                "delta": "3553.300",
+                "label": "wasm benchmark",
+                "time": "23099.400"
+            }
+        ]
+    },
+    "shootout/random": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "50.000",
+                "label": "wasm initialized",
+                "time": "54.000"
+            },
+            {
+                "delta": "1264.000",
+                "label": "wasm benchmark",
+                "time": "1318.000"
+            },
+            {
+                "delta": "1229.000",
+                "label": "wasm benchmark",
+                "time": "2547.000"
+            },
+            {
+                "delta": "1243.000",
+                "label": "wasm benchmark",
+                "time": "3790.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "23.400",
+                "label": "wasm initialized",
+                "time": "23.600"
+            },
+            {
+                "delta": "2241.300",
+                "label": "wasm benchmark",
+                "time": "2264.900"
+            },
+            {
+                "delta": "1260.600",
+                "label": "wasm benchmark",
+                "time": "3525.500"
+            },
+            {
+                "delta": "1262.700",
+                "label": "wasm benchmark",
+                "time": "4788.200"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "22.900",
+                "label": "wasm initialized",
+                "time": "23.100"
+            },
+            {
+                "delta": "2244.900",
+                "label": "wasm benchmark",
+                "time": "2268.000"
+            },
+            {
+                "delta": "1258.800",
+                "label": "wasm benchmark",
+                "time": "3526.800"
+            },
+            {
+                "delta": "1254.000",
+                "label": "wasm benchmark",
+                "time": "4780.800"
+            }
+        ]
+    },
+    "shootout/methcall": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "40.000",
+                "label": "wasm initialized",
+                "time": "44.000"
+            },
+            {
+                "delta": "3933.000",
+                "label": "wasm benchmark",
+                "time": "3977.000"
+            },
+            {
+                "delta": "3925.000",
+                "label": "wasm benchmark",
+                "time": "7902.000"
+            },
+            {
+                "delta": "3898.000",
+                "label": "wasm benchmark",
+                "time": "11800.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "45.400",
+                "label": "wasm initialized",
+                "time": "45.500"
+            },
+            {
+                "delta": "7890.800",
+                "label": "wasm benchmark",
+                "time": "7936.300"
+            },
+            {
+                "delta": "5706.500",
+                "label": "wasm benchmark",
+                "time": "13642.800"
+            },
+            {
+                "delta": "5709.200",
+                "label": "wasm benchmark",
+                "time": "19352.000"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "15.900",
+                "label": "wasm initialized",
+                "time": "16.200"
+            },
+            {
+                "delta": "8186.100",
+                "label": "wasm benchmark",
+                "time": "8202.300"
+            },
+            {
+                "delta": "6002.900",
+                "label": "wasm benchmark",
+                "time": "14205.200"
+            },
+            {
+                "delta": "6000.200",
+                "label": "wasm benchmark",
+                "time": "20205.400"
+            }
+        ]
+    },
+    "shootout/strcat": {},
+    "linpack/linpackpc": {
+        "firefox": [
+            {
+                "delta": "2.000",
+                "label": "page loaded",
+                "time": "2.000"
+            },
+            {
+                "delta": "46.000",
+                "label": "wasm initialized",
+                "time": "48.000"
+            },
+            {
+                "delta": "7548.000",
+                "label": "wasm benchmark",
+                "time": "7596.000"
+            },
+            {
+                "delta": "7519.000",
+                "label": "wasm benchmark",
+                "time": "15115.000"
+            },
+            {
+                "delta": "7500.000",
+                "label": "wasm benchmark",
+                "time": "22615.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "22.800",
+                "label": "wasm initialized",
+                "time": "23.000"
+            },
+            {
+                "delta": "6587.400",
+                "label": "wasm benchmark",
+                "time": "6610.400"
+            },
+            {
+                "delta": "6573.000",
+                "label": "wasm benchmark",
+                "time": "13183.400"
+            },
+            {
+                "delta": "6540.000",
+                "label": "wasm benchmark",
+                "time": "19723.400"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "26.200",
+                "label": "wasm initialized",
+                "time": "26.500"
+            },
+            {
+                "delta": "6628.800",
+                "label": "wasm benchmark",
+                "time": "6655.300"
+            },
+            {
+                "delta": "6585.900",
+                "label": "wasm benchmark",
+                "time": "13241.200"
+            },
+            {
+                "delta": "6598.400",
+                "label": "wasm benchmark",
+                "time": "19839.600"
+            }
+        ]
+    },
+    "mcgill/chomp": {},
+    "mcgill/exptree": {},
+    "mcgill/misr": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "48.000",
+                "label": "wasm initialized",
+                "time": "53.000"
+            },
+            {
+                "delta": "154.000",
+                "label": "wasm benchmark",
+                "time": "207.000"
+            },
+            {
+                "delta": "147.000",
+                "label": "wasm benchmark",
+                "time": "354.000"
+            },
+            {
+                "delta": "145.000",
+                "label": "wasm benchmark",
+                "time": "499.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "28.400",
+                "label": "wasm initialized",
+                "time": "28.700"
+            },
+            {
+                "delta": "158.500",
+                "label": "wasm benchmark",
+                "time": "187.200"
+            },
+            {
+                "delta": "143.300",
+                "label": "wasm benchmark",
+                "time": "330.500"
+            },
+            {
+                "delta": "143.100",
+                "label": "wasm benchmark",
+                "time": "473.600"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "21.700",
+                "label": "wasm initialized",
+                "time": "22.000"
+            },
+            {
+                "delta": "153.700",
+                "label": "wasm benchmark",
+                "time": "175.700"
+            },
+            {
+                "delta": "142.700",
+                "label": "wasm benchmark",
+                "time": "318.400"
+            },
+            {
+                "delta": "145.400",
+                "label": "wasm benchmark",
+                "time": "463.800"
+            }
+        ]
+    },
+    "mcgill/queens": {},
+    "benchmarkgame/nbody": {
+        "firefox": [
+            {
+                "delta": "2.000",
+                "label": "page loaded",
+                "time": "2.000"
+            },
+            {
+                "delta": "5054.000",
+                "label": "wasm initialized",
+                "time": "5056.000"
+            },
+            {
+                "delta": "560.000",
+                "label": "wasm benchmark",
+                "time": "5616.000"
+            },
+            {
+                "delta": "558.000",
+                "label": "wasm benchmark",
+                "time": "6174.000"
+            },
+            {
+                "delta": "559.000",
+                "label": "wasm benchmark",
+                "time": "6733.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "22.300",
+                "label": "wasm initialized",
+                "time": "22.600"
+            },
+            {
+                "delta": "539.100",
+                "label": "wasm benchmark",
+                "time": "561.700"
+            },
+            {
+                "delta": "532.500",
+                "label": "wasm benchmark",
+                "time": "1094.200"
+            },
+            {
+                "delta": "531.900",
+                "label": "wasm benchmark",
+                "time": "1626.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "21.200",
+                "label": "wasm initialized",
+                "time": "21.400"
+            },
+            {
+                "delta": "534.300",
+                "label": "wasm benchmark",
+                "time": "555.700"
+            },
+            {
+                "delta": "536.700",
+                "label": "wasm benchmark",
+                "time": "1092.400"
+            },
+            {
+                "delta": "535.900",
+                "label": "wasm benchmark",
+                "time": "1628.300"
+            }
+        ]
+    },
+    "benchmarkgame/partialsums": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "44.000",
+                "label": "wasm initialized",
+                "time": "48.000"
+            },
+            {
+                "delta": "234.000",
+                "label": "wasm benchmark",
+                "time": "282.000"
+            },
+            {
+                "delta": "226.000",
+                "label": "wasm benchmark",
+                "time": "508.000"
+            },
+            {
+                "delta": "221.000",
+                "label": "wasm benchmark",
+                "time": "729.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "20.400",
+                "label": "wasm initialized",
+                "time": "20.600"
+            },
+            {
+                "delta": "279.600",
+                "label": "wasm benchmark",
+                "time": "300.200"
+            },
+            {
+                "delta": "224.300",
+                "label": "wasm benchmark",
+                "time": "524.500"
+            },
+            {
+                "delta": "224.100",
+                "label": "wasm benchmark",
+                "time": "748.600"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "20.900",
+                "label": "wasm initialized",
+                "time": "21.200"
+            },
+            {
+                "delta": "275.000",
+                "label": "wasm benchmark",
+                "time": "296.200"
+            },
+            {
+                "delta": "231.300",
+                "label": "wasm benchmark",
+                "time": "527.500"
+            },
+            {
+                "delta": "228.500",
+                "label": "wasm benchmark",
+                "time": "756.000"
+            }
+        ]
+    },
+    "benchmarkgame/fasta": {
+        "firefox": [
+            {
+                "delta": "3.000",
+                "label": "page loaded",
+                "time": "3.000"
+            },
+            {
+                "delta": "48.000",
+                "label": "wasm initialized",
+                "time": "51.000"
+            },
+            {
+                "delta": "4644.000",
+                "label": "wasm benchmark",
+                "time": "4695.000"
+            },
+            {
+                "delta": "4526.000",
+                "label": "wasm benchmark",
+                "time": "9221.000"
+            },
+            {
+                "delta": "4292.000",
+                "label": "wasm benchmark",
+                "time": "13513.000"
+            }
+        ]
+    },
+    "benchmarkgame/fannkuch": {
+        "firefox": [
+            {
+                "delta": "6.000",
+                "label": "page loaded",
+                "time": "6.000"
+            },
+            {
+                "delta": "52.000",
+                "label": "wasm initialized",
+                "time": "58.000"
+            },
+            {
+                "delta": "3931.000",
+                "label": "wasm benchmark",
+                "time": "3989.000"
+            },
+            {
+                "delta": "3949.000",
+                "label": "wasm benchmark",
+                "time": "7938.000"
+            },
+            {
+                "delta": "3845.000",
+                "label": "wasm benchmark",
+                "time": "11783.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "21.200",
+                "label": "wasm initialized",
+                "time": "21.300"
+            },
+            {
+                "delta": "8273.300",
+                "label": "wasm benchmark",
+                "time": "8294.600"
+            },
+            {
+                "delta": "3042.100",
+                "label": "wasm benchmark",
+                "time": "11336.700"
+            },
+            {
+                "delta": "3039.200",
+                "label": "wasm benchmark",
+                "time": "14375.900"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "20.100",
+                "label": "wasm initialized",
+                "time": "20.300"
+            },
+            {
+                "delta": "8187.900",
+                "label": "wasm benchmark",
+                "time": "8208.200"
+            },
+            {
+                "delta": "2987.800",
+                "label": "wasm benchmark",
+                "time": "11196.000"
+            },
+            {
+                "delta": "2722.400",
+                "label": "wasm benchmark",
+                "time": "13918.400"
+            }
+        ]
+    },
+    "benchmarkgame/nsievebits": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "43.000",
+                "label": "wasm initialized",
+                "time": "47.000"
+            },
+            {
+                "delta": "682.000",
+                "label": "wasm benchmark",
+                "time": "729.000"
+            },
+            {
+                "delta": "651.000",
+                "label": "wasm benchmark",
+                "time": "1380.000"
+            },
+            {
+                "delta": "649.000",
+                "label": "wasm benchmark",
+                "time": "2029.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "43.400",
+                "label": "wasm initialized",
+                "time": "43.600"
+            },
+            {
+                "delta": "1457.800",
+                "label": "wasm benchmark",
+                "time": "1501.400"
+            },
+            {
+                "delta": "386.300",
+                "label": "wasm benchmark",
+                "time": "1887.600"
+            },
+            {
+                "delta": "382.300",
+                "label": "wasm benchmark",
+                "time": "2270.000"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "18.600",
+                "label": "wasm initialized",
+                "time": "18.800"
+            },
+            {
+                "delta": "1498.400",
+                "label": "wasm benchmark",
+                "time": "1517.200"
+            },
+            {
+                "delta": "377.600",
+                "label": "wasm benchmark",
+                "time": "1894.800"
+            },
+            {
+                "delta": "372.300",
+                "label": "wasm benchmark",
+                "time": "2267.100"
+            }
+        ]
+    },
+    "benchmarkgame/puzzle": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "45.000",
+                "label": "wasm initialized",
+                "time": "49.000"
+            },
+            {
+                "delta": "907.000",
+                "label": "wasm benchmark",
+                "time": "956.000"
+            },
+            {
+                "delta": "877.000",
+                "label": "wasm benchmark",
+                "time": "1833.000"
+            },
+            {
+                "delta": "887.000",
+                "label": "wasm benchmark",
+                "time": "2720.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "21.600",
+                "label": "wasm initialized",
+                "time": "21.800"
+            },
+            {
+                "delta": "910.900",
+                "label": "wasm benchmark",
+                "time": "932.700"
+            },
+            {
+                "delta": "894.100",
+                "label": "wasm benchmark",
+                "time": "1826.800"
+            },
+            {
+                "delta": "894.000",
+                "label": "wasm benchmark",
+                "time": "2720.800"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "16.000",
+                "label": "wasm initialized",
+                "time": "16.300"
+            },
+            {
+                "delta": "917.100",
+                "label": "wasm benchmark",
+                "time": "933.400"
+            },
+            {
+                "delta": "895.200",
+                "label": "wasm benchmark",
+                "time": "1828.600"
+            },
+            {
+                "delta": "891.400",
+                "label": "wasm benchmark",
+                "time": "2720.000"
+            }
+        ]
+    },
+    "benchmarkgame/recursive": {},
+    "benchmarkgame/spectralnorm": {
+        "firefox": [
+            {
+                "delta": "4.000",
+                "label": "page loaded",
+                "time": "4.000"
+            },
+            {
+                "delta": "1068.000",
+                "label": "wasm initialized",
+                "time": "1072.000"
+            },
+            {
+                "delta": "464.000",
+                "label": "wasm benchmark",
+                "time": "1536.000"
+            },
+            {
+                "delta": "454.000",
+                "label": "wasm benchmark",
+                "time": "1990.000"
+            },
+            {
+                "delta": "452.000",
+                "label": "wasm benchmark",
+                "time": "2442.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "21.100",
+                "label": "wasm initialized",
+                "time": "21.300"
+            },
+            {
+                "delta": "483.400",
+                "label": "wasm benchmark",
+                "time": "504.700"
+            },
+            {
+                "delta": "451.500",
+                "label": "wasm benchmark",
+                "time": "956.200"
+            },
+            {
+                "delta": "454.100",
+                "label": "wasm benchmark",
+                "time": "1410.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "25.200",
+                "label": "wasm initialized",
+                "time": "25.500"
+            },
+            {
+                "delta": "494.900",
+                "label": "wasm benchmark",
+                "time": "520.400"
+            },
+            {
+                "delta": "456.800",
+                "label": "wasm benchmark",
+                "time": "977.200"
+            },
+            {
+                "delta": "460.900",
+                "label": "wasm benchmark",
+                "time": "1438.100"
+            }
+        ]
+    },
+    "coyotebench/almabench": {
+        "firefox": [
+            {
+                "delta": "5.000",
+                "label": "page loaded",
+                "time": "5.000"
+            },
+            {
+                "delta": "54.000",
+                "label": "wasm initialized",
+                "time": "59.000"
+            },
+            {
+                "delta": "2883.000",
+                "label": "wasm benchmark",
+                "time": "2942.000"
+            },
+            {
+                "delta": "2893.000",
+                "label": "wasm benchmark",
+                "time": "5835.000"
+            },
+            {
+                "delta": "2880.000",
+                "label": "wasm benchmark",
+                "time": "8715.000"
+            }
+        ],
+        "chrome": [
+            {
+                "delta": "0.100",
+                "label": "page loaded",
+                "time": "0.100"
+            },
+            {
+                "delta": "21.500",
+                "label": "wasm initialized",
+                "time": "21.600"
+            },
+            {
+                "delta": "2990.300",
+                "label": "wasm benchmark",
+                "time": "3011.900"
+            },
+            {
+                "delta": "2948.800",
+                "label": "wasm benchmark",
+                "time": "5960.700"
+            },
+            {
+                "delta": "2976.600",
+                "label": "wasm benchmark",
+                "time": "8937.300"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.200",
+                "label": "page loaded",
+                "time": "0.200"
+            },
+            {
+                "delta": "21.300",
+                "label": "wasm initialized",
+                "time": "21.500"
+            },
+            {
+                "delta": "3029.300",
+                "label": "wasm benchmark",
+                "time": "3050.800"
+            },
+            {
+                "delta": "2979.500",
+                "label": "wasm benchmark",
+                "time": "6030.300"
+            },
+            {
+                "delta": "2977.200",
+                "label": "wasm benchmark",
+                "time": "9007.500"
+            }
+        ]
+    },
+    "coyotebench/lpbench": {},
+    "coyotebench/huffbench": {}
+}
