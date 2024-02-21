@@ -1,4 +1,4 @@
-# Install script for directory: /Users/morgen/Desktop/In-browser_Wasm_Testing/Benchmarks/Misc-C++
+# Install script for directory: /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,6 +27,11 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -34,12 +39,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/morgen/Desktop/In-browser_Wasm_Testing/Benchmarks/build/Misc-C++/Large/cmake_install.cmake")
+  include("/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++/Large/cmake_install.cmake")
 
 endif()
 
