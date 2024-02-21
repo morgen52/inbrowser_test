@@ -16,18 +16,18 @@ def page_test(exp, url):
     timeBrowsers = {}
     for browser in BROWSERS:
         print(f"Testing with {browser.capitalize()} browser")
-        
-        if browser == "chrome":
-            driver = webdriver.Chrome()
-        elif browser == "firefox":
-            driver = webdriver.Firefox()
-        elif browser == "safari":
-            driver = webdriver.Safari()
-        elif browser == "edge":
-            driver = webdriver.Edge()
 
         # driver.get("http://0.0.0.0:7070")
         try:
+            if browser == "chrome":
+                driver = webdriver.Chrome()
+            elif browser == "firefox":
+                driver = webdriver.Firefox()
+            elif browser == "safari":
+                driver = webdriver.Safari()
+            elif browser == "edge":
+                driver = webdriver.Edge()
+
             driver.get(url)
 
             # wait until the wasm scripts are finished.
@@ -44,8 +44,18 @@ def page_test(exp, url):
             with open("error.log", "a") as f:
                 f.write(f"{exp} {browser} {url} {e}\n")
 
-
     return timeBrowsers
+
+def is_complete(results):
+    for b in BROWSERS:
+        if b not in results:
+            return False
+        if len(results[b]) != 5:
+            return False
+        for t in results[b]:
+            if float(t["delta"]) == 0 or float(t["time"]) == 0:
+                return False
+    return True
 
 results = {}
 
@@ -64,6 +74,8 @@ for idx, item in tqdm(enumerate(exps.items())):
         continue
     mode, url = item
     print(mode, url["url"])
+    if (mode not in results) or (not is_complete(results[mode])):
+        continue
     results[mode] = page_test(mode, url["url"])
 
     # results["hello/hello"] = page_test("hello/hello", "http://0.0.0.0:7070/hello")
