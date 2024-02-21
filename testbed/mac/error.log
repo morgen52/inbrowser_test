@@ -1845,3 +1845,356 @@ coyotebench/huffbench firefox http://10.129.160.70:7070/coyotebench/huffbench Me
 
 coyotebench/huffbench safari http://10.129.160.70:7070/coyotebench/huffbench Message: 
 
+shootoutc/ary3 chrome http://0.0.0.0:7070/shootoutc/ary3 Message: javascript error: getTimes is not defined
+  (Session info: chrome=121.0.6167.184)
+Stacktrace:
+0   chromedriver                        0x0000000104e3e814 chromedriver + 4040724
+1   chromedriver                        0x0000000104e36a18 chromedriver + 4008472
+2   chromedriver                        0x0000000104aa9870 chromedriver + 284784
+3   chromedriver                        0x0000000104aae3c4 chromedriver + 304068
+4   chromedriver                        0x0000000104ab0194 chromedriver + 311700
+5   chromedriver                        0x0000000104b279b4 chromedriver + 801204
+6   chromedriver                        0x0000000104b27048 chromedriver + 798792
+7   chromedriver                        0x0000000104ae174c chromedriver + 513868
+8   chromedriver                        0x0000000104ae2044 chromedriver + 516164
+9   chromedriver                        0x0000000104e03a3c chromedriver + 3799612
+10  chromedriver                        0x0000000104e07f1c chromedriver + 3817244
+11  chromedriver                        0x0000000104dec298 chromedriver + 3703448
+12  chromedriver                        0x0000000104e08a64 chromedriver + 3820132
+13  chromedriver                        0x0000000104ddf054 chromedriver + 3649620
+14  chromedriver                        0x0000000104e25e74 chromedriver + 3939956
+15  chromedriver                        0x0000000104e25fec chromedriver + 3940332
+16  chromedriver                        0x0000000104e36698 chromedriver + 4007576
+17  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+18  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+shootoutc/ary3 edge http://0.0.0.0:7070/shootoutc/ary3 Message: javascript error: getTimes is not defined
+  (Session info: MicrosoftEdge=121.0.2277.128)
+Stacktrace:
+0   msedgedriver                        0x0000000102909c20 msedgedriver + 4447264
+1   msedgedriver                        0x00000001029018c4 msedgedriver + 4413636
+2   msedgedriver                        0x0000000102512cf8 msedgedriver + 290040
+3   msedgedriver                        0x00000001025176fc msedgedriver + 308988
+4   msedgedriver                        0x00000001025193e8 msedgedriver + 316392
+5   msedgedriver                        0x0000000102597f94 msedgedriver + 835476
+6   msedgedriver                        0x0000000102597628 msedgedriver + 833064
+7   msedgedriver                        0x000000010254fcd0 msedgedriver + 539856
+8   msedgedriver                        0x0000000102550704 msedgedriver + 542468
+9   msedgedriver                        0x00000001028ca5e0 msedgedriver + 4187616
+10  msedgedriver                        0x00000001028ce76c msedgedriver + 4204396
+11  msedgedriver                        0x00000001028ced98 msedgedriver + 4205976
+12  msedgedriver                        0x00000001028b2de4 msedgedriver + 4091364
+13  msedgedriver                        0x00000001028cf404 msedgedriver + 4207620
+14  msedgedriver                        0x00000001028a58b0 msedgedriver + 4036784
+15  msedgedriver                        0x00000001028ef704 msedgedriver + 4339460
+16  msedgedriver                        0x00000001028ef8cc msedgedriver + 4339916
+17  msedgedriver                        0x000000010290140c msedgedriver + 4412428
+18  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+19  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+shootoutc/ary3 firefox http://0.0.0.0:7070/shootoutc/ary3 Message: ReferenceError: getTimes is not defined
+Stacktrace:
+@http://0.0.0.0:7070/shootoutc/ary3:2:7
+@http://0.0.0.0:7070/shootoutc/ary3:3:8
+
+shootoutc/ary3 safari http://0.0.0.0:7070/shootoutc/ary3 Message: A JavaScript exception occured: Can't find variable: getTimes
+
+benchmarkgame/fannkuch chrome http://0.0.0.0:7070/benchmarkgame/fannkuch Message: javascript error: getTimes is not defined
+  (Session info: chrome=121.0.6167.184)
+Stacktrace:
+0   chromedriver                        0x0000000100742814 chromedriver + 4040724
+1   chromedriver                        0x000000010073aa18 chromedriver + 4008472
+2   chromedriver                        0x00000001003ad870 chromedriver + 284784
+3   chromedriver                        0x00000001003b23c4 chromedriver + 304068
+4   chromedriver                        0x00000001003b4194 chromedriver + 311700
+5   chromedriver                        0x000000010042b9b4 chromedriver + 801204
+6   chromedriver                        0x000000010042b048 chromedriver + 798792
+7   chromedriver                        0x00000001003e574c chromedriver + 513868
+8   chromedriver                        0x00000001003e6044 chromedriver + 516164
+9   chromedriver                        0x0000000100707a3c chromedriver + 3799612
+10  chromedriver                        0x000000010070bf1c chromedriver + 3817244
+11  chromedriver                        0x00000001006f0298 chromedriver + 3703448
+12  chromedriver                        0x000000010070ca64 chromedriver + 3820132
+13  chromedriver                        0x00000001006e3054 chromedriver + 3649620
+14  chromedriver                        0x0000000100729e74 chromedriver + 3939956
+15  chromedriver                        0x0000000100729fec chromedriver + 3940332
+16  chromedriver                        0x000000010073a698 chromedriver + 4007576
+17  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+18  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+benchmarkgame/fannkuch edge http://0.0.0.0:7070/benchmarkgame/fannkuch Message: javascript error: getTimes is not defined
+  (Session info: MicrosoftEdge=121.0.2277.128)
+Stacktrace:
+0   msedgedriver                        0x0000000102bddc20 msedgedriver + 4447264
+1   msedgedriver                        0x0000000102bd58c4 msedgedriver + 4413636
+2   msedgedriver                        0x00000001027e6cf8 msedgedriver + 290040
+3   msedgedriver                        0x00000001027eb6fc msedgedriver + 308988
+4   msedgedriver                        0x00000001027ed3e8 msedgedriver + 316392
+5   msedgedriver                        0x000000010286bf94 msedgedriver + 835476
+6   msedgedriver                        0x000000010286b628 msedgedriver + 833064
+7   msedgedriver                        0x0000000102823cd0 msedgedriver + 539856
+8   msedgedriver                        0x0000000102824704 msedgedriver + 542468
+9   msedgedriver                        0x0000000102b9e5e0 msedgedriver + 4187616
+10  msedgedriver                        0x0000000102ba276c msedgedriver + 4204396
+11  msedgedriver                        0x0000000102ba2d98 msedgedriver + 4205976
+12  msedgedriver                        0x0000000102b86de4 msedgedriver + 4091364
+13  msedgedriver                        0x0000000102ba3404 msedgedriver + 4207620
+14  msedgedriver                        0x0000000102b798b0 msedgedriver + 4036784
+15  msedgedriver                        0x0000000102bc3704 msedgedriver + 4339460
+16  msedgedriver                        0x0000000102bc38cc msedgedriver + 4339916
+17  msedgedriver                        0x0000000102bd540c msedgedriver + 4412428
+18  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+19  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+benchmarkgame/fannkuch firefox http://0.0.0.0:7070/benchmarkgame/fannkuch Message: ReferenceError: getTimes is not defined
+Stacktrace:
+@http://0.0.0.0:7070/benchmarkgame/fannkuch:2:7
+@http://0.0.0.0:7070/benchmarkgame/fannkuch:3:8
+
+benchmarkgame/fannkuch safari http://0.0.0.0:7070/benchmarkgame/fannkuch Message: Could not create a session: The Safari instance is already paired with another WebDriver session.
+
+benchmarkgame/nbody chrome http://0.0.0.0:7070/benchmarkgame/nbody Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=121.0.6167.184)
+Stacktrace:
+0   chromedriver                        0x0000000104c26814 chromedriver + 4040724
+1   chromedriver                        0x0000000104c1ea18 chromedriver + 4008472
+2   chromedriver                        0x0000000104891870 chromedriver + 284784
+3   chromedriver                        0x000000010488a304 chromedriver + 254724
+4   chromedriver                        0x000000010487c6b8 chromedriver + 198328
+5   chromedriver                        0x000000010487b6e0 chromedriver + 194272
+6   chromedriver                        0x000000010487aac0 chromedriver + 191168
+7   chromedriver                        0x000000010487aa6c chromedriver + 191084
+8   chromedriver                        0x0000000104879108 chromedriver + 184584
+9   chromedriver                        0x0000000104879b2c chromedriver + 187180
+10  chromedriver                        0x0000000104893d5c chromedriver + 294236
+11  chromedriver                        0x000000010490f6d4 chromedriver + 800468
+12  chromedriver                        0x000000010490f048 chromedriver + 798792
+13  chromedriver                        0x00000001048c974c chromedriver + 513868
+14  chromedriver                        0x00000001048ca044 chromedriver + 516164
+15  chromedriver                        0x0000000104beba3c chromedriver + 3799612
+16  chromedriver                        0x0000000104beff1c chromedriver + 3817244
+17  chromedriver                        0x0000000104bd4298 chromedriver + 3703448
+18  chromedriver                        0x0000000104bf0a64 chromedriver + 3820132
+19  chromedriver                        0x0000000104bc7054 chromedriver + 3649620
+20  chromedriver                        0x0000000104c0de74 chromedriver + 3939956
+21  chromedriver                        0x0000000104c0dfec chromedriver + 3940332
+22  chromedriver                        0x0000000104c1e698 chromedriver + 4007576
+23  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+24  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+benchmarkgame/nbody edge http://0.0.0.0:7070/benchmarkgame/nbody Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: MicrosoftEdge=121.0.2277.128)
+Stacktrace:
+0   msedgedriver                        0x0000000104d11c20 msedgedriver + 4447264
+1   msedgedriver                        0x0000000104d098c4 msedgedriver + 4413636
+2   msedgedriver                        0x000000010491acf8 msedgedriver + 290040
+3   msedgedriver                        0x0000000104913790 msedgedriver + 259984
+4   msedgedriver                        0x0000000104903ed0 msedgedriver + 196304
+5   msedgedriver                        0x0000000104905034 msedgedriver + 200756
+6   msedgedriver                        0x0000000104904124 msedgedriver + 196900
+7   msedgedriver                        0x0000000104903454 msedgedriver + 193620
+8   msedgedriver                        0x00000001049032c4 msedgedriver + 193220
+9   msedgedriver                        0x0000000104901bc0 msedgedriver + 187328
+10  msedgedriver                        0x0000000104902594 msedgedriver + 189844
+11  msedgedriver                        0x000000010491d11c msedgedriver + 299292
+12  msedgedriver                        0x000000010499fcb4 msedgedriver + 834740
+13  msedgedriver                        0x000000010499f628 msedgedriver + 833064
+14  msedgedriver                        0x0000000104957cd0 msedgedriver + 539856
+15  msedgedriver                        0x0000000104958704 msedgedriver + 542468
+16  msedgedriver                        0x0000000104cd25e0 msedgedriver + 4187616
+17  msedgedriver                        0x0000000104cd676c msedgedriver + 4204396
+18  msedgedriver                        0x0000000104cd6d98 msedgedriver + 4205976
+19  msedgedriver                        0x0000000104cbade4 msedgedriver + 4091364
+20  msedgedriver                        0x0000000104cd7404 msedgedriver + 4207620
+21  msedgedriver                        0x0000000104cad8b0 msedgedriver + 4036784
+22  msedgedriver                        0x0000000104cf7704 msedgedriver + 4339460
+23  msedgedriver                        0x0000000104cf78cc msedgedriver + 4339916
+24  msedgedriver                        0x0000000104d0940c msedgedriver + 4412428
+25  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+26  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+benchmarkgame/nbody firefox http://0.0.0.0:7070/benchmarkgame/nbody Message: Reached error page: about:neterror?e=connectionFailure&u=http%3A//0.0.0.0%3A7070/benchmarkgame/nbody&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%200.0.0.0%3A7070.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:800:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+benchmarkgame/nbody safari http://0.0.0.0:7070/benchmarkgame/nbody Message: A JavaScript exception occured: Can't find variable: getTimes
+
+benchmarkgame/puzzle chrome http://0.0.0.0:7070/benchmarkgame/puzzle Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=121.0.6167.184)
+Stacktrace:
+0   chromedriver                        0x0000000104c3e814 chromedriver + 4040724
+1   chromedriver                        0x0000000104c36a18 chromedriver + 4008472
+2   chromedriver                        0x00000001048a9870 chromedriver + 284784
+3   chromedriver                        0x00000001048a2304 chromedriver + 254724
+4   chromedriver                        0x00000001048946b8 chromedriver + 198328
+5   chromedriver                        0x00000001048936e0 chromedriver + 194272
+6   chromedriver                        0x0000000104892ac0 chromedriver + 191168
+7   chromedriver                        0x0000000104892a6c chromedriver + 191084
+8   chromedriver                        0x0000000104891108 chromedriver + 184584
+9   chromedriver                        0x0000000104891b2c chromedriver + 187180
+10  chromedriver                        0x00000001048abd5c chromedriver + 294236
+11  chromedriver                        0x00000001049276d4 chromedriver + 800468
+12  chromedriver                        0x0000000104927048 chromedriver + 798792
+13  chromedriver                        0x00000001048e174c chromedriver + 513868
+14  chromedriver                        0x00000001048e2044 chromedriver + 516164
+15  chromedriver                        0x0000000104c03a3c chromedriver + 3799612
+16  chromedriver                        0x0000000104c07f1c chromedriver + 3817244
+17  chromedriver                        0x0000000104bec298 chromedriver + 3703448
+18  chromedriver                        0x0000000104c08a64 chromedriver + 3820132
+19  chromedriver                        0x0000000104bdf054 chromedriver + 3649620
+20  chromedriver                        0x0000000104c25e74 chromedriver + 3939956
+21  chromedriver                        0x0000000104c25fec chromedriver + 3940332
+22  chromedriver                        0x0000000104c36698 chromedriver + 4007576
+23  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+24  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+benchmarkgame/puzzle chrome http://0.0.0.0:7070/benchmarkgame/puzzle Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=121.0.6167.184)
+Stacktrace:
+0   chromedriver                        0x0000000104daa814 chromedriver + 4040724
+1   chromedriver                        0x0000000104da2a18 chromedriver + 4008472
+2   chromedriver                        0x0000000104a15870 chromedriver + 284784
+3   chromedriver                        0x0000000104a0e304 chromedriver + 254724
+4   chromedriver                        0x0000000104a006b8 chromedriver + 198328
+5   chromedriver                        0x00000001049ff6e0 chromedriver + 194272
+6   chromedriver                        0x00000001049feac0 chromedriver + 191168
+7   chromedriver                        0x00000001049fea6c chromedriver + 191084
+8   chromedriver                        0x00000001049fd108 chromedriver + 184584
+9   chromedriver                        0x00000001049fdb2c chromedriver + 187180
+10  chromedriver                        0x0000000104a17d5c chromedriver + 294236
+11  chromedriver                        0x0000000104a936d4 chromedriver + 800468
+12  chromedriver                        0x0000000104a93048 chromedriver + 798792
+13  chromedriver                        0x0000000104a4d74c chromedriver + 513868
+14  chromedriver                        0x0000000104a4e044 chromedriver + 516164
+15  chromedriver                        0x0000000104d6fa3c chromedriver + 3799612
+16  chromedriver                        0x0000000104d73f1c chromedriver + 3817244
+17  chromedriver                        0x0000000104d58298 chromedriver + 3703448
+18  chromedriver                        0x0000000104d74a64 chromedriver + 3820132
+19  chromedriver                        0x0000000104d4b054 chromedriver + 3649620
+20  chromedriver                        0x0000000104d91e74 chromedriver + 3939956
+21  chromedriver                        0x0000000104d91fec chromedriver + 3940332
+22  chromedriver                        0x0000000104da2698 chromedriver + 4007576
+23  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+24  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+benchmarkgame/puzzle edge http://0.0.0.0:7070/benchmarkgame/puzzle Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: MicrosoftEdge=121.0.2277.128)
+Stacktrace:
+0   msedgedriver                        0x0000000104d89c20 msedgedriver + 4447264
+1   msedgedriver                        0x0000000104d818c4 msedgedriver + 4413636
+2   msedgedriver                        0x0000000104992cf8 msedgedriver + 290040
+3   msedgedriver                        0x000000010498b790 msedgedriver + 259984
+4   msedgedriver                        0x000000010497bed0 msedgedriver + 196304
+5   msedgedriver                        0x000000010497d034 msedgedriver + 200756
+6   msedgedriver                        0x000000010497c124 msedgedriver + 196900
+7   msedgedriver                        0x000000010497b454 msedgedriver + 193620
+8   msedgedriver                        0x000000010497b2c4 msedgedriver + 193220
+9   msedgedriver                        0x0000000104979bc0 msedgedriver + 187328
+10  msedgedriver                        0x000000010497a594 msedgedriver + 189844
+11  msedgedriver                        0x000000010499511c msedgedriver + 299292
+12  msedgedriver                        0x0000000104a17cb4 msedgedriver + 834740
+13  msedgedriver                        0x0000000104a17628 msedgedriver + 833064
+14  msedgedriver                        0x00000001049cfcd0 msedgedriver + 539856
+15  msedgedriver                        0x00000001049d0704 msedgedriver + 542468
+16  msedgedriver                        0x0000000104d4a5e0 msedgedriver + 4187616
+17  msedgedriver                        0x0000000104d4e76c msedgedriver + 4204396
+18  msedgedriver                        0x0000000104d4ed98 msedgedriver + 4205976
+19  msedgedriver                        0x0000000104d32de4 msedgedriver + 4091364
+20  msedgedriver                        0x0000000104d4f404 msedgedriver + 4207620
+21  msedgedriver                        0x0000000104d258b0 msedgedriver + 4036784
+22  msedgedriver                        0x0000000104d6f704 msedgedriver + 4339460
+23  msedgedriver                        0x0000000104d6f8cc msedgedriver + 4339916
+24  msedgedriver                        0x0000000104d8140c msedgedriver + 4412428
+25  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+26  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+benchmarkgame/puzzle firefox http://0.0.0.0:7070/benchmarkgame/puzzle Message: Reached error page: about:neterror?e=connectionFailure&u=http%3A//0.0.0.0%3A7070/benchmarkgame/puzzle&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%200.0.0.0%3A7070.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:800:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+benchmarkgame/puzzle safari http://0.0.0.0:7070/benchmarkgame/puzzle Message: A JavaScript exception occured: Can't find variable: getTimes
+
+stanford/bubblesort chrome http://0.0.0.0:7070/stanford/bubblesort Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=121.0.6167.184)
+Stacktrace:
+0   chromedriver                        0x0000000105076814 chromedriver + 4040724
+1   chromedriver                        0x000000010506ea18 chromedriver + 4008472
+2   chromedriver                        0x0000000104ce1870 chromedriver + 284784
+3   chromedriver                        0x0000000104cda304 chromedriver + 254724
+4   chromedriver                        0x0000000104ccc6b8 chromedriver + 198328
+5   chromedriver                        0x0000000104ccb6e0 chromedriver + 194272
+6   chromedriver                        0x0000000104ccaac0 chromedriver + 191168
+7   chromedriver                        0x0000000104ccaa6c chromedriver + 191084
+8   chromedriver                        0x0000000104cc9108 chromedriver + 184584
+9   chromedriver                        0x0000000104cc9b2c chromedriver + 187180
+10  chromedriver                        0x0000000104ce3d5c chromedriver + 294236
+11  chromedriver                        0x0000000104d5f6d4 chromedriver + 800468
+12  chromedriver                        0x0000000104d5f048 chromedriver + 798792
+13  chromedriver                        0x0000000104d1974c chromedriver + 513868
+14  chromedriver                        0x0000000104d1a044 chromedriver + 516164
+15  chromedriver                        0x000000010503ba3c chromedriver + 3799612
+16  chromedriver                        0x000000010503ff1c chromedriver + 3817244
+17  chromedriver                        0x0000000105024298 chromedriver + 3703448
+18  chromedriver                        0x0000000105040a64 chromedriver + 3820132
+19  chromedriver                        0x0000000105017054 chromedriver + 3649620
+20  chromedriver                        0x000000010505de74 chromedriver + 3939956
+21  chromedriver                        0x000000010505dfec chromedriver + 3940332
+22  chromedriver                        0x000000010506e698 chromedriver + 4007576
+23  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+24  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+stanford/bubblesort edge http://0.0.0.0:7070/stanford/bubblesort Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: MicrosoftEdge=121.0.2277.128)
+Stacktrace:
+0   msedgedriver                        0x0000000100e81c20 msedgedriver + 4447264
+1   msedgedriver                        0x0000000100e798c4 msedgedriver + 4413636
+2   msedgedriver                        0x0000000100a8acf8 msedgedriver + 290040
+3   msedgedriver                        0x0000000100a83790 msedgedriver + 259984
+4   msedgedriver                        0x0000000100a73ed0 msedgedriver + 196304
+5   msedgedriver                        0x0000000100a75034 msedgedriver + 200756
+6   msedgedriver                        0x0000000100a74124 msedgedriver + 196900
+7   msedgedriver                        0x0000000100a73454 msedgedriver + 193620
+8   msedgedriver                        0x0000000100a732c4 msedgedriver + 193220
+9   msedgedriver                        0x0000000100a71bc0 msedgedriver + 187328
+10  msedgedriver                        0x0000000100a72594 msedgedriver + 189844
+11  msedgedriver                        0x0000000100a8d11c msedgedriver + 299292
+12  msedgedriver                        0x0000000100b0fcb4 msedgedriver + 834740
+13  msedgedriver                        0x0000000100b0f628 msedgedriver + 833064
+14  msedgedriver                        0x0000000100ac7cd0 msedgedriver + 539856
+15  msedgedriver                        0x0000000100ac8704 msedgedriver + 542468
+16  msedgedriver                        0x0000000100e425e0 msedgedriver + 4187616
+17  msedgedriver                        0x0000000100e4676c msedgedriver + 4204396
+18  msedgedriver                        0x0000000100e46d98 msedgedriver + 4205976
+19  msedgedriver                        0x0000000100e2ade4 msedgedriver + 4091364
+20  msedgedriver                        0x0000000100e47404 msedgedriver + 4207620
+21  msedgedriver                        0x0000000100e1d8b0 msedgedriver + 4036784
+22  msedgedriver                        0x0000000100e67704 msedgedriver + 4339460
+23  msedgedriver                        0x0000000100e678cc msedgedriver + 4339916
+24  msedgedriver                        0x0000000100e7940c msedgedriver + 4412428
+25  libsystem_pthread.dylib             0x00000001ae8f826c _pthread_start + 148
+26  libsystem_pthread.dylib             0x00000001ae8f308c thread_start + 8
+
+stanford/bubblesort firefox http://0.0.0.0:7070/stanford/bubblesort Message: Reached error page: about:neterror?e=connectionFailure&u=http%3A//0.0.0.0%3A7070/stanford/bubblesort&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%200.0.0.0%3A7070.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:800:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+stanford/bubblesort safari http://0.0.0.0:7070/stanford/bubblesort Message: Could not create a session: The Safari instance is already paired with another WebDriver session.
+

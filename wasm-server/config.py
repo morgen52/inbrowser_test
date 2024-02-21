@@ -30,7 +30,7 @@ for subdir in os.listdir(SRC_DIR):
 
             for case in cases:
                 exps[f"{subdir}/{case}"] = {
-                    "url": f"http://0.0.0.0:7070/{subdir}/{case}",
+                    "url": f"http://10.129.160.70:7070/{subdir}/{case}",
                 }
 
 with open(EXP_FILE, "w") as f:
