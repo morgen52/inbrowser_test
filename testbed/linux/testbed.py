@@ -68,6 +68,10 @@ exps = {}
 with open("../exps.json", "r") as f:
     exps = json.load(f)
 
+# clean error.log
+with open("error.log", "w") as f:
+    f.write("")
+
 breakpoint = 0
 if os.path.exists(RESULT_FILE):
     with open(RESULT_FILE, "r") as f:
