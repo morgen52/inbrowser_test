@@ -355,3 +355,33 @@ coyotebench/huffbench firefox http://10.129.160.70:7070/coyotebench/huffbench Me
 
 coyotebench/huffbench chrome http://10.129.160.70:7070/coyotebench/huffbench Message: 
 
+shootoutc/ary3 chrome http://10.129.160.70:7070/shootoutc/ary3 Message: script timeout
+  (Session info: chrome=121.0.6167.187)
+
+shootoutc/methcall chrome http://10.129.160.70:7070/shootoutc/methcall Message: script timeout
+  (Session info: chrome=121.0.6167.187)
+
+shootout/lists chrome http://10.129.160.70:7070/shootout/lists Message: script timeout
+  (Session info: chrome=121.0.6167.187)
+
+dhrystone/dry chrome http://10.129.160.70:7070/dhrystone/dry Message: script timeout
+  (Session info: chrome=121.0.6167.187)
+
+misc/oourafft chrome http://10.129.160.70:7070/misc/oourafft Message: script timeout
+  (Session info: chrome=121.0.6167.187)
+
+misc/salsa20 chrome http://10.129.160.70:7070/misc/salsa20 Message: script timeout
+  (Session info: chrome=121.0.6167.187)
+
+misc/lowercase chrome http://10.129.160.70:7070/misc/lowercase Message: script timeout
+  (Session info: chrome=121.0.6167.187)
+
+linpack/linpackpc chrome http://10.129.160.70:7070/linpack/linpackpc Message: script timeout
+  (Session info: chrome=121.0.6167.187)
+
+miscc/sphereflake edge http://10.129.160.70:7070/miscc/sphereflake Message: script timeout
+  (Session info: MicrosoftEdge=121.0.2277.128)
+
+miscc/stepanov_container chrome http://10.129.160.70:7070/miscc/stepanov_container Message: script timeout
+  (Session info: chrome=121.0.6167.187)
+
