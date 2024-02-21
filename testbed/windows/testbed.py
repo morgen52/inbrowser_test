@@ -81,8 +81,9 @@ for idx, item in tqdm(enumerate(exps.items())):
     mode, url = item
     print(mode, url["url"])
     if (mode not in results) or (not is_complete(results[mode])):
-        continue
-    results[mode] = page_test(mode, url["url"])
+        results[mode] = page_test(mode, url["url"])
+    else:
+        print(f"{mode} already tested")
 
     # results["hello/hello"] = page_test("hello/hello", "http://0.0.0.0:7070/hello")
     # http://localhost:7070/hello
