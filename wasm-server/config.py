@@ -35,3 +35,5 @@ for subdir in os.listdir(SRC_DIR):
 
 with open(EXP_FILE, "w") as f:
     json.dump(exps, f, indent=4)
+
+# print(len(exps))
