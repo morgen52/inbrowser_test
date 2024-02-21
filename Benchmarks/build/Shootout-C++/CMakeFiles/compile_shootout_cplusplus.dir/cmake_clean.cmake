@@ -19,7 +19,6 @@ file(REMOVE_RECURSE
   "random.js"
   "sieve.js"
   "strcat.js"
-  "sumcol.js"
 )
 
 # Per-language clean rules from dependency scanning.

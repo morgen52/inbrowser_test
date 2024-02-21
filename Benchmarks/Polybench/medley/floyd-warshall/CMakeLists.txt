@@ -1,14 +1,14 @@
 set(POLYBENCH_UTILS Polybench/utilities )
 list(APPEND CFLAGS -I ${CMAKE_SOURCE_DIR}/${POLYBENCH_UTILS} -DPOLYBENCH_DUMP_ARRAYS)
-if(SMALL_PROBLEM_SIZE)
-  list(APPEND CFLAGS -DSMALL_DATASET)
-endif()
+# if(SMALL_PROBLEM_SIZE)
+list(APPEND CFLAGS -DSMALL_DATASET)
+# endif()
 set(HASH_PROGRAM_OUTPUT 1)
 add_definitions(-DFP_ABSTOLERANCE=1e-5)
 
 
 set(SRC_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/floyd-warshall.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/floyd-warshall.c # Timed out receiving message from renderer
 )
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
@@ -19,23 +19,14 @@ foreach(SOURCE ${SRC_FILES})
     
     # generate the corresponding output file name, 
     # the output file name is the source file name plus the .js suffix
-    if (SOURCE_NAME MATCHES ".*\\.c")
-        string(REPLACE ".c" ".js" OUTPUT_NAME ${SOURCE_NAME})
-        add_custom_command(
-            OUTPUT ${OUTPUT_NAME}
-            COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} ${CFLAGS} -DFP_ABSTOLERANCE=1e-5
-            COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
-            VERBATIM # use raw commands
-        )
-    elseif (SOURCE_NAME MATCHES ".*\\.cpp")
-        string(REPLACE ".cpp" ".js" OUTPUT_NAME ${SOURCE_NAME})
-        add_custom_command(
-            OUTPUT ${OUTPUT_NAME}
-            COMMAND em++ ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS}
-            COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
-            VERBATIM # use raw commands
-        )
-    endif()
+    string(REPLACE ".c" ".js" OUTPUT_NAME ${SOURCE_NAME})
+    add_custom_command(
+        OUTPUT ${OUTPUT_NAME}
+        COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} ${CFLAGS} -DFP_ABSTOLERANCE=1e-5 -O2 -sALLOW_MEMORY_GROWTH=1
+        COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
+        VERBATIM # use raw commands
+    )
+
 
     # add a custom command to compile the source file to the output file
 

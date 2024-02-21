@@ -81,7 +81,6 @@ Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/moments.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/fibo.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/objinst.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/matrix.js
-Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/sumcol.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/methcall.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/nestedloop.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/hash.js
@@ -89,83 +88,79 @@ Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/ary.js
 
 Shootout-C++/ackermann.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling ackermann.cpp to ackermann.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/ackermann.cpp -o ackermann.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/ackermann.cpp -o ackermann.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/ary.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling ary.cpp to ary.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/ary.cpp -o ary.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/ary.cpp -o ary.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/ary2.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling ary2.cpp to ary2.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/ary2.cpp -o ary2.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/ary2.cpp -o ary2.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/ary3.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling ary3.cpp to ary3.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/ary3.cpp -o ary3.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/ary3.cpp -o ary3.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/fibo.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling fibo.cpp to fibo.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/fibo.cpp -o fibo.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/fibo.cpp -o fibo.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/hash.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Compiling hash.cpp to hash.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/hash.cpp -o hash.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/hash.cpp -o hash.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/hash2.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Compiling hash2.cpp to hash2.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/hash2.cpp -o hash2.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/hash2.cpp -o hash2.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/heapsort.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Compiling heapsort.cpp to heapsort.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/heapsort.cpp -o heapsort.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/heapsort.cpp -o heapsort.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/hello.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Compiling hello.cpp to hello.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/hello.cpp -o hello.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/hello.cpp -o hello.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/lists.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Compiling lists.cpp to lists.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/lists.cpp -o lists.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/lists.cpp -o lists.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/lists1.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Compiling lists1.cpp to lists1.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/lists1.cpp -o lists1.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/lists1.cpp -o lists1.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/matrix.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Compiling matrix.cpp to matrix.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/matrix.cpp -o matrix.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/matrix.cpp -o matrix.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/methcall.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Compiling methcall.cpp to methcall.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/methcall.cpp -o methcall.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/methcall.cpp -o methcall.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/moments.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Compiling moments.cpp to moments.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/moments.cpp -o moments.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/moments.cpp -o moments.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/nestedloop.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Compiling nestedloop.cpp to nestedloop.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/nestedloop.cpp -o nestedloop.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/nestedloop.cpp -o nestedloop.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/objinst.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Compiling objinst.cpp to objinst.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/objinst.cpp -o objinst.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/objinst.cpp -o objinst.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/random.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Compiling random.cpp to random.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/random.cpp -o random.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/random.cpp -o random.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/sieve.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Compiling sieve.cpp to sieve.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/sieve.cpp -o sieve.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/sieve.cpp -o sieve.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout-C++/strcat.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Compiling strcat.cpp to strcat.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/strcat.cpp -o strcat.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
-
-Shootout-C++/sumcol.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Compiling sumcol.cpp to sumcol.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/sumcol.cpp -o sumcol.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/strcat.cpp -o strcat.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1 -O2
 
 compile_shootout_cplusplus: Shootout-C++/CMakeFiles/compile_shootout_cplusplus
 compile_shootout_cplusplus: Shootout-C++/ackermann.js
@@ -187,7 +182,6 @@ compile_shootout_cplusplus: Shootout-C++/objinst.js
 compile_shootout_cplusplus: Shootout-C++/random.js
 compile_shootout_cplusplus: Shootout-C++/sieve.js
 compile_shootout_cplusplus: Shootout-C++/strcat.js
-compile_shootout_cplusplus: Shootout-C++/sumcol.js
 compile_shootout_cplusplus: Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/build.make
 .PHONY : compile_shootout_cplusplus
 

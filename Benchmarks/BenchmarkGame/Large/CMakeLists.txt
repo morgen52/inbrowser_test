@@ -2,7 +2,7 @@ list(APPEND LDFLAGS -lm)
 set(HASH_PROGRAM_OUTPUT 1)
 
 set(SRC_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/fasta.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/fasta.c  # too long output
 )
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
@@ -18,7 +18,7 @@ foreach(SOURCE ${SRC_FILES})
     # add a custom command to compile the source file to the output file
     add_custom_command(
         OUTPUT ${OUTPUT_NAME}
-        COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS}
+        COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} -O2
         COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
         VERBATIM # use raw commands
     )

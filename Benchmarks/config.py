@@ -6,20 +6,6 @@ TARGET_DIR = "../wasm-server"
 
 os.system(f"rm -rf {TMP_DIR}/*")
 
-# Misc
-# Polybench
-# SmallPT
-# Shootout-C++
-# Dhrystone
-# Stanford
-# Shootout
-# Linpack
-# Misc-C++
-# McGill
-# BenchmarkGame
-# CoyoteBench
-# Adobe-C++
-
 def gen_html(dir, cases):
     with open("template.html", "r") as f:
         html = f.readlines()

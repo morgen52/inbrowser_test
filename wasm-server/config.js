@@ -18,10 +18,6 @@ app.get('/shootoutc/random', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'shootoutc', 'random.html'));
 });
 
-app.get('/shootoutc/sumcol', (req, res) => {
-    res.sendFile(path.join(__dirname, '.', 'shootoutc', 'sumcol.html'));
-});
-
 app.get('/shootoutc/lists1', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'shootoutc', 'lists1.html'));
 });

@@ -70,7 +70,7 @@ Polybench/medley/deriche/CMakeFiles/compile_misc_poly_deriche: Polybench/medley/
 
 Polybench/medley/deriche/deriche.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling deriche.c to deriche.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/medley/deriche && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/medley/deriche/deriche.c -o deriche.js -lm -sALLOW_MEMORY_GROWTH=1 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -DFP_ABSTOLERANCE=1e-5
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/medley/deriche && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/medley/deriche/deriche.c -sALLOW_MEMORY_GROWTH=1 -O3 -DFP_ABSTOLERANCE=1e-5 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -DSMALL_DATASET -o deriche.js -lm -sALLOW_MEMORY_GROWTH=1 -O3
 
 compile_misc_poly_deriche: Polybench/medley/deriche/CMakeFiles/compile_misc_poly_deriche
 compile_misc_poly_deriche: Polybench/medley/deriche/deriche.js

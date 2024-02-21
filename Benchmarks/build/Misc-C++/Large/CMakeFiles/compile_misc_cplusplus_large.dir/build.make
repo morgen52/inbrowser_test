@@ -71,11 +71,11 @@ Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large: Misc-C++/Large/ray.js
 
 Misc-C++/Large/ray.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling ray.cpp to ray.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++/Large && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/Large/ray.cpp -o ray.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++/Large && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/Large/ray.cpp -o ray.js -lm -ffp-contract=off -DFMA_DISABLED=1 -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc-C++/Large/sphereflake.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling sphereflake.cpp to sphereflake.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++/Large && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/Large/sphereflake.cpp -o sphereflake.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++/Large && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/Large/sphereflake.cpp -o sphereflake.js -lm -ffp-contract=off -DFMA_DISABLED=1 -sALLOW_MEMORY_GROWTH=1 -O2
 
 compile_misc_cplusplus_large: Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large
 compile_misc_cplusplus_large: Misc-C++/Large/ray.js

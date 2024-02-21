@@ -10,7 +10,7 @@ using namespace std;
 int Ack(int M, int N) { return(M ? (Ack(M-1,N ? Ack(M,(N-1)) : 1)) : N+1); }
 
 int main(int argc, char *argv[]) {
-#ifdef SMALL_PROBLEM_SIZE
+#ifndef SMALL_PROBLEM_SIZE
 #define LENGTH 11
 #else
 #define LENGTH 12

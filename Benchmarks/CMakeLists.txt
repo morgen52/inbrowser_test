@@ -34,7 +34,7 @@ add_subdirectory(Linpack)
 add_subdirectory(McGill)
 add_subdirectory(Misc)
 add_subdirectory(Misc-C++)
-# add_subdirectory(Misc-C++-EH)
+# add_subdirectory(Misc-C++-EH) # wasm not support pthread
 add_subdirectory(Polybench)
 add_subdirectory(Shootout)
 add_subdirectory(Shootout-C++)

@@ -23,7 +23,7 @@ foreach(SOURCE ${SRC_FILES})
     # add a custom command to compile the source file to the output file
     add_custom_command(
         OUTPUT ${OUTPUT_NAME}
-        COMMAND em++ ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS}
+        COMMAND em++ ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} -O2
         DEPENDS ${SOURCE}
         COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
         VERBATIM # use raw commands

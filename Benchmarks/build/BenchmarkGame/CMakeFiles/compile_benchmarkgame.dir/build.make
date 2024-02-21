@@ -69,38 +69,38 @@ include BenchmarkGame/CMakeFiles/compile_benchmarkgame.dir/progress.make
 BenchmarkGame/CMakeFiles/compile_benchmarkgame: BenchmarkGame/spectral-norm.js
 BenchmarkGame/CMakeFiles/compile_benchmarkgame: BenchmarkGame/fannkuch.js
 BenchmarkGame/CMakeFiles/compile_benchmarkgame: BenchmarkGame/puzzle.js
-BenchmarkGame/CMakeFiles/compile_benchmarkgame: BenchmarkGame/recursive.js
+BenchmarkGame/CMakeFiles/compile_benchmarkgame: /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/recursive.js
 BenchmarkGame/CMakeFiles/compile_benchmarkgame: BenchmarkGame/nsieve-bits.js
 BenchmarkGame/CMakeFiles/compile_benchmarkgame: BenchmarkGame/partialsums.js
 BenchmarkGame/CMakeFiles/compile_benchmarkgame: BenchmarkGame/n-body.js
 
 BenchmarkGame/fannkuch.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling fannkuch.c to fannkuch.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/fannkuch.c -o fannkuch.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/fannkuch.c -o fannkuch.js -lm -O2
 
 BenchmarkGame/n-body.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling n-body.c to n-body.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/n-body.c -o n-body.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/n-body.c -o n-body.js -lm -O2
 
 BenchmarkGame/nsieve-bits.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling nsieve-bits.c to nsieve-bits.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/nsieve-bits.c -o nsieve-bits.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/nsieve-bits.c -o nsieve-bits.js -lm -O2
 
 BenchmarkGame/partialsums.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling partialsums.c to partialsums.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/partialsums.c -o partialsums.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/partialsums.c -o partialsums.js -lm -O2
 
 BenchmarkGame/puzzle.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling puzzle.c to puzzle.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/puzzle.c -o puzzle.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/puzzle.c -o puzzle.js -lm -O2
 
 BenchmarkGame/recursive.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Compiling recursive.c to recursive.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/recursive.c -o recursive.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/recursive.c -o recursive.js -lm -O2
 
 BenchmarkGame/spectral-norm.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Compiling spectral-norm.c to spectral-norm.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/spectral-norm.c -o spectral-norm.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/spectral-norm.c -o spectral-norm.js -lm -O2
 
 compile_benchmarkgame: BenchmarkGame/CMakeFiles/compile_benchmarkgame
 compile_benchmarkgame: BenchmarkGame/fannkuch.js

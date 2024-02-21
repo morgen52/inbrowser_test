@@ -70,7 +70,7 @@ Linpack/CMakeFiles/compile_linpack: Linpack/linpack-pc.js
 
 Linpack/linpack-pc.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling linpack-pc.c to linpack-pc.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Linpack && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Linpack/linpack-pc.c -o linpack-pc.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Linpack && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Linpack/linpack-pc.c -o linpack-pc.js -lm -ffp-contract=off -DFMA_DISABLED=1 -O2
 
 compile_linpack: Linpack/CMakeFiles/compile_linpack
 compile_linpack: Linpack/linpack-pc.js

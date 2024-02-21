@@ -70,7 +70,7 @@ Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd: Polybench/me
 
 Polybench/medley/floyd-warshall/floyd-warshall.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling floyd-warshall.c to floyd-warshall.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/medley/floyd-warshall && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/medley/floyd-warshall/floyd-warshall.c -o floyd-warshall.js -lm -sALLOW_MEMORY_GROWTH=1 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -DFP_ABSTOLERANCE=1e-5
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/medley/floyd-warshall && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/medley/floyd-warshall/floyd-warshall.c -o floyd-warshall.js -lm -sALLOW_MEMORY_GROWTH=1 -O3 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -DSMALL_DATASET -DFP_ABSTOLERANCE=1e-5 -O2 -sALLOW_MEMORY_GROWTH=1
 
 compile_misc_poly_floyd: Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd
 compile_misc_poly_floyd: Polybench/medley/floyd-warshall/floyd-warshall.js

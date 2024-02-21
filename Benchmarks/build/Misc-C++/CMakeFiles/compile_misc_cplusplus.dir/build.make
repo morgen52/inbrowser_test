@@ -74,23 +74,23 @@ Misc-C++/CMakeFiles/compile_misc_cplusplus: Misc-C++/oopack_v1p8.js
 
 Misc-C++/bigfib.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling bigfib.cpp to bigfib.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/bigfib.cpp -o bigfib.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/bigfib.cpp -o bigfib.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc-C++/mandel-text.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling mandel-text.cpp to mandel-text.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/mandel-text.cpp -o mandel-text.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/mandel-text.cpp -o mandel-text.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc-C++/oopack_v1p8.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling oopack_v1p8.cpp to oopack_v1p8.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/oopack_v1p8.cpp -o oopack_v1p8.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/oopack_v1p8.cpp -o oopack_v1p8.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc-C++/stepanov_container.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling stepanov_container.cpp to stepanov_container.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/stepanov_container.cpp -o stepanov_container.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/stepanov_container.cpp -o stepanov_container.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc-C++/stepanov_v1p2.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling stepanov_v1p2.cpp to stepanov_v1p2.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/stepanov_v1p2.cpp -o stepanov_v1p2.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc-C++/stepanov_v1p2.cpp -o stepanov_v1p2.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 compile_misc_cplusplus: Misc-C++/CMakeFiles/compile_misc_cplusplus
 compile_misc_cplusplus: Misc-C++/bigfib.js

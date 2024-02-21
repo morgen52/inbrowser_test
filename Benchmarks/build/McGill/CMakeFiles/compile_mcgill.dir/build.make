@@ -72,15 +72,15 @@ McGill/CMakeFiles/compile_mcgill: McGill/chomp.js
 
 McGill/chomp.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling chomp.c to chomp.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/chomp.c -o chomp.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/chomp.c -o chomp.js -lm -O2
 
 McGill/misr.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling misr.c to misr.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/misr.c -o misr.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/misr.c -o misr.js -lm -O2
 
 McGill/queens.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling queens.c to queens.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/queens.c -o queens.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/queens.c -o queens.js -lm -O2
 
 compile_mcgill: McGill/CMakeFiles/compile_mcgill
 compile_mcgill: McGill/chomp.js

@@ -2,9 +2,9 @@ list(APPEND LDFLAGS -lm )
 set(FP_TOLERANCE 0.001)
 
 set(SRC_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/queens.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/queens.c              # some strange bugs, -O2 can fix it
     ${CMAKE_CURRENT_SOURCE_DIR}/misr.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/chomp.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/chomp.c                # call stack overflow, -O2 can fix it
     # ${CMAKE_CURRENT_SOURCE_DIR}/exptree.c              # need input
 )
 
@@ -16,23 +16,13 @@ foreach(SOURCE ${SRC_FILES})
     
     # generate the corresponding output file name, 
     # the output file name is the source file name plus the .js suffix
-    if (SOURCE_NAME MATCHES ".*\\.c")
-        string(REPLACE ".c" ".js" OUTPUT_NAME ${SOURCE_NAME})
-        add_custom_command(
-            OUTPUT ${OUTPUT_NAME}
-            COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS}
-            COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
-            VERBATIM # use raw commands
-        )
-    elseif (SOURCE_NAME MATCHES ".*\\.cpp")
-        string(REPLACE ".cpp" ".js" OUTPUT_NAME ${SOURCE_NAME})
-        add_custom_command(
-            OUTPUT ${OUTPUT_NAME}
-            COMMAND em++ ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS}
-            COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
-            VERBATIM # use raw commands
-        )
-    endif()
+    string(REPLACE ".c" ".js" OUTPUT_NAME ${SOURCE_NAME})
+    add_custom_command(
+        OUTPUT ${OUTPUT_NAME}
+        COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} -O2
+        COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
+        VERBATIM # use raw commands
+    )
 
     # add a custom command to compile the source file to the output file
 

@@ -70,7 +70,7 @@ BenchmarkGame/Large/CMakeFiles/compile_benchmarkgame_c_large: BenchmarkGame/Larg
 
 BenchmarkGame/Large/fasta.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling fasta.c to fasta.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame/Large && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/Large/fasta.c -o fasta.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/BenchmarkGame/Large && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/BenchmarkGame/Large/fasta.c -o fasta.js -lm -O2
 
 compile_benchmarkgame_c_large: BenchmarkGame/Large/CMakeFiles/compile_benchmarkgame_c_large
 compile_benchmarkgame_c_large: BenchmarkGame/Large/fasta.js

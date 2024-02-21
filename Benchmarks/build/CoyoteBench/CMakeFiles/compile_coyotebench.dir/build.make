@@ -73,19 +73,19 @@ CoyoteBench/CMakeFiles/compile_coyotebench: CoyoteBench/lpbench.js
 
 CoyoteBench/almabench.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling almabench.c to almabench.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CoyoteBench && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/CoyoteBench/almabench.c -o almabench.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CoyoteBench && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/CoyoteBench/almabench.c -o almabench.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 CoyoteBench/fftbench.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling fftbench.cpp to fftbench.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CoyoteBench && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/CoyoteBench/fftbench.cpp -o fftbench.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CoyoteBench && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/CoyoteBench/fftbench.cpp -o fftbench.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 CoyoteBench/huffbench.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling huffbench.c to huffbench.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CoyoteBench && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/CoyoteBench/huffbench.c -o huffbench.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CoyoteBench && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/CoyoteBench/huffbench.c -o huffbench.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 CoyoteBench/lpbench.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling lpbench.c to lpbench.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CoyoteBench && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/CoyoteBench/lpbench.c -o lpbench.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CoyoteBench && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/CoyoteBench/lpbench.c -o lpbench.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 compile_coyotebench: CoyoteBench/CMakeFiles/compile_coyotebench
 compile_coyotebench: CoyoteBench/almabench.js

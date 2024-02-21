@@ -70,7 +70,7 @@ Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramsc
 
 Polybench/linear-algebra/solvers/gramschmidt/gramschmidt.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling gramschmidt.c to gramschmidt.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/linear-algebra/solvers/gramschmidt && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/gramschmidt.c -o gramschmidt.js -lm -sALLOW_MEMORY_GROWTH=1 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -ffp-contract=off -DFMA_DISABLED=1 -DFP_ABSTOLERANCE=1e-5
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/linear-algebra/solvers/gramschmidt && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/gramschmidt.c -o gramschmidt.js -lm -sALLOW_MEMORY_GROWTH=1 -O3 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -ffp-contract=off -DFMA_DISABLED=1 -DFP_ABSTOLERANCE=1e-5
 
 compile_misc_poly_gramschmidt: Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt
 compile_misc_poly_gramschmidt: Polybench/linear-algebra/solvers/gramschmidt/gramschmidt.js

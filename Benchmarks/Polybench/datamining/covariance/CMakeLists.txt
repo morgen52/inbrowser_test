@@ -22,24 +22,14 @@ foreach(SOURCE ${SRC_FILES})
     
     # generate the corresponding output file name, 
     # the output file name is the source file name plus the .js suffix
-    if (SOURCE_NAME MATCHES ".*\\.c")
-        string(REPLACE ".c" ".js" OUTPUT_NAME ${SOURCE_NAME})
-        add_custom_command(
-            OUTPUT ${OUTPUT_NAME}
-            COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} ${CFLAGS}
-            COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
-            VERBATIM # use raw commands
-        )
-    elseif (SOURCE_NAME MATCHES ".*\\.cpp")
-        string(REPLACE ".cpp" ".js" OUTPUT_NAME ${SOURCE_NAME})
-        add_custom_command(
-            OUTPUT ${OUTPUT_NAME}
-            COMMAND em++ ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} ${CXXFLAGS}
-            COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
-            VERBATIM # use raw commands
-        )
-    endif()
-
+    string(REPLACE ".c" ".js" OUTPUT_NAME ${SOURCE_NAME})
+    add_custom_command(
+        OUTPUT ${OUTPUT_NAME}
+        COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} ${CFLAGS}
+        COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
+        VERBATIM # use raw commands
+    )
+    
     # add a custom command to compile the source file to the output file
 
     # add the current generated output file to the output file list of this directory

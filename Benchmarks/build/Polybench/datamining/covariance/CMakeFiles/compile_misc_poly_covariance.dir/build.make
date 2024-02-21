@@ -70,7 +70,7 @@ Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance: Polyben
 
 Polybench/datamining/covariance/covariance.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling covariance.c to covariance.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/datamining/covariance && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/datamining/covariance/covariance.c -o covariance.js -lm -sALLOW_MEMORY_GROWTH=1 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -ffp-contract=off -DFMA_DISABLED=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/datamining/covariance && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/datamining/covariance/covariance.c -o covariance.js -lm -sALLOW_MEMORY_GROWTH=1 -O3 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -ffp-contract=off -DFMA_DISABLED=1
 
 compile_misc_poly_covariance: Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance
 compile_misc_poly_covariance: Polybench/datamining/covariance/covariance.js

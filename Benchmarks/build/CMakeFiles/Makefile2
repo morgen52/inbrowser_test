@@ -1187,12 +1187,12 @@ McGill/CMakeFiles/compile_mcgill.dir/clean:
 Misc/CMakeFiles/compile_misc.dir/all:
 	$(MAKE) $(MAKESILENT) -f Misc/CMakeFiles/compile_misc.dir/build.make Misc/CMakeFiles/compile_misc.dir/depend
 	$(MAKE) $(MAKESILENT) -f Misc/CMakeFiles/compile_misc.dir/build.make Misc/CMakeFiles/compile_misc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37 "Built target compile_misc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target compile_misc"
 .PHONY : Misc/CMakeFiles/compile_misc.dir/all
 
 # Build rule for subdir invocation for target.
 Misc/CMakeFiles/compile_misc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Misc/CMakeFiles/compile_misc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Misc/CMakeFiles/compile_misc.dir/rule
@@ -1213,12 +1213,12 @@ Misc/CMakeFiles/compile_misc.dir/clean:
 Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/all:
 	$(MAKE) $(MAKESILENT) -f Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/build.make Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/depend
 	$(MAKE) $(MAKESILENT) -f Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/build.make Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=38,39,40,41 "Built target compile_misc_cplusplus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=39,40,41 "Built target compile_misc_cplusplus"
 .PHONY : Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/all
 
 # Build rule for subdir invocation for target.
 Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/rule
@@ -1239,12 +1239,12 @@ Misc-C++/CMakeFiles/compile_misc_cplusplus.dir/clean:
 Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large.dir/all:
 	$(MAKE) $(MAKESILENT) -f Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large.dir/build.make Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large.dir/depend
 	$(MAKE) $(MAKESILENT) -f Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large.dir/build.make Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=42 "Built target compile_misc_cplusplus_large"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=42,43 "Built target compile_misc_cplusplus_large"
 .PHONY : Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large.dir/all
 
 # Build rule for subdir invocation for target.
 Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Misc-C++/Large/CMakeFiles/compile_misc_cplusplus_large.dir/rule
@@ -1291,12 +1291,12 @@ Polybench/datamining/correlation/CMakeFiles/compile_misc_poly_correlation.dir/cl
 Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance.dir/build.make Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance.dir/build.make Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_covariance"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=49 "Built target compile_misc_poly_covariance"
 .PHONY : Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/datamining/covariance/CMakeFiles/compile_misc_poly_covariance.dir/rule
@@ -1369,12 +1369,12 @@ Polybench/linear-algebra/blas/gemver/CMakeFiles/compile_misc_poly_gemver.dir/cle
 Polybench/linear-algebra/blas/gesummv/CMakeFiles/compile_misc_poly_gesummv.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/blas/gesummv/CMakeFiles/compile_misc_poly_gesummv.dir/build.make Polybench/linear-algebra/blas/gesummv/CMakeFiles/compile_misc_poly_gesummv.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/blas/gesummv/CMakeFiles/compile_misc_poly_gesummv.dir/build.make Polybench/linear-algebra/blas/gesummv/CMakeFiles/compile_misc_poly_gesummv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_gesummv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=55 "Built target compile_misc_poly_gesummv"
 .PHONY : Polybench/linear-algebra/blas/gesummv/CMakeFiles/compile_misc_poly_gesummv.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/linear-algebra/blas/gesummv/CMakeFiles/compile_misc_poly_gesummv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/linear-algebra/blas/gesummv/CMakeFiles/compile_misc_poly_gesummv.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/linear-algebra/blas/gesummv/CMakeFiles/compile_misc_poly_gesummv.dir/rule
@@ -1421,12 +1421,12 @@ Polybench/linear-algebra/blas/symm/CMakeFiles/compile_misc_poly_symm.dir/clean:
 Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/build.make Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/build.make Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_syr2k"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=63 "Built target compile_misc_poly_syr2k"
 .PHONY : Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/rule
@@ -1447,7 +1447,7 @@ Polybench/linear-algebra/blas/syr2k/CMakeFiles/compile_misc_poly_syr2k.dir/clean
 Polybench/linear-algebra/blas/syrk/CMakeFiles/compile_misc_poly_syrk.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/blas/syrk/CMakeFiles/compile_misc_poly_syrk.dir/build.make Polybench/linear-algebra/blas/syrk/CMakeFiles/compile_misc_poly_syrk.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/blas/syrk/CMakeFiles/compile_misc_poly_syrk.dir/build.make Polybench/linear-algebra/blas/syrk/CMakeFiles/compile_misc_poly_syrk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=63 "Built target compile_misc_poly_syrk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=64 "Built target compile_misc_poly_syrk"
 .PHONY : Polybench/linear-algebra/blas/syrk/CMakeFiles/compile_misc_poly_syrk.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1499,7 +1499,7 @@ Polybench/linear-algebra/blas/trmm/CMakeFiles/compile_misc_poly_trmm.dir/clean:
 Polybench/linear-algebra/kernels/2mm/CMakeFiles/compile_misc_poly_2mm.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/2mm/CMakeFiles/compile_misc_poly_2mm.dir/build.make Polybench/linear-algebra/kernels/2mm/CMakeFiles/compile_misc_poly_2mm.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/2mm/CMakeFiles/compile_misc_poly_2mm.dir/build.make Polybench/linear-algebra/kernels/2mm/CMakeFiles/compile_misc_poly_2mm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=43 "Built target compile_misc_poly_2mm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=44 "Built target compile_misc_poly_2mm"
 .PHONY : Polybench/linear-algebra/kernels/2mm/CMakeFiles/compile_misc_poly_2mm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1525,12 +1525,12 @@ Polybench/linear-algebra/kernels/2mm/CMakeFiles/compile_misc_poly_2mm.dir/clean:
 Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/build.make Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/build.make Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=44 "Built target compile_misc_poly_3mm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_3mm"
 .PHONY : Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/rule
@@ -1551,12 +1551,12 @@ Polybench/linear-algebra/kernels/3mm/CMakeFiles/compile_misc_poly_3mm.dir/clean:
 Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/build.make Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/build.make Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_atax"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=46 "Built target compile_misc_poly_atax"
 .PHONY : Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/rule
@@ -1577,7 +1577,7 @@ Polybench/linear-algebra/kernels/atax/CMakeFiles/compile_misc_poly_atax.dir/clea
 Polybench/linear-algebra/kernels/bicg/CMakeFiles/compile_misc_poly_bicg.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/bicg/CMakeFiles/compile_misc_poly_bicg.dir/build.make Polybench/linear-algebra/kernels/bicg/CMakeFiles/compile_misc_poly_bicg.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/bicg/CMakeFiles/compile_misc_poly_bicg.dir/build.make Polybench/linear-algebra/kernels/bicg/CMakeFiles/compile_misc_poly_bicg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=46 "Built target compile_misc_poly_bicg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=47 "Built target compile_misc_poly_bicg"
 .PHONY : Polybench/linear-algebra/kernels/bicg/CMakeFiles/compile_misc_poly_bicg.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1603,12 +1603,12 @@ Polybench/linear-algebra/kernels/bicg/CMakeFiles/compile_misc_poly_bicg.dir/clea
 Polybench/linear-algebra/kernels/doitgen/CMakeFiles/compile_misc_poly_doitgen.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/doitgen/CMakeFiles/compile_misc_poly_doitgen.dir/build.make Polybench/linear-algebra/kernels/doitgen/CMakeFiles/compile_misc_poly_doitgen.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/kernels/doitgen/CMakeFiles/compile_misc_poly_doitgen.dir/build.make Polybench/linear-algebra/kernels/doitgen/CMakeFiles/compile_misc_poly_doitgen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=50 "Built target compile_misc_poly_doitgen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_doitgen"
 .PHONY : Polybench/linear-algebra/kernels/doitgen/CMakeFiles/compile_misc_poly_doitgen.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/linear-algebra/kernels/doitgen/CMakeFiles/compile_misc_poly_doitgen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/linear-algebra/kernels/doitgen/CMakeFiles/compile_misc_poly_doitgen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/linear-algebra/kernels/doitgen/CMakeFiles/compile_misc_poly_doitgen.dir/rule
@@ -1655,12 +1655,12 @@ Polybench/linear-algebra/kernels/mvt/CMakeFiles/compile_misc_poly_mvt.dir/clean:
 Polybench/linear-algebra/solvers/cholesky/CMakeFiles/compile_misc_poly_cholesky.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/solvers/cholesky/CMakeFiles/compile_misc_poly_cholesky.dir/build.make Polybench/linear-algebra/solvers/cholesky/CMakeFiles/compile_misc_poly_cholesky.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/solvers/cholesky/CMakeFiles/compile_misc_poly_cholesky.dir/build.make Polybench/linear-algebra/solvers/cholesky/CMakeFiles/compile_misc_poly_cholesky.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=47 "Built target compile_misc_poly_cholesky"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_cholesky"
 .PHONY : Polybench/linear-algebra/solvers/cholesky/CMakeFiles/compile_misc_poly_cholesky.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/linear-algebra/solvers/cholesky/CMakeFiles/compile_misc_poly_cholesky.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/linear-algebra/solvers/cholesky/CMakeFiles/compile_misc_poly_cholesky.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/linear-algebra/solvers/cholesky/CMakeFiles/compile_misc_poly_cholesky.dir/rule
@@ -1707,12 +1707,12 @@ Polybench/linear-algebra/solvers/durbin/CMakeFiles/compile_misc_poly_durbin.dir/
 Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt.dir/build.make Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt.dir/build.make Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=55 "Built target compile_misc_poly_gramschmidt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_gramschmidt"
 .PHONY : Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramschmidt.dir/rule
@@ -1733,12 +1733,12 @@ Polybench/linear-algebra/solvers/gramschmidt/CMakeFiles/compile_misc_poly_gramsc
 Polybench/linear-algebra/solvers/lu/CMakeFiles/compile_misc_poly_lu.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/solvers/lu/CMakeFiles/compile_misc_poly_lu.dir/build.make Polybench/linear-algebra/solvers/lu/CMakeFiles/compile_misc_poly_lu.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/solvers/lu/CMakeFiles/compile_misc_poly_lu.dir/build.make Polybench/linear-algebra/solvers/lu/CMakeFiles/compile_misc_poly_lu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=58 "Built target compile_misc_poly_lu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_lu"
 .PHONY : Polybench/linear-algebra/solvers/lu/CMakeFiles/compile_misc_poly_lu.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/linear-algebra/solvers/lu/CMakeFiles/compile_misc_poly_lu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/linear-algebra/solvers/lu/CMakeFiles/compile_misc_poly_lu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/linear-algebra/solvers/lu/CMakeFiles/compile_misc_poly_lu.dir/rule
@@ -1785,12 +1785,12 @@ Polybench/linear-algebra/solvers/ludcmp/CMakeFiles/compile_misc_poly_ludcmp.dir/
 Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.dir/build.make Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.dir/build.make Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=64 "Built target compile_misc_poly_trisolv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_trisolv"
 .PHONY : Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.dir/rule
@@ -1811,7 +1811,7 @@ Polybench/linear-algebra/solvers/trisolv/CMakeFiles/compile_misc_poly_trisolv.di
 Polybench/medley/deriche/CMakeFiles/compile_misc_poly_deriche.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/medley/deriche/CMakeFiles/compile_misc_poly_deriche.dir/build.make Polybench/medley/deriche/CMakeFiles/compile_misc_poly_deriche.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/medley/deriche/CMakeFiles/compile_misc_poly_deriche.dir/build.make Polybench/medley/deriche/CMakeFiles/compile_misc_poly_deriche.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=49 "Built target compile_misc_poly_deriche"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=50 "Built target compile_misc_poly_deriche"
 .PHONY : Polybench/medley/deriche/CMakeFiles/compile_misc_poly_deriche.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1837,12 +1837,12 @@ Polybench/medley/deriche/CMakeFiles/compile_misc_poly_deriche.dir/clean:
 Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/build.make Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/build.make Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=52 "Built target compile_misc_poly_floyd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_floyd"
 .PHONY : Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/rule
@@ -1863,12 +1863,12 @@ Polybench/medley/floyd-warshall/CMakeFiles/compile_misc_poly_floyd.dir/clean:
 Polybench/medley/nussinov/CMakeFiles/compile_misc_poly_nussinov.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/medley/nussinov/CMakeFiles/compile_misc_poly_nussinov.dir/build.make Polybench/medley/nussinov/CMakeFiles/compile_misc_poly_nussinov.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/medley/nussinov/CMakeFiles/compile_misc_poly_nussinov.dir/build.make Polybench/medley/nussinov/CMakeFiles/compile_misc_poly_nussinov.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_nussinov"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=61 "Built target compile_misc_poly_nussinov"
 .PHONY : Polybench/medley/nussinov/CMakeFiles/compile_misc_poly_nussinov.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/medley/nussinov/CMakeFiles/compile_misc_poly_nussinov.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/medley/nussinov/CMakeFiles/compile_misc_poly_nussinov.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/medley/nussinov/CMakeFiles/compile_misc_poly_nussinov.dir/rule
@@ -1915,12 +1915,12 @@ Polybench/stencils/adi/CMakeFiles/compile_misc_poly_adi.dir/clean:
 Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd.dir/build.make Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd.dir/build.make Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_fdtd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=52 "Built target compile_misc_poly_fdtd"
 .PHONY : Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd.dir/rule
@@ -1993,12 +1993,12 @@ Polybench/stencils/jacobi-1d/CMakeFiles/compile_misc_poly_jacobi1.dir/clean:
 Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/build.make Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/build.make Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_jacobi2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=58 "Built target compile_misc_poly_jacobi2"
 .PHONY : Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/rule
@@ -2019,12 +2019,12 @@ Polybench/stencils/jacobi-2d/CMakeFiles/compile_misc_poly_jacobi2.dir/clean:
 Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/all:
 	$(MAKE) $(MAKESILENT) -f Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/build.make Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/depend
 	$(MAKE) $(MAKESILENT) -f Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/build.make Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=61 "Built target compile_misc_poly_seidel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num= "Built target compile_misc_poly_seidel"
 .PHONY : Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/all
 
 # Build rule for subdir invocation for target.
 Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/rule
@@ -2045,12 +2045,12 @@ Polybench/stencils/seidel-2d/CMakeFiles/compile_misc_poly_seidel.dir/clean:
 Shootout/CMakeFiles/compile_shootout.dir/all:
 	$(MAKE) $(MAKESILENT) -f Shootout/CMakeFiles/compile_shootout.dir/build.make Shootout/CMakeFiles/compile_shootout.dir/depend
 	$(MAKE) $(MAKESILENT) -f Shootout/CMakeFiles/compile_shootout.dir/build.make Shootout/CMakeFiles/compile_shootout.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74,75 "Built target compile_shootout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74,75,76 "Built target compile_shootout"
 .PHONY : Shootout/CMakeFiles/compile_shootout.dir/all
 
 # Build rule for subdir invocation for target.
 Shootout/CMakeFiles/compile_shootout.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Shootout/CMakeFiles/compile_shootout.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Shootout/CMakeFiles/compile_shootout.dir/rule
@@ -2071,12 +2071,12 @@ Shootout/CMakeFiles/compile_shootout.dir/clean:
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/all:
 	$(MAKE) $(MAKESILENT) -f Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/build.make Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/depend
 	$(MAKE) $(MAKESILENT) -f Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/build.make Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85,86,87,88,89,90 "Built target compile_shootout_cplusplus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=77,78,79,80,81,82,83,84,85,86,87,88,89,90 "Built target compile_shootout_cplusplus"
 .PHONY : Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/all
 
 # Build rule for subdir invocation for target.
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles 0
 .PHONY : Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/rule

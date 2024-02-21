@@ -71,11 +71,11 @@ Dhrystone/CMakeFiles/compile_dhrystone: Dhrystone/dry.js
 
 Dhrystone/dry.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling dry.c to dry.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Dhrystone && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Dhrystone/dry.c -o dry.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Dhrystone && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Dhrystone/dry.c -o dry.js -lm -Wno-implicit-int -O2
 
 Dhrystone/fldry.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling fldry.c to fldry.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Dhrystone && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Dhrystone/fldry.c -o fldry.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Dhrystone && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Dhrystone/fldry.c -o fldry.js -lm -Wno-implicit-int -O2
 
 compile_dhrystone: Dhrystone/CMakeFiles/compile_dhrystone
 compile_dhrystone: Dhrystone/dry.js

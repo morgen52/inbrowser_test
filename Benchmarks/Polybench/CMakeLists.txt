@@ -1,5 +1,7 @@
 list(APPEND LDFLAGS -lm)
 list(APPEND LDFLAGS -sALLOW_MEMORY_GROWTH=1)
+list(APPEND LDFLAGS -O3)
+
 # message(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/utilities)
 

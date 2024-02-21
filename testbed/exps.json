@@ -14,9 +14,6 @@
     "shootoutc/random": {
         "url": "http://10.129.160.70:7070/shootoutc/random"
     },
-    "shootoutc/sumcol": {
-        "url": "http://10.129.160.70:7070/shootoutc/sumcol"
-    },
     "shootoutc/lists1": {
         "url": "http://10.129.160.70:7070/shootoutc/lists1"
     },

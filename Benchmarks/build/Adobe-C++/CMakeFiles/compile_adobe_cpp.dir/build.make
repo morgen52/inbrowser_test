@@ -75,27 +75,27 @@ Adobe-C++/CMakeFiles/compile_adobe_cpp: Adobe-C++/functionobjects.js
 
 Adobe-C++/functionobjects.js: /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/functionobjects.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling functionobjects.cpp to functionobjects.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/functionobjects.cpp -o functionobjects.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/functionobjects.cpp -o functionobjects.js -lm -O2
 
 Adobe-C++/loop_unroll.js: /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/loop_unroll.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling loop_unroll.cpp to loop_unroll.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/loop_unroll.cpp -o loop_unroll.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/loop_unroll.cpp -o loop_unroll.js -lm -O2
 
 Adobe-C++/simple_types_constant_folding.js: /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/simple_types_constant_folding.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling simple_types_constant_folding.cpp to simple_types_constant_folding.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/simple_types_constant_folding.cpp -o simple_types_constant_folding.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/simple_types_constant_folding.cpp -o simple_types_constant_folding.js -lm -O2
 
 Adobe-C++/simple_types_loop_invariant.js: /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/simple_types_loop_invariant.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling simple_types_loop_invariant.cpp to simple_types_loop_invariant.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/simple_types_loop_invariant.cpp -o simple_types_loop_invariant.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/simple_types_loop_invariant.cpp -o simple_types_loop_invariant.js -lm -O2
 
 Adobe-C++/stepanov_abstraction.js: /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/stepanov_abstraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling stepanov_abstraction.cpp to stepanov_abstraction.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/stepanov_abstraction.cpp -o stepanov_abstraction.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/stepanov_abstraction.cpp -o stepanov_abstraction.js -lm -O2
 
 Adobe-C++/stepanov_vector.js: /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/stepanov_vector.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Compiling stepanov_vector.cpp to stepanov_vector.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/stepanov_vector.cpp -o stepanov_vector.js -lm
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Adobe-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Adobe-C++/stepanov_vector.cpp -o stepanov_vector.js -lm -O2
 
 compile_adobe_cpp: Adobe-C++/CMakeFiles/compile_adobe_cpp
 compile_adobe_cpp: Adobe-C++/functionobjects.js

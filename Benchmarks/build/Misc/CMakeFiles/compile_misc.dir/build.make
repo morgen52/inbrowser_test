@@ -96,111 +96,111 @@ Misc/CMakeFiles/compile_misc: Misc/oourafft.js
 
 Misc/ReedSolomon.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling ReedSolomon.c to ReedSolomon.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/ReedSolomon.c -o ReedSolomon.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/ReedSolomon.c -o ReedSolomon.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/dt.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling dt.c to dt.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/dt.c -o dt.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/dt.c -o dt.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/evalloop.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling evalloop.c to evalloop.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/evalloop.c -o evalloop.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/evalloop.c -o evalloop.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/fbench.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling fbench.c to fbench.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/fbench.c -o fbench.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/fbench.c -o fbench.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/ffbench.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling ffbench.c to ffbench.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/ffbench.c -o ffbench.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/ffbench.c -o ffbench.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/flops-1.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Compiling flops-1.c to flops-1.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-1.c -o flops-1.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-1.c -o flops-1.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/flops-2.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Compiling flops-2.c to flops-2.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-2.c -o flops-2.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-2.c -o flops-2.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/flops-3.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Compiling flops-3.c to flops-3.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-3.c -o flops-3.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-3.c -o flops-3.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/flops-4.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Compiling flops-4.c to flops-4.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-4.c -o flops-4.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-4.c -o flops-4.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/flops-5.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Compiling flops-5.c to flops-5.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-5.c -o flops-5.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-5.c -o flops-5.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/flops-6.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Compiling flops-6.c to flops-6.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-6.c -o flops-6.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-6.c -o flops-6.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/flops-7.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Compiling flops-7.c to flops-7.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-7.c -o flops-7.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-7.c -o flops-7.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/flops-8.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Compiling flops-8.c to flops-8.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-8.c -o flops-8.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops-8.c -o flops-8.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/flops.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Compiling flops.c to flops.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops.c -o flops.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/flops.c -o flops.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/fp-convert.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Compiling fp-convert.c to fp-convert.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/fp-convert.c -o fp-convert.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/fp-convert.c -o fp-convert.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/himenobmtxpa.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Compiling himenobmtxpa.c to himenobmtxpa.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/himenobmtxpa.c -o himenobmtxpa.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/himenobmtxpa.c -o himenobmtxpa.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/lowercase.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Compiling lowercase.c to lowercase.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/lowercase.c -o lowercase.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/lowercase.c -o lowercase.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/mandel-2.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Compiling mandel-2.c to mandel-2.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/mandel-2.c -o mandel-2.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/mandel-2.c -o mandel-2.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/mandel.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Compiling mandel.c to mandel.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/mandel.c -o mandel.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/mandel.c -o mandel.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/matmul_f64_4x4.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Compiling matmul_f64_4x4.c to matmul_f64_4x4.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/matmul_f64_4x4.c -o matmul_f64_4x4.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/matmul_f64_4x4.c -o matmul_f64_4x4.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/oourafft.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Compiling oourafft.c to oourafft.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/oourafft.c -o oourafft.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/oourafft.c -o oourafft.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/perlin.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Compiling perlin.c to perlin.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/perlin.c -o perlin.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/perlin.c -o perlin.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/pi.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Compiling pi.c to pi.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/pi.c -o pi.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/pi.c -o pi.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/revertBits.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Compiling revertBits.c to revertBits.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/revertBits.c -o revertBits.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/revertBits.c -o revertBits.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/richards_benchmark.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Compiling richards_benchmark.c to richards_benchmark.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/richards_benchmark.c -o richards_benchmark.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/richards_benchmark.c -o richards_benchmark.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/salsa20.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Compiling salsa20.c to salsa20.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/salsa20.c -o salsa20.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/salsa20.c -o salsa20.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 Misc/whetstone.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Compiling whetstone.c to whetstone.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/whetstone.c -o whetstone.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Misc && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Misc/whetstone.c -o whetstone.js -lm -Wno-implicit-int -sALLOW_MEMORY_GROWTH=1 -O2
 
 compile_misc: Misc/CMakeFiles/compile_misc
 compile_misc: Misc/ReedSolomon.js

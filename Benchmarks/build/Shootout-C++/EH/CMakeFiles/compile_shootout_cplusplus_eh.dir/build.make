@@ -70,7 +70,7 @@ Shootout-C++/EH/CMakeFiles/compile_shootout_cplusplus_eh: Shootout-C++/EH/except
 
 Shootout-C++/EH/except.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling except.cpp to except.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++/EH && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/EH/except.cpp -o except.js -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++/EH && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/EH/except.cpp -o except.js -sALLOW_MEMORY_GROWTH=1 -O2 -sNO_DISABLE_EXCEPTION_CATCHING
 
 compile_shootout_cplusplus_eh: Shootout-C++/EH/CMakeFiles/compile_shootout_cplusplus_eh
 compile_shootout_cplusplus_eh: Shootout-C++/EH/except.js

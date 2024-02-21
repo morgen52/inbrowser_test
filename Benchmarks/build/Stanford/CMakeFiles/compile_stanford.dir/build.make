@@ -80,47 +80,47 @@ Stanford/CMakeFiles/compile_stanford: Stanford/FloatMM.js
 
 Stanford/Bubblesort.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling Bubblesort.c to Bubblesort.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Bubblesort.c -o Bubblesort.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Bubblesort.c -o Bubblesort.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/FloatMM.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling FloatMM.c to FloatMM.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/FloatMM.c -o FloatMM.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/FloatMM.c -o FloatMM.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/IntMM.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling IntMM.c to IntMM.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/IntMM.c -o IntMM.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/IntMM.c -o IntMM.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/Oscar.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling Oscar.c to Oscar.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Oscar.c -o Oscar.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Oscar.c -o Oscar.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/Perm.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling Perm.c to Perm.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Perm.c -o Perm.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Perm.c -o Perm.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/Puzzle.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Compiling Puzzle.c to Puzzle.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Puzzle.c -o Puzzle.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Puzzle.c -o Puzzle.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/Queens.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Compiling Queens.c to Queens.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Queens.c -o Queens.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Queens.c -o Queens.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/Quicksort.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Compiling Quicksort.c to Quicksort.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Quicksort.c -o Quicksort.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Quicksort.c -o Quicksort.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/RealMM.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Compiling RealMM.c to RealMM.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/RealMM.c -o RealMM.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/RealMM.c -o RealMM.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/Towers.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Compiling Towers.c to Towers.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Towers.c -o Towers.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Towers.c -o Towers.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Stanford/Treesort.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Compiling Treesort.c to Treesort.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Treesort.c -o Treesort.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Stanford && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Stanford/Treesort.c -o Treesort.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 compile_stanford: Stanford/Bubblesort.js
 compile_stanford: Stanford/CMakeFiles/compile_stanford

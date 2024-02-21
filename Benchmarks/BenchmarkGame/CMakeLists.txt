@@ -6,7 +6,7 @@ set(SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/spectral-norm.c
     ${CMAKE_CURRENT_SOURCE_DIR}/fannkuch.c
     ${CMAKE_CURRENT_SOURCE_DIR}/puzzle.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/recursive.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/recursive.c    # call stack overflow, -O2 is fine
     ${CMAKE_CURRENT_SOURCE_DIR}/nsieve-bits.c
     ${CMAKE_CURRENT_SOURCE_DIR}/partialsums.c
     ${CMAKE_CURRENT_SOURCE_DIR}/n-body.c
@@ -25,7 +25,7 @@ foreach(SOURCE ${SRC_FILES})
     # add a custom command to compile the source file to the output file
     add_custom_command(
         OUTPUT ${OUTPUT_NAME}
-        COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS}
+        COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} -O2
         COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
         VERBATIM # use raw commands
     )

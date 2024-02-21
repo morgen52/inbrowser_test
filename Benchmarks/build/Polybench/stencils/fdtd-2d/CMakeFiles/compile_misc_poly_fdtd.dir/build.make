@@ -70,7 +70,7 @@ Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd: Polybench/stencils
 
 Polybench/stencils/fdtd-2d/fdtd-2d.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling fdtd-2d.c to fdtd-2d.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/stencils/fdtd-2d && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/stencils/fdtd-2d/fdtd-2d.c -o fdtd-2d.js -lm -sALLOW_MEMORY_GROWTH=1 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -DFP_ABSTOLERANCE=1e-5
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/stencils/fdtd-2d && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/stencils/fdtd-2d/fdtd-2d.c -o fdtd-2d.js -lm -sALLOW_MEMORY_GROWTH=1 -O3 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -DFP_ABSTOLERANCE=1e-5
 
 compile_misc_poly_fdtd: Polybench/stencils/fdtd-2d/CMakeFiles/compile_misc_poly_fdtd
 compile_misc_poly_fdtd: Polybench/stencils/fdtd-2d/fdtd-2d.js

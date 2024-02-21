@@ -83,59 +83,59 @@ Shootout/CMakeFiles/compile_shootout: Shootout/lists.js
 
 Shootout/ackermann.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling ackermann.c to ackermann.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/ackermann.c -o ackermann.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/ackermann.c -o ackermann.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/ary3.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling ary3.c to ary3.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/ary3.c -o ary3.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/ary3.c -o ary3.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/fib2.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling fib2.c to fib2.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/fib2.c -o fib2.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/fib2.c -o fib2.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/hash.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling hash.c to hash.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/hash.c -o hash.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/hash.c -o hash.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/heapsort.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling heapsort.c to heapsort.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/heapsort.c -o heapsort.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/heapsort.c -o heapsort.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/hello.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Compiling hello.c to hello.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/hello.c -o hello.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/hello.c -o hello.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/lists.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Compiling lists.c to lists.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/lists.c -o lists.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/lists.c -o lists.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/matrix.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Compiling matrix.c to matrix.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/matrix.c -o matrix.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/matrix.c -o matrix.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/methcall.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Compiling methcall.c to methcall.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/methcall.c -o methcall.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/methcall.c -o methcall.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/nestedloop.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Compiling nestedloop.c to nestedloop.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/nestedloop.c -o nestedloop.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/nestedloop.c -o nestedloop.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/objinst.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Compiling objinst.c to objinst.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/objinst.c -o objinst.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/objinst.c -o objinst.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/random.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Compiling random.c to random.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/random.c -o random.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/random.c -o random.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/sieve.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Compiling sieve.c to sieve.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/sieve.c -o sieve.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/sieve.c -o sieve.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 Shootout/strcat.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Compiling strcat.c to strcat.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/strcat.c -o strcat.js -lm -sALLOW_MEMORY_GROWTH=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout/strcat.c -o strcat.js -lm -sALLOW_MEMORY_GROWTH=1 -O2
 
 compile_shootout: Shootout/CMakeFiles/compile_shootout
 compile_shootout: Shootout/ackermann.js
