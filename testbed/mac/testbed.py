@@ -67,7 +67,7 @@ breakpoint = 0
 if os.path.exists(RESULT_FILE):
     with open(RESULT_FILE, "r") as f:
         results = json.load(f)
-        breakpoint = len(results)
+        # breakpoint = len(results)
 
 for idx, item in tqdm(enumerate(exps.items())):
     if idx < breakpoint:
