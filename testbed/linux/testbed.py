@@ -51,23 +51,36 @@ def page_test(exp, url):
 
     return timeBrowsers
 
+def is_complete(results):
+    for b in BROWSERS:
+        if b not in results:
+            return False
+        if len(results[b]) != 5:
+            return False
+        for t in results[b]:
+            if float(t["delta"]) == 0 or float(t["time"]) == 0:
+                return False
+    return True
+
 results = {}
 
 exps = {}
-with open("exps.json", "r") as f:
+with open("../exps.json", "r") as f:
     exps = json.load(f)
 
 breakpoint = 0
 if os.path.exists(RESULT_FILE):
     with open(RESULT_FILE, "r") as f:
         results = json.load(f)
-        breakpoint = len(results)
+        # breakpoint = len(results)
 
 for idx, item in tqdm(enumerate(exps.items())):
     if idx < breakpoint:
         continue
     mode, url = item
     print(mode, url["url"])
+    if (mode not in results) or (not is_complete(results[mode])):
+        continue
     results[mode] = page_test(mode, url["url"])
 
     # results["hello/hello"] = page_test("hello/hello", "http://0.0.0.0:7070/hello")

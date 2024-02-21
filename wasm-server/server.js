@@ -39,28 +39,12 @@ app.get('/shootoutc/random', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'shootoutc', 'random.html'));
 });
 
-app.get('/shootoutc/wc', (req, res) => {
-    res.sendFile(path.join(__dirname, '.', 'shootoutc', 'wc.html'));
-});
-
 app.get('/shootoutc/sumcol', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'shootoutc', 'sumcol.html'));
 });
 
-app.get('/shootoutc/wordfreq', (req, res) => {
-    res.sendFile(path.join(__dirname, '.', 'shootoutc', 'wordfreq.html'));
-});
-
-app.get('/shootoutc/reversefile', (req, res) => {
-    res.sendFile(path.join(__dirname, '.', 'shootoutc', 'reversefile.html'));
-});
-
 app.get('/shootoutc/lists1', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'shootoutc', 'lists1.html'));
-});
-
-app.get('/shootoutc/spellcheck', (req, res) => {
-    res.sendFile(path.join(__dirname, '.', 'shootoutc', 'spellcheck.html'));
 });
 
 app.get('/shootoutc/strcat', (req, res) => {
@@ -197,10 +181,6 @@ app.get('/stanford/intmm', (req, res) => {
 
 app.get('/mcgill/chomp', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'mcgill', 'chomp.html'));
-});
-
-app.get('/mcgill/exptree', (req, res) => {
-    res.sendFile(path.join(__dirname, '.', 'mcgill', 'exptree.html'));
 });
 
 app.get('/mcgill/misr', (req, res) => {
@@ -578,7 +558,6 @@ app.get('/miscc/stepanov_v1p2', (req, res) => {
 app.get('/miscc/stepanov_container', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'miscc', 'stepanov_container.html'));
 });
-
 
 /* ###################### */
 /* ####  END ROUTES  #### */

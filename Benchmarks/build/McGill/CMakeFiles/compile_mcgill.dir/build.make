@@ -69,27 +69,21 @@ include McGill/CMakeFiles/compile_mcgill.dir/progress.make
 McGill/CMakeFiles/compile_mcgill: McGill/queens.js
 McGill/CMakeFiles/compile_mcgill: McGill/misr.js
 McGill/CMakeFiles/compile_mcgill: McGill/chomp.js
-McGill/CMakeFiles/compile_mcgill: McGill/exptree.js
 
 McGill/chomp.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling chomp.c to chomp.js"
 	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/chomp.c -o chomp.js -lm
 
-McGill/exptree.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling exptree.c to exptree.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/exptree.c -o exptree.js -lm
-
 McGill/misr.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling misr.c to misr.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling misr.c to misr.js"
 	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/misr.c -o misr.js -lm
 
 McGill/queens.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling queens.c to queens.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling queens.c to queens.js"
 	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/McGill && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/McGill/queens.c -o queens.js -lm
 
 compile_mcgill: McGill/CMakeFiles/compile_mcgill
 compile_mcgill: McGill/chomp.js
-compile_mcgill: McGill/exptree.js
 compile_mcgill: McGill/misr.js
 compile_mcgill: McGill/queens.js
 compile_mcgill: McGill/CMakeFiles/compile_mcgill.dir/build.make

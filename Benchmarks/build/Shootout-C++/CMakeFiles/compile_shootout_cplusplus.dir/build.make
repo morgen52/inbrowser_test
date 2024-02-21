@@ -66,9 +66,6 @@ include Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/compiler_depend.m
 # Include the progress variables for this target.
 include Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/progress.make
 
-Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/spellcheck.js
-Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/wc.js
-Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/reversefile.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/random.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/lists1.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/sieve.js
@@ -80,7 +77,6 @@ Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/strcat.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/ackermann.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/hello.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/lists.js
-Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/wordfreq.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/moments.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/fibo.js
 Shootout-C++/CMakeFiles/compile_shootout_cplusplus: Shootout-C++/objinst.js
@@ -159,33 +155,17 @@ Shootout-C++/random.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Compiling random.cpp to random.js"
 	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/random.cpp -o random.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
 
-Shootout-C++/reversefile.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Compiling reversefile.cpp to reversefile.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/reversefile.cpp -o reversefile.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
-
 Shootout-C++/sieve.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Compiling sieve.cpp to sieve.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Compiling sieve.cpp to sieve.js"
 	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/sieve.cpp -o sieve.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
 
-Shootout-C++/spellcheck.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Compiling spellcheck.cpp to spellcheck.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/spellcheck.cpp -o spellcheck.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
-
 Shootout-C++/strcat.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Compiling strcat.cpp to strcat.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Compiling strcat.cpp to strcat.js"
 	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/strcat.cpp -o strcat.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
 
 Shootout-C++/sumcol.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Compiling sumcol.cpp to sumcol.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Compiling sumcol.cpp to sumcol.js"
 	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/sumcol.cpp -o sumcol.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
-
-Shootout-C++/wc.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Compiling wc.cpp to wc.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/wc.cpp -o wc.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
-
-Shootout-C++/wordfreq.js:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Compiling wordfreq.cpp to wordfreq.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Shootout-C++ && em++ /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Shootout-C++/wordfreq.cpp -o wordfreq.js -lm -Wno-deprecated -sALLOW_MEMORY_GROWTH=1
 
 compile_shootout_cplusplus: Shootout-C++/CMakeFiles/compile_shootout_cplusplus
 compile_shootout_cplusplus: Shootout-C++/ackermann.js
@@ -205,13 +185,9 @@ compile_shootout_cplusplus: Shootout-C++/moments.js
 compile_shootout_cplusplus: Shootout-C++/nestedloop.js
 compile_shootout_cplusplus: Shootout-C++/objinst.js
 compile_shootout_cplusplus: Shootout-C++/random.js
-compile_shootout_cplusplus: Shootout-C++/reversefile.js
 compile_shootout_cplusplus: Shootout-C++/sieve.js
-compile_shootout_cplusplus: Shootout-C++/spellcheck.js
 compile_shootout_cplusplus: Shootout-C++/strcat.js
 compile_shootout_cplusplus: Shootout-C++/sumcol.js
-compile_shootout_cplusplus: Shootout-C++/wc.js
-compile_shootout_cplusplus: Shootout-C++/wordfreq.js
 compile_shootout_cplusplus: Shootout-C++/CMakeFiles/compile_shootout_cplusplus.dir/build.make
 .PHONY : compile_shootout_cplusplus
 

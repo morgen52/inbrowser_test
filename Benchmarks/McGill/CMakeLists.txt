@@ -5,7 +5,7 @@ set(SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/queens.c
     ${CMAKE_CURRENT_SOURCE_DIR}/misr.c
     ${CMAKE_CURRENT_SOURCE_DIR}/chomp.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/exptree.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/exptree.c              # need input
 )
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})

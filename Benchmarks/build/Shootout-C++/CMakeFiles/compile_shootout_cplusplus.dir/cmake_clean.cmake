@@ -17,13 +17,9 @@ file(REMOVE_RECURSE
   "nestedloop.js"
   "objinst.js"
   "random.js"
-  "reversefile.js"
   "sieve.js"
-  "spellcheck.js"
   "strcat.js"
   "sumcol.js"
-  "wc.js"
-  "wordfreq.js"
 )
 
 # Per-language clean rules from dependency scanning.

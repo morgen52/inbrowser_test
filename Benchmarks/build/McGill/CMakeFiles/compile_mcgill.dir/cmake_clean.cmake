@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_mcgill"
   "chomp.js"
-  "exptree.js"
   "misr.js"
   "queens.js"
 )

@@ -50,7 +50,7 @@ def page_test(exp, url):
 results = {}
 
 exps = {}
-with open("exps.json", "r") as f:
+with open("../exps.json", "r") as f:
     exps = json.load(f)
 
 breakpoint = 0

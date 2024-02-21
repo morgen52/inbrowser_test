@@ -14,23 +14,11 @@
     "shootoutc/random": {
         "url": "http://0.0.0.0:7070/shootoutc/random"
     },
-    "shootoutc/wc": {
-        "url": "http://0.0.0.0:7070/shootoutc/wc"
-    },
     "shootoutc/sumcol": {
         "url": "http://0.0.0.0:7070/shootoutc/sumcol"
     },
-    "shootoutc/wordfreq": {
-        "url": "http://0.0.0.0:7070/shootoutc/wordfreq"
-    },
-    "shootoutc/reversefile": {
-        "url": "http://0.0.0.0:7070/shootoutc/reversefile"
-    },
     "shootoutc/lists1": {
         "url": "http://0.0.0.0:7070/shootoutc/lists1"
-    },
-    "shootoutc/spellcheck": {
-        "url": "http://0.0.0.0:7070/shootoutc/spellcheck"
     },
     "shootoutc/strcat": {
         "url": "http://0.0.0.0:7070/shootoutc/strcat"
@@ -133,9 +121,6 @@
     },
     "mcgill/chomp": {
         "url": "http://0.0.0.0:7070/mcgill/chomp"
-    },
-    "mcgill/exptree": {
-        "url": "http://0.0.0.0:7070/mcgill/exptree"
     },
     "mcgill/misr": {
         "url": "http://0.0.0.0:7070/mcgill/misr"

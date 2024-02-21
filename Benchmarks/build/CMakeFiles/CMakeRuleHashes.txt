@@ -28,7 +28,6 @@ c934921e7228ed7d139466bf74b0909f CoyoteBench/huffbench.js
 7b5292d307d7cfebfefc38105828332f Linpack/linpack-pc.js
 b7d79ba7c2f5784b9f4d7a7aea4cf1c4 McGill/CMakeFiles/compile_mcgill
 890ac8e73479b547ea0ae8c80b916c9e McGill/chomp.js
-593242f28a2e7565c13d7b657e3734a2 McGill/exptree.js
 2e27e39d3f21a3a12fa7ed409885a935 McGill/misr.js
 320ff040719debf9b79ec7a1f0741253 McGill/queens.js
 7a8cd3f696b8aece7a95144c200bb9a2 Misc-C++/CMakeFiles/compile_misc_cplusplus
@@ -148,13 +147,9 @@ d739ebb3212f8ec52f39e1912782c5ad Shootout-C++/moments.js
 dd8d7b038e87aa5502d24cb6a2329f9b Shootout-C++/nestedloop.js
 5c0587ec3a1cf43494f85c260639560b Shootout-C++/objinst.js
 48d989a96f2060cec821e7b4f300c753 Shootout-C++/random.js
-22c577e2a0e8efa6a9beb752941c968a Shootout-C++/reversefile.js
 9f2aa98200acdaf690d66dd3030b7b00 Shootout-C++/sieve.js
-ac0223d624dbeedd073932ea75b60093 Shootout-C++/spellcheck.js
 ba85fa3585eb3ce05f07c9d08c79834d Shootout-C++/strcat.js
 42accbb84d19b39e8870f94b03ff255c Shootout-C++/sumcol.js
-fdbdde7fd100ba8973a969ebfc80551d Shootout-C++/wc.js
-d9138283a014ff3166e7f061cc4023f0 Shootout-C++/wordfreq.js
 478d12b1403f5d2c52a061456b203c7c Shootout/CMakeFiles/compile_shootout
 978a42c74eb4afe54127275c01ff4693 Shootout/ackermann.js
 a277b3ccbb9421f77199c6f6a13d7f0d Shootout/ary3.js

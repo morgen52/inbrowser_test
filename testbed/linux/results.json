@@ -3184,83 +3184,83 @@
     "miscc/stepanov_container": {
         "firefox": [
             {
-                "delta": "5.000",
+                "delta": "2.000",
                 "label": "page loaded",
-                "time": "5.000"
+                "time": "2.000"
             },
             {
-                "delta": "47.000",
+                "delta": "35.000",
                 "label": "wasm initialized",
-                "time": "52.000"
+                "time": "37.000"
             },
             {
-                "delta": "5226.000",
+                "delta": "5530.000",
                 "label": "wasm benchmark",
-                "time": "5278.000"
+                "time": "5567.000"
             },
             {
-                "delta": "5198.000",
+                "delta": "5624.000",
                 "label": "wasm benchmark",
-                "time": "10476.000"
+                "time": "11191.000"
             },
             {
-                "delta": "5153.000",
+                "delta": "5570.000",
                 "label": "wasm benchmark",
-                "time": "15629.000"
+                "time": "16761.000"
             }
         ],
         "chrome": [
-            {
-                "delta": "0.400",
-                "label": "page loaded",
-                "time": "0.400"
-            },
-            {
-                "delta": "94.700",
-                "label": "wasm initialized",
-                "time": "95.100"
-            },
-            {
-                "delta": "5576.300",
-                "label": "wasm benchmark",
-                "time": "5671.400"
-            },
-            {
-                "delta": "5491.400",
-                "label": "wasm benchmark",
-                "time": "11162.800"
-            },
-            {
-                "delta": "5503.600",
-                "label": "wasm benchmark",
-                "time": "16666.400"
-            }
-        ],
-        "edge": [
             {
                 "delta": "0.200",
                 "label": "page loaded",
                 "time": "0.200"
             },
             {
-                "delta": "19.200",
+                "delta": "48.600",
                 "label": "wasm initialized",
-                "time": "19.400"
+                "time": "48.800"
             },
             {
-                "delta": "5654.900",
+                "delta": "5973.100",
                 "label": "wasm benchmark",
-                "time": "5674.300"
+                "time": "6021.900"
             },
             {
-                "delta": "5484.700",
+                "delta": "5933.800",
                 "label": "wasm benchmark",
-                "time": "11159.000"
+                "time": "11955.700"
             },
             {
-                "delta": "5482.800",
+                "delta": "5838.400",
                 "label": "wasm benchmark",
-                "time": "16641.800"
+                "time": "17794.100"
+            }
+        ],
+        "edge": [
+            {
+                "delta": "0.300",
+                "label": "page loaded",
+                "time": "0.300"
+            },
+            {
+                "delta": "6.000",
+                "label": "wasm initialized",
+                "time": "6.300"
+            },
+            {
+                "delta": "6175.000",
+                "label": "wasm benchmark",
+                "time": "6181.300"
+            },
+            {
+                "delta": "6034.500",
+                "label": "wasm benchmark",
+                "time": "12215.800"
+            },
+            {
+                "delta": "5972.000",
+                "label": "wasm benchmark",
+                "time": "18187.800"
             }
         ]
     },
@@ -3438,24 +3438,24 @@
                 "time": "4.000"
             },
             {
-                "delta": "49.000",
+                "delta": "28.000",
                 "label": "wasm initialized",
-                "time": "53.000"
+                "time": "32.000"
             },
             {
-                "delta": "61527.000",
+                "delta": "62252.000",
                 "label": "wasm benchmark",
-                "time": "61580.000"
+                "time": "62284.000"
             },
             {
-                "delta": "62203.000",
+                "delta": "65540.000",
                 "label": "wasm benchmark",
-                "time": "123783.000"
+                "time": "127824.000"
             },
             {
-                "delta": "69490.000",
+                "delta": "69753.000",
                 "label": "wasm benchmark",
-                "time": "193273.000"
+                "time": "197577.000"
             }
         ]
     },

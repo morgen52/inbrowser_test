@@ -10,9 +10,9 @@ if(TARGET_OS STREQUAL "Darwin")
 endif()
 
 set(SRC_FILES
-  ${CMAKE_CURRENT_SOURCE_DIR}/spellcheck.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/wc.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/reversefile.cpp
+#   ${CMAKE_CURRENT_SOURCE_DIR}/spellcheck.cpp              # need input
+#   ${CMAKE_CURRENT_SOURCE_DIR}/wc.cpp                      # need input
+#   ${CMAKE_CURRENT_SOURCE_DIR}/reversefile.cpp             # need input
   ${CMAKE_CURRENT_SOURCE_DIR}/random.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/lists1.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/sieve.cpp
@@ -24,7 +24,7 @@ set(SRC_FILES
   ${CMAKE_CURRENT_SOURCE_DIR}/ackermann.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/hello.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/lists.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/wordfreq.cpp
+#   ${CMAKE_CURRENT_SOURCE_DIR}/wordfreq.cpp              # need input
   ${CMAKE_CURRENT_SOURCE_DIR}/moments.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/fibo.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/objinst.cpp

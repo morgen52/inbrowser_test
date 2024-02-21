@@ -46,7 +46,6 @@ def page_test(exp, url):
             print(timeList)
             timeBrowsers[browser] = timeList
         except Exception as e:
-            # 追加写入错误信息
             with open("error.log", "a") as f:
                 f.write(f"{exp} {browser} {url} {e}\n")
 
@@ -57,7 +56,7 @@ def page_test(exp, url):
 results = {}
 
 exps = {}
-with open("exps.json", "r") as f:
+with open("../exps.json", "r") as f:
     exps = json.load(f)
 
 breakpoint = 0
