@@ -70,7 +70,7 @@ Polybench/stencils/adi/CMakeFiles/compile_misc_poly_adi: Polybench/stencils/adi/
 
 Polybench/stencils/adi/adi.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling adi.c to adi.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/stencils/adi && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/stencils/adi/adi.c -o adi.js -lm -sALLOW_MEMORY_GROWTH=1 -O3 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -ffp-contract=off -DFMA_DISABLED=1 -DFP_ABSTOLERANCE=1e-5
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/stencils/adi && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/stencils/adi/adi.c -o adi.js -lm -sALLOW_MEMORY_GROWTH=1 -O3 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -ffp-contract=off -DFMA_DISABLED=1 -DFP_ABSTOLERANCE=1e-5 -sALLOW_MEMORY_GROWTH=1 -O2
 
 compile_misc_poly_adi: Polybench/stencils/adi/CMakeFiles/compile_misc_poly_adi
 compile_misc_poly_adi: Polybench/stencils/adi/adi.js

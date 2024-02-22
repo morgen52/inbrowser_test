@@ -70,7 +70,7 @@ Polybench/datamining/correlation/CMakeFiles/compile_misc_poly_correlation: Polyb
 
 Polybench/datamining/correlation/correlation.js:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling correlation.c to correlation.js"
-	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/datamining/correlation && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/datamining/correlation/correlation.c -o correlation.js -lm -sALLOW_MEMORY_GROWTH=1 -O3 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -ffp-contract=off -DFMA_DISABLED=1
+	cd /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/build/Polybench/datamining/correlation && emcc /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/datamining/correlation/correlation.c -o correlation.js -lm -sALLOW_MEMORY_GROWTH=1 -O3 -I /home/data1/webassembly/inbrowser_testing/inbrowser_test/Benchmarks/Polybench/utilities -DPOLYBENCH_DUMP_ARRAYS -ffp-contract=off -DFMA_DISABLED=1 -DFP_ABSTOLERANCE=1e-5 -sALLOW_MEMORY_GROWTH=1 -O2
 
 compile_misc_poly_correlation: Polybench/datamining/correlation/CMakeFiles/compile_misc_poly_correlation
 compile_misc_poly_correlation: Polybench/datamining/correlation/correlation.js
