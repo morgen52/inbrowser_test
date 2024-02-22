@@ -284,7 +284,7 @@ int main(int argc, char **argv)
    if(solutions == 1) printf("...there is 1 solution\n");
    else printf("...there are %ld solutions\n", solutions);
 
-   exit(0);					/* No errors */
+   return 0;					/* No errors */
 }
 
 

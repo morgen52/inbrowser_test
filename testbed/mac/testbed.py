@@ -46,15 +46,19 @@ def page_test(exp, url):
 
     return timeBrowsers
 
-def is_complete(results):
+def is_complete(results, mode=""):
     for b in BROWSERS:
         if b not in results:
+            print(f"{b} is not tested")
             return False
         if len(results[b]) != 5:
+            print(f"tested {b} is not complete ({len(results[b])}/5)")
             return False
         for t in results[b]:
-            if float(t["delta"]) == 0 or float(t["time"]) == 0:
-                return False
+            if float(t["delta"]) < 0.0001 or float(t["time"]) < 0.0001:
+                emsg = f"[{mode}]: tested {b} is not complete (label ({t['label']}) delta ({t['delta']}) or time ({t['time']}) is 0)"
+                with open("error.log", "a") as f:
+                    f.write(emsg + "\n")
     return True
 
 results = {}
@@ -78,8 +82,11 @@ for idx, item in tqdm(enumerate(exps.items())):
         continue
     mode, url = item
     print(mode, url["url"])
-    if (mode not in results) or (not is_complete(results[mode])):
+    if (mode not in results) or (not is_complete(results[mode], mode)):
         results[mode] = page_test(mode, url["url"])
+        if not is_complete(results[mode], mode):
+            with open("error.log", "a") as f:
+                f.write(f"{mode} is still not complete after retry.\n")
     else:
         print(f"{mode} already tested")
 

@@ -89,7 +89,8 @@ static void random_fasta (aminoacid_t const *genelist, size_t count) {
 }
 
 int main (int argc, char **argv) {
- 	size_t n = 5000000;
+ 	// size_t n = 5000000;
+ 	size_t n = 5000;
 
     static aminoacid_t iub[] = {
 	{ 0.27, 'a' },
