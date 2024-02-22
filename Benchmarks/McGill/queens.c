@@ -338,7 +338,7 @@ void find(register int level)
    if(level == queens) {		/* Placed all queens? Stop. */
       ++solutions;			/* This is a solution! */
       if(printing) pboard();		/* Print board if printing */
-      if(!findall) return 0;		/* May stop after first solution */
+      if(!findall) exit(0);		/* May stop after first solution */
 #ifdef	MPW				/* Macintosh MPW ONLY */
       SpinCursor(1);			/* background processing */
 #endif
