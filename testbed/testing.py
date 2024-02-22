@@ -26,9 +26,11 @@ def avg_init(log):
 
 def different_case(result, mode="exe"):
     ratio = {}
+    browindex = []
     for case in result:
         browser_vector = []
         for browser in result[case]:
+            browindex.append(browser)
             if mode == "exe":
                 browser_vector.append(avg_exe(result[case][browser]))
             elif mode == "init":
@@ -57,7 +59,7 @@ def different_case(result, mode="exe"):
     for case in ratio:
         for i in range(len(ratio[case])):
             if abs(ratio[case][i] - mean_ratio[i]) > 3 * std_ratio[i]:
-                print(f"case {case} is abnormal in browser {i}, ratio {ratio[case][i]}")
+                print(f"case {case} is abnormal in browser {browindex[i]}, ratio {ratio[case][i]}")
 
 for os in oss:
     for mode in ["exe"]:

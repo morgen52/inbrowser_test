@@ -8,6 +8,7 @@ import time
 import json
 from tqdm import tqdm
 import os
+import abnormal_case
 
 BROWSERS = ["chrome", "edge", "firefox", "safari"]
 RESULT_FILE = "results.json"
@@ -47,19 +48,21 @@ def page_test(exp, url):
     return timeBrowsers
 
 def is_complete(results, mode=""):
+    emsg = ""
     for b in BROWSERS:
         if b not in results:
-            print(f"{b} is not tested")
-            return False
+            emsg += f"[{mode}]: {b} is not tested\n"
+            continue
         if len(results[b]) != 5:
-            print(f"tested {b} is not complete ({len(results[b])}/5)")
-            return False
+            emsg += f"[{mode}]: {b} is not complete ({len(results[b])}/5)\n"
+            continue
         for t in results[b]:
+            if t["label"] == "page loaded": continue
             if float(t["delta"]) < 0.0001 or float(t["time"]) < 0.0001:
-                emsg = f"[{mode}]: tested {b} is not complete (label ({t['label']}) delta ({t['delta']}) or time ({t['time']}) is 0)"
-                with open("error.log", "a") as f:
-                    f.write(emsg + "\n")
-    return True
+                emsg += f"[{mode}]: {b} is not complete (label ({t['label']}) delta ({t['delta']}) or time ({t['time']}) is 0)\n"
+    if emsg != "":
+        return {"re": False, "msg": emsg}
+    return {"re": True, "msg": "complete"}
 
 results = {}
 
@@ -82,11 +85,16 @@ for idx, item in tqdm(enumerate(exps.items())):
         continue
     mode, url = item
     print(mode, url["url"])
-    if (mode not in results) or (not is_complete(results[mode], mode)):
+    if mode in abnormal_case.ABNORMAL:
+        print(f"{mode} is abnormal case")
+        continue
+    if (mode not in results) or (not is_complete(results[mode], mode)["re"]):
         results[mode] = page_test(mode, url["url"])
-        if not is_complete(results[mode], mode):
+        re = is_complete(results[mode], mode)
+        if not re["re"]:
             with open("error.log", "a") as f:
                 f.write(f"{mode} is still not complete after retry.\n")
+                f.write(f"{re['msg']}\n")
     else:
         print(f"{mode} already tested")
 

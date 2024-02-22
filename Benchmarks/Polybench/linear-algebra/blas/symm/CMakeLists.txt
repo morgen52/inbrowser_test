@@ -26,7 +26,7 @@ foreach(SOURCE ${SRC_FILES})
     string(REPLACE ".c" ".js" OUTPUT_NAME ${SOURCE_NAME})
     add_custom_command(
         OUTPUT ${OUTPUT_NAME}
-        COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} ${CFLAGS}
+        COMMAND emcc ${SOURCE} -o ${OUTPUT_NAME} ${LDFLAGS} ${CFLAGS} -sALLOW_MEMORY_GROWTH=1 -O2
         COMMENT "Compiling ${SOURCE_NAME} to ${OUTPUT_NAME}"
         VERBATIM # use raw commands
     )
