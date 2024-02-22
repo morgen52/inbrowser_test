@@ -8,6 +8,7 @@ import time
 import json
 from tqdm import tqdm
 import os
+import abnormal_case
 
 BROWSERS = ["firefox", "chrome", "edge"]
 RESULT_FILE = "results.json"
