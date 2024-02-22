@@ -1,6 +1,7 @@
 import os
 import json
 import numpy as np
+from mac import abnormal_case as mac_bug_case
 
 oss = ["linux", "windows", "mac"]
 
@@ -10,6 +11,10 @@ for os in oss:
     results = {}
     with open(f"{os}/results.json", "r") as f:
         results = json.load(f)
+    # remove the abnormal case
+    for case in mac_bug_case.ABNORMAL:
+        if case in results:
+            del results[case]
     results_book[os] = results
 
 def avg_exe(log):
@@ -62,7 +67,7 @@ def different_case(result, mode="exe"):
                 print(f"case {case} is abnormal in browser {browindex[i]}, ratio {ratio[case][i]}")
 
 for os in oss:
-    for mode in ["exe"]:
+    for mode in ["exe", "init"]:
         print(f"## {os} abnormal case, mode {mode}")
         different_case(results_book[os], mode)
         print()
@@ -78,7 +83,26 @@ case shootoutc/hello is abnormal in browser 2, ratio 0.5217391304347826
 [0.3659418002058665, 0.2769199965489769, 0.3571382032451569]
 case polybench/2mm is abnormal in browser 0, ratio 0.4897025171624714
 case shootout/hello is abnormal in browser 2, ratio 0.4363636363636364
+'''
 
+'''
 ## mac abnormal case, mode exe
-[0.2859813088618374, 0.28786193075226035, 0.24615755710846116, 0.17999920327744098]
+[0.2619497632926423, 0.2636348052152294, 0.2474183988252458, 0.22699703266688248]
+case benchmarkgame/fasta is abnormal in browser chrome, ratio 0.4449536362467366
+case benchmarkgame/fasta is abnormal in browser edge, ratio 0.467913492427912
+case benchmarkgame/fasta is abnormal in browser firefox, ratio 0.05613685536677359
+case benchmarkgame/fasta is abnormal in browser safari, ratio 0.030996015958577854
+case miscc/stepanov_v1p2 is abnormal in browser chrome, ratio 0.44219608569827057
+case miscc/stepanov_v1p2 is abnormal in browser edge, ratio 0.3951848129958277
+
+## mac abnormal case, mode init
+[0.1924478385626872, 0.21069834087484332, 0.39574288931141544, 0.20111093125105423]
+case shootoutc/ackermann is abnormal in browser safari, ratio 0.3435114503816794
+case shootoutc/strcat is abnormal in browser edge, ratio 0.49288762446657186
+case shootoutc/ary is abnormal in browser safari, ratio 0.45417680454176806
+case stanford/quicksort is abnormal in browser firefox, ratio 0.6199460916442049
+case mcgill/chomp is abnormal in browser chrome, ratio 0.5975494816211122
+case mcgill/queens is abnormal in browser firefox, ratio 0.6278801843317973
+case shootout/matrix is abnormal in browser edge, ratio 0.39938080495356043
+case polybench/heat3d is abnormal in browser firefox, ratio 0.7420494699646644
 '''

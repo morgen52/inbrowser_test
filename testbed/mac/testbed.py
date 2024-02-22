@@ -41,7 +41,6 @@ def page_test(exp, url):
 
             driver.quit()
         except Exception as e:
-            # 追加写入错误信息
             with open("error.log", "a") as f:
                 f.write(f"{exp} {browser} {url} {e}\n")
 
@@ -93,7 +92,7 @@ for idx, item in tqdm(enumerate(exps.items())):
         re = is_complete(results[mode], mode)
         if not re["re"]:
             with open("error.log", "a") as f:
-                f.write(f"{mode} is still not complete after retry.\n")
+                f.write(f"{mode} ({url['url']}) is still not complete after retry.\n")
                 f.write(f"{re['msg']}\n")
     else:
         print(f"{mode} already tested")
