@@ -6,6 +6,7 @@
     <title>Wasm Testing</title>
     <script>
         let timeList = [];
+        let endFlag = 0;
 
         function checkpoint(label) {
             console.log(`${label}: ${(performance.now() - startTime).toFixed(2)} ms (+${(performance.now() - lastTime).toFixed(2)})`);
@@ -17,6 +18,26 @@
             return timeList;
         }
 
+        function isFinished() {
+            return endFlag;
+        }
+
+        var xhr = new XMLHttpRequest();
+        var upload_url = window.location.href.replace(/\/[^\/]+\/[^\/]+\/?$/, "/upload");
+        console.log(upload_url);
+        xhr.open("POST", upload_url, true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                console.log(xhr.responseText);
+                endFlag = 1;
+            }
+            else if (xhr.readyState === 4 && xhr.status !== 200) {
+                console.log("Error: " + xhr.responseText);
+                endFlag = 1;
+            }
+        };
+
         let startTime = performance.now();
         let lastTime = startTime;
 
@@ -25,9 +46,29 @@
                 checkpoint("wasm initialized");
                 
                 for (let i = 0; i < 3; i++) {
-                    console.log(Module._main());
-                    checkpoint("wasm benchmark");
+                    try{
+                        console.log(Module._main());
+                        checkpoint("wasm benchmark");
+                    } catch (e) {
+                        console.log(e);
+                        endFlag = 1;
+                    }
                 }
+
+                var browserInfo = navigator.userAgent;
+                var deviceInfo = navigator.platform;
+                var url = window.location.href;
+                var accessTime = new Date().toISOString();
+                
+                // 构建包含信息的对象
+                var info = {
+                    browser: browserInfo,
+                    device: deviceInfo,
+                    url: url,
+                    access: accessTime,
+                    times: getTimes()
+                };
+                xhr.send(JSON.stringify(info));
             }
         };
     </script>

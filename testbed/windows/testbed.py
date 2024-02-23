@@ -40,8 +40,9 @@ def page_test(exp, url):
 
             # wait until the wasm scripts are finished.
             wait = WebDriverWait(driver, timeout=100, poll_frequency=10)
-            wait.until(lambda driver: len(driver.execute_script("return getTimes();")) == 5)
-
+            # wait.until(lambda driver: len(driver.execute_script("return getTimes();")) == 5)
+            wait.until(lambda driver: len(driver.execute_script("return isFinished();")) == 1)
+            
             timeList = driver.execute_script("return getTimes();")
             print(timeList)
             timeBrowsers[browser] = timeList

@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const fs = require('fs');
 
 const app = express();
 const PORT = 7070;
@@ -7,11 +8,59 @@ const PORT = 7070;
 // set static folder
 app.use(express.static(path.join(__dirname, '.')));
 
+app.use(express.json());
+// receive upload json data
+app.post('/upload', (req, res) => {
+    let data = req.body;
+
+    let device = data.device;
+    let url = data.url.split("/").filter(part => part !== "").slice(-2).join("/");
+    data.url = url;
+    let browser = data.browser;
+    if(data.browser.includes("Edg")) {
+        browser = "Edge";
+    }
+    else if(data.browser.includes("Chrome")) {
+        browser = "Chrome";
+    }
+    else if(data.browser.includes("Firefox")) {
+        browser = "Firefox";
+    }
+    else if(data.browser.includes("Safari")) {
+        browser = "Safari";
+    }
+    else {
+        browser = "Other";
+    }
+
+    console.log(device, url, browser);
+
+    // open the existing file
+    const filePath = path.join(__dirname, 'js_results', device, 'data.json');
+    if (!fs.existsSync(path.dirname(filePath))) {
+        fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    }
+    // load the existing data
+    let existingData = {};
+    if(fs.existsSync(filePath)) {
+        if (fs.readFileSync(filePath).length > 0)
+            existingData = JSON.parse(fs.readFileSync(filePath));
+    }
+    // add the new data
+    if (!existingData[url]) {
+        existingData[url] = {};
+    }
+    existingData[url][browser] = data;
+    // save the data to the file, indent with 4 spaces
+    fs.writeFileSync(filePath, JSON.stringify(existingData, null, 4));
+    res.send('Received');
+});
+
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'index.html'));
 });
 
-app.get('/hello', (req, res) => {
+app.get('/hello/hello', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'hello', 'index.html'));
 });
 

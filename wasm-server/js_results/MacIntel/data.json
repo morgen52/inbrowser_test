@@ -1,0 +1,1071 @@
+{
+    "hello/hello": {
+        "Safari": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "device": "MacIntel",
+            "url": "hello/hello",
+            "access": "2024-02-23T09:06:18.735Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "10.000",
+                    "delta": "10.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "368.000",
+                    "delta": "358.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "727.000",
+                    "delta": "359.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "1084.000",
+                    "delta": "357.000"
+                }
+            ]
+        }
+    },
+    "mcgill/queens": {
+        "Safari": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "device": "MacIntel",
+            "url": "mcgill/queens",
+            "access": "2024-02-23T09:13:24.357Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "20.000",
+                    "delta": "20.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "2095.000",
+                    "delta": "2075.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "4055.000",
+                    "delta": "1960.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "6005.000",
+                    "delta": "1950.000"
+                }
+            ]
+        }
+    },
+    "shootoutc/nestedloop": {
+        "Chrome": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "device": "MacIntel",
+            "url": "shootoutc/nestedloop",
+            "access": "2024-02-23T09:20:49.656Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.400",
+                    "delta": "0.400"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "20.300",
+                    "delta": "19.900"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21.400",
+                    "delta": "1.100"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21.500",
+                    "delta": "0.100"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21.600",
+                    "delta": "0.100"
+                }
+            ]
+        },
+        "Edge": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+            "device": "MacIntel",
+            "url": "shootoutc/nestedloop",
+            "access": "2024-02-23T09:21:01.127Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.300",
+                    "delta": "0.300"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "18.400",
+                    "delta": "18.100"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "19.600",
+                    "delta": "1.200"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "19.700",
+                    "delta": "0.100"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "19.900",
+                    "delta": "0.200"
+                }
+            ]
+        },
+        "Firefox": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+            "device": "MacIntel",
+            "url": "shootoutc/nestedloop",
+            "access": "2024-02-23T09:21:03.229Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "1.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "36.000",
+                    "delta": "35.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "37.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "37.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "37.000",
+                    "delta": "0.000"
+                }
+            ]
+        },
+        "Safari": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "device": "MacIntel",
+            "url": "shootoutc/nestedloop",
+            "access": "2024-02-23T09:21:14.927Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "19.000",
+                    "delta": "19.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "19.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "20.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "20.000",
+                    "delta": "0.000"
+                }
+            ]
+        }
+    },
+    "shootoutc/objinst": {
+        "Chrome": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "device": "MacIntel",
+            "url": "shootoutc/objinst",
+            "access": "2024-02-23T09:21:26.542Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.200",
+                    "delta": "0.200"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "15.400",
+                    "delta": "15.100"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "17.000",
+                    "delta": "1.600"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "18.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "18.800",
+                    "delta": "0.800"
+                }
+            ]
+        },
+        "Edge": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+            "device": "MacIntel",
+            "url": "shootoutc/objinst",
+            "access": "2024-02-23T09:21:28.012Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.300",
+                    "delta": "0.300"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "21.500",
+                    "delta": "21.200"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "23.300",
+                    "delta": "1.800"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "23.900",
+                    "delta": "0.600"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "24.800",
+                    "delta": "0.900"
+                }
+            ]
+        },
+        "Firefox": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+            "device": "MacIntel",
+            "url": "shootoutc/objinst",
+            "access": "2024-02-23T09:21:30.149Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "1.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "38.000",
+                    "delta": "37.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "38.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "39.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "39.000",
+                    "delta": "0.000"
+                }
+            ]
+        },
+        "Safari": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "device": "MacIntel",
+            "url": "shootoutc/objinst",
+            "access": "2024-02-23T09:21:41.970Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "19.000",
+                    "delta": "19.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21.000",
+                    "delta": "2.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21.000",
+                    "delta": "0.000"
+                }
+            ]
+        }
+    },
+    "shootoutc/hello": {
+        "Chrome": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "device": "MacIntel",
+            "url": "shootoutc/hello",
+            "access": "2024-02-23T09:21:53.556Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.200",
+                    "delta": "0.200"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "13.900",
+                    "delta": "13.700"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "14.700",
+                    "delta": "0.800"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "14.800",
+                    "delta": "0.100"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "14.900",
+                    "delta": "0.100"
+                }
+            ]
+        },
+        "Edge": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+            "device": "MacIntel",
+            "url": "shootoutc/hello",
+            "access": "2024-02-23T09:21:55.032Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.300",
+                    "delta": "0.300"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "20.600",
+                    "delta": "20.300"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21.300",
+                    "delta": "0.700"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21.500",
+                    "delta": "0.200"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21.600",
+                    "delta": "0.100"
+                }
+            ]
+        },
+        "Firefox": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+            "device": "MacIntel",
+            "url": "shootoutc/hello",
+            "access": "2024-02-23T09:21:57.242Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "1.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "32.000",
+                    "delta": "31.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "32.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "32.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "32.000",
+                    "delta": "0.000"
+                }
+            ]
+        },
+        "Safari": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "device": "MacIntel",
+            "url": "shootoutc/hello",
+            "access": "2024-02-23T09:22:08.881Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "18.000",
+                    "delta": "18.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "18.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "18.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "18.000",
+                    "delta": "0.000"
+                }
+            ]
+        }
+    },
+    "stanford/realmm": {
+        "Chrome": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "device": "MacIntel",
+            "url": "stanford/realmm",
+            "access": "2024-02-23T09:22:20.241Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.300",
+                    "delta": "0.300"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "8.700",
+                    "delta": "8.400"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "11.600",
+                    "delta": "2.900"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "13.000",
+                    "delta": "1.400"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "14.000",
+                    "delta": "1.000"
+                }
+            ]
+        },
+        "Edge": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+            "device": "MacIntel",
+            "url": "stanford/realmm",
+            "access": "2024-02-23T09:22:21.839Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.200",
+                    "delta": "0.200"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "10.400",
+                    "delta": "10.200"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "13.400",
+                    "delta": "3.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "14.900",
+                    "delta": "1.500"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "16.100",
+                    "delta": "1.200"
+                }
+            ]
+        },
+        "Firefox": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+            "device": "MacIntel",
+            "url": "stanford/realmm",
+            "access": "2024-02-23T09:22:23.996Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "1.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "34.000",
+                    "delta": "33.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "35.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "35.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "36.000",
+                    "delta": "1.000"
+                }
+            ]
+        },
+        "Safari": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "device": "MacIntel",
+            "url": "stanford/realmm",
+            "access": "2024-02-23T09:22:35.596Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "8.000",
+                    "delta": "8.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "10.000",
+                    "delta": "2.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "12.000",
+                    "delta": "2.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "12.000",
+                    "delta": "0.000"
+                }
+            ]
+        }
+    },
+    "stanford/intmm": {
+        "Chrome": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "device": "MacIntel",
+            "url": "stanford/intmm",
+            "access": "2024-02-23T09:23:17.114Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.200",
+                    "delta": "0.200"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "9.000",
+                    "delta": "8.800"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "11.400",
+                    "delta": "2.400"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "13.100",
+                    "delta": "1.700"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "14.200",
+                    "delta": "1.100"
+                }
+            ]
+        },
+        "Edge": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+            "device": "MacIntel",
+            "url": "stanford/intmm",
+            "access": "2024-02-23T09:23:18.646Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.200",
+                    "delta": "0.200"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "11.300",
+                    "delta": "11.100"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "13.300",
+                    "delta": "2.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "14.600",
+                    "delta": "1.300"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "15.500",
+                    "delta": "0.900"
+                }
+            ]
+        },
+        "Firefox": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+            "device": "MacIntel",
+            "url": "stanford/intmm",
+            "access": "2024-02-23T09:23:20.893Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "1.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "31.000",
+                    "delta": "30.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "31.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "33.000",
+                    "delta": "2.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "33.000",
+                    "delta": "0.000"
+                }
+            ]
+        },
+        "Safari": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "device": "MacIntel",
+            "url": "stanford/intmm",
+            "access": "2024-02-23T09:23:32.592Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "1.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "9.000",
+                    "delta": "8.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "11.000",
+                    "delta": "2.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "13.000",
+                    "delta": "2.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "14.000",
+                    "delta": "1.000"
+                }
+            ]
+        }
+    },
+    "shootout/nestedloop": {
+        "Chrome": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "device": "MacIntel",
+            "url": "shootout/nestedloop",
+            "access": "2024-02-23T09:23:44.170Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.600",
+                    "delta": "0.600"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "8.300",
+                    "delta": "7.700"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "9.100",
+                    "delta": "0.800"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "9.200",
+                    "delta": "0.100"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "9.400",
+                    "delta": "0.200"
+                }
+            ]
+        },
+        "Edge": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+            "device": "MacIntel",
+            "url": "shootout/nestedloop",
+            "access": "2024-02-23T09:23:45.671Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.200",
+                    "delta": "0.200"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "12.300",
+                    "delta": "12.100"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "13.000",
+                    "delta": "0.700"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "13.200",
+                    "delta": "0.200"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "13.400",
+                    "delta": "0.200"
+                }
+            ]
+        },
+        "Firefox": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+            "device": "MacIntel",
+            "url": "shootout/nestedloop",
+            "access": "2024-02-23T09:23:47.828Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "2.000",
+                    "delta": "2.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "37.000",
+                    "delta": "35.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "37.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "37.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "37.000",
+                    "delta": "0.000"
+                }
+            ]
+        }
+    },
+    "polybench/fdtd2d": {
+        "Chrome": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "device": "MacIntel",
+            "url": "polybench/fdtd2d",
+            "access": "2024-02-23T09:25:11.720Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.500",
+                    "delta": "0.500"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "8.800",
+                    "delta": "8.300"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "10233.000",
+                    "delta": "10224.200"
+                }
+            ]
+        },
+        "Edge": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+            "device": "MacIntel",
+            "url": "polybench/fdtd2d",
+            "access": "2024-02-23T09:25:35.735Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.300",
+                    "delta": "0.300"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "11.600",
+                    "delta": "11.300"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "9994.500",
+                    "delta": "9982.900"
+                }
+            ]
+        },
+        "Firefox": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+            "device": "MacIntel",
+            "url": "polybench/fdtd2d",
+            "access": "2024-02-23T09:25:59.081Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "1.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "26.000",
+                    "delta": "25.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "5761.000",
+                    "delta": "5735.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "11502.000",
+                    "delta": "5741.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "17012.000",
+                    "delta": "5510.000"
+                }
+            ]
+        },
+        "Safari": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "device": "MacIntel",
+            "url": "polybench/fdtd2d",
+            "access": "2024-02-23T09:26:48.921Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "10.000",
+                    "delta": "10.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "21359.000",
+                    "delta": "21349.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "26822.000",
+                    "delta": "5462.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "32054.000",
+                    "delta": "5232.000"
+                }
+            ]
+        }
+    },
+    "polybench/cholesky": {
+        "Chrome": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "device": "MacIntel",
+            "url": "polybench/cholesky",
+            "access": "2024-02-23T09:28:14.099Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.400",
+                    "delta": "0.400"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "9.900",
+                    "delta": "9.500"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "35067.800",
+                    "delta": "35057.900"
+                }
+            ]
+        },
+        "Edge": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+            "device": "MacIntel",
+            "url": "polybench/cholesky",
+            "access": "2024-02-23T09:29:39.399Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.200",
+                    "delta": "0.200"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "14.000",
+                    "delta": "13.800"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "33932.900",
+                    "delta": "33918.900"
+                }
+            ]
+        },
+        "Firefox": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+            "device": "MacIntel",
+            "url": "polybench/cholesky",
+            "access": "2024-02-23T09:30:55.656Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "1.000",
+                    "delta": "1.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "34.000",
+                    "delta": "33.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "19398.000",
+                    "delta": "19364.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "38496.000",
+                    "delta": "19098.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "57696.000",
+                    "delta": "19200.000"
+                }
+            ]
+        },
+        "Safari": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
+            "device": "MacIntel",
+            "url": "polybench/cholesky",
+            "access": "2024-02-23T09:32:49.447Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "8.000",
+                    "delta": "8.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "48294.000",
+                    "delta": "48286.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "65561.000",
+                    "delta": "17267.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "83275.000",
+                    "delta": "17714.000"
+                }
+            ]
+        }
+    }
+}
