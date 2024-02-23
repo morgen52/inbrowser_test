@@ -74,31 +74,31 @@
             "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "device": "MacIntel",
             "url": "shootoutc/nestedloop",
-            "access": "2024-02-23T09:20:49.656Z",
+            "access": "2024-02-23T09:36:57.107Z",
             "times": [
                 {
                     "label": "page loaded",
-                    "time": "0.400",
-                    "delta": "0.400"
+                    "time": "0.200",
+                    "delta": "0.200"
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "20.300",
-                    "delta": "19.900"
+                    "time": "72.600",
+                    "delta": "72.400"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "21.400",
-                    "delta": "1.100"
+                    "time": "73.600",
+                    "delta": "1.000"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "21.500",
-                    "delta": "0.100"
+                    "time": "73.800",
+                    "delta": "0.200"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "21.600",
+                    "time": "73.900",
                     "delta": "0.100"
                 }
             ]
@@ -107,7 +107,7 @@
             "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
             "device": "MacIntel",
             "url": "shootoutc/nestedloop",
-            "access": "2024-02-23T09:21:01.127Z",
+            "access": "2024-02-23T09:37:08.632Z",
             "times": [
                 {
                     "label": "page loaded",
@@ -116,22 +116,22 @@
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "18.400",
-                    "delta": "18.100"
+                    "time": "53.300",
+                    "delta": "53.000"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "19.600",
-                    "delta": "1.200"
+                    "time": "54.400",
+                    "delta": "1.100"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "19.700",
-                    "delta": "0.100"
+                    "time": "54.600",
+                    "delta": "0.200"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "19.900",
+                    "time": "54.800",
                     "delta": "0.200"
                 }
             ]
@@ -845,22 +845,22 @@
             "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "device": "MacIntel",
             "url": "polybench/fdtd2d",
-            "access": "2024-02-23T09:25:11.720Z",
+            "access": "2024-02-23T09:38:42.670Z",
             "times": [
                 {
                     "label": "page loaded",
-                    "time": "0.500",
-                    "delta": "0.500"
+                    "time": "1.900",
+                    "delta": "1.900"
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "8.800",
-                    "delta": "8.300"
+                    "time": "78.400",
+                    "delta": "76.500"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "10233.000",
-                    "delta": "10224.200"
+                    "time": "9931.700",
+                    "delta": "9853.300"
                 }
             ]
         },
