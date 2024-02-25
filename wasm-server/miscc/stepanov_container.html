@@ -7,6 +7,7 @@
     <script>
         let timeList = [];
         let endFlag = 0;
+        let stat = "";
 
         function checkpoint(label) {
             console.log(`${label}: ${(performance.now() - startTime).toFixed(2)} ms (+${(performance.now() - lastTime).toFixed(2)})`);
@@ -16,6 +17,34 @@
 
         function getTimes() {
             return timeList;
+        }
+
+        function sendFinishedMsg(status){
+            stat = status;
+
+            var browserInfo = navigator.userAgent;
+            var deviceInfo = navigator.platform;
+            var url = window.location.href;
+            var accessTime = new Date().toISOString();
+            
+            var info = {
+                browser: browserInfo,
+                device: deviceInfo,
+                url: url,
+                access: accessTime,
+                status: status,
+                times: getTimes()
+            };
+            xhr.send(JSON.stringify(info));
+        }
+
+        function setFinished() {
+            endFlag = 1;
+            if(window.opener){
+                window.opener.endFlag = 1;
+                window.opener.stat = stat;
+                console.log("window.opener.endFlag: " + window.opener.endFlag);
+            }
         }
 
         function isFinished() {
@@ -30,11 +59,11 @@
         xhr.onreadystatechange = function() {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 console.log(xhr.responseText);
-                endFlag = 1;
+                setFinished();
             }
             else if (xhr.readyState === 4 && xhr.status !== 200) {
                 console.log("Error: " + xhr.responseText);
-                endFlag = 1;
+                setFinished();
             }
         };
 
@@ -51,24 +80,11 @@
                         checkpoint("wasm benchmark");
                     } catch (e) {
                         console.log(e);
-                        endFlag = 1;
+                        sendFinishedMsg("error");
                     }
                 }
 
-                var browserInfo = navigator.userAgent;
-                var deviceInfo = navigator.platform;
-                var url = window.location.href;
-                var accessTime = new Date().toISOString();
-                
-                // 构建包含信息的对象
-                var info = {
-                    browser: browserInfo,
-                    device: deviceInfo,
-                    url: url,
-                    access: accessTime,
-                    times: getTimes()
-                };
-                xhr.send(JSON.stringify(info));
+                sendFinishedMsg("success");
             }
         };
     </script>

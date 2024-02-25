@@ -85,7 +85,7 @@ for idx, item in tqdm(enumerate(exps.items())):
         continue
     mode, url = item
     print(mode, url["url"])
-    if mode in abnormal_case.ABNORMAL:
+    if mode not in abnormal_case.ABNORMAL:
         print(f"{mode} is abnormal case")
         continue
     if (mode not in results) or (not is_complete(results[mode], mode)["re"]):

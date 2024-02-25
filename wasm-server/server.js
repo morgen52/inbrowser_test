@@ -64,6 +64,26 @@ app.get('/hello/hello', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'hello', 'index.html'));
 });
 
+app.get('/phone', (req, res) => {
+    res.sendFile(path.join(__dirname, '.', 'phone', 'phone.html'));
+});
+
+app.get('/urls', (req, res) => {
+    // open the url file and send the json content
+    const urlPath = path.join(__dirname, '..', 'testbed', 'exps.json');
+    var urls = [];
+    if(fs.existsSync(urlPath)) {
+        let data = fs.readFileSync(urlPath);
+        let exps = JSON.parse(data);
+        for (let mode in exps) {
+            urls.push(exps[mode].url.replace("10.129.160.70", "0.0.0.0"));
+        }
+    }
+
+    res.send(JSON.stringify({"urls": urls}));
+    // res.send(JSON.stringify({"urls": ["http://0.0.0.0:7070/shootoutc/ary2", "http://0.0.0.0:7070/shootoutc/ary"]}));
+});
+        
 /* ###################### */
 /* ###  BEGIN ROUTES  ### */
 /* ###################### */
