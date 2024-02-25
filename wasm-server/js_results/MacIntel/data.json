@@ -32,6 +32,39 @@
                     "delta": "357.000"
                 }
             ]
+        },
+        "Chrome": {
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "device": "MacIntel",
+            "url": "hello/hello",
+            "access": "2024-02-25T15:22:30.441Z",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "2.200",
+                    "delta": "2.200"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "89.200",
+                    "delta": "87.000"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "908.800",
+                    "delta": "819.600"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "1265.400",
+                    "delta": "356.600"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "1621.700",
+                    "delta": "356.300"
+                }
+            ]
         }
     },
     "mcgill/queens": {

@@ -16,7 +16,7 @@
     var bp = <%= bp %>;
 
     async function waitForFinished(ms){
-      while(window.endFlag !== 1){
+      while(window.endFlag === 0){
         await new Promise(resolve => setTimeout(resolve, ms));
       }
     }
@@ -31,6 +31,8 @@
 
       // open the each url, and close the window while the url's isFinished() function return 1
       for (let i = 0; i < urls.length; i++) {
+        window.endFlag = 0;
+        window.stat = "tbd";
 
         if (i < bp){
           continue;
@@ -43,6 +45,16 @@
 
         let win = window.open(url, '_blank');
 
+        // Listen to window close event
+        win.addEventListener('beforeunload', () => {
+          if (window.endFlag === 0){
+            window.endFlag = 2;
+          }
+          if (window.stat === "tbd"){
+            window.stat = "closed";
+          }
+        });
+
         // let interval = setInterval(() => {
         //   if (window.endFlag === 1) {
         //     console.log(url, window.stat);
@@ -54,8 +66,9 @@
         await waitForFinished(5000);
 
         console.log(url, window.stat);
-        win.close();
-        window.endFlag = 0;
+        if (window.endFlag === 1){
+          win.close();
+        }
       }
     }
 
