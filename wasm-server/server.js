@@ -65,7 +65,10 @@ app.get('/hello/hello', (req, res) => {
 });
 
 app.get('/phone', (req, res) => {
-    res.sendFile(path.join(__dirname, '.', 'phone', 'phone.html'));
+    const bp = req.query.bp || 0; // defaul = 0 
+    res.render(path.join(__dirname, '.', 'phone','phone.ejs'), { bp });
+
+    // res.sendFile(path.join(__dirname, '.', 'phone', 'phone.html'));
 });
 
 app.get('urls', (req, res) => {

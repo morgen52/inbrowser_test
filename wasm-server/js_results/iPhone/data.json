@@ -1,0 +1,23 @@
+{
+    "shootoutc/ackermann": {
+        "Safari": {
+            "browser": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Mobile/15E148 Safari/604.1",
+            "device": "iPhone",
+            "url": "shootoutc/ackermann",
+            "access": "2024-02-25T13:10:58.984Z",
+            "status": "error",
+            "times": [
+                {
+                    "label": "page loaded",
+                    "time": "0.000",
+                    "delta": "0.000"
+                },
+                {
+                    "label": "wasm initialized",
+                    "time": "16.000",
+                    "delta": "16.000"
+                }
+            ]
+        }
+    }
+}
