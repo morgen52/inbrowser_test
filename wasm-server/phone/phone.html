@@ -59,7 +59,15 @@
     }
 
     // read urls (block)
-    fetch("/urls")
+    // post the ip address to the server
+
+    fetch("/urls", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ip: window.location.href.split("/")[2].split(":")[0]}),
+    })
     .then(response => response.json())
     .then(data => {
       const urls = data.urls;

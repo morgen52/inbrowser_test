@@ -68,15 +68,31 @@ app.get('/phone', (req, res) => {
     res.sendFile(path.join(__dirname, '.', 'phone', 'phone.html'));
 });
 
-app.get('/urls', (req, res) => {
+app.get('urls', (req, res) => {
     // open the url file and send the json content
+    const urlPath = path.join(__dirname, '..', 'testbed', 'exps.json');
+    var urls = [];
+    if (fs.existsSync(urlPath)) {
+        let data = fs.readFileSync(urlPath);
+        let exps = JSON.parse(data);
+        for (let mode in exps) {
+            urls.push(exps[mode].url);
+        }
+    }
+    res.send(JSON.stringify({"urls": urls}));
+});
+
+app.post('/urls', (req, res) => {
+    // open the url file and send the json content
+    ip = req.body.ip;
+    // console.log(ip);
     const urlPath = path.join(__dirname, '..', 'testbed', 'exps.json');
     var urls = [];
     if(fs.existsSync(urlPath)) {
         let data = fs.readFileSync(urlPath);
         let exps = JSON.parse(data);
         for (let mode in exps) {
-            urls.push(exps[mode].url.replace("10.129.160.70", "0.0.0.0"));
+            urls.push(exps[mode].url.replace("10.129.160.70", ip));
         }
     }
 
