@@ -34,35 +34,35 @@
             ]
         },
         "Chrome": {
-            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "browser": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
             "device": "MacIntel",
             "url": "hello/hello",
-            "access": "2024-02-25T15:22:30.441Z",
+            "access": "2024-03-04T08:47:12.708Z",
             "times": [
                 {
                     "label": "page loaded",
-                    "time": "2.200",
-                    "delta": "2.200"
+                    "time": "2.400",
+                    "delta": "2.400"
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "89.200",
-                    "delta": "87.000"
+                    "time": "129.100",
+                    "delta": "126.700"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "908.800",
-                    "delta": "819.600"
+                    "time": "948.900",
+                    "delta": "819.800"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "1265.400",
-                    "delta": "356.600"
+                    "time": "1764.700",
+                    "delta": "815.800"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "1621.700",
-                    "delta": "356.300"
+                    "time": "2579.200",
+                    "delta": "814.500"
                 }
             ]
         }
