@@ -7,22 +7,12 @@ oss = ["linux", "windows", "mac"]
 
 results_book = {}
 
-for os in oss:
-    results = {}
-    with open(f"{os}/results.json", "r") as f:
-        results = json.load(f)
-    # remove the abnormal case
-    for case in mac_bug_case.ABNORMAL:
-        if case in results:
-            del results[case]
-    results_book[os] = results
-
 def avg_exe(log):
     avg_time = []
     for entry in log:
         if entry["label"] == "wasm benchmark":
             avg_time.append(float(entry["delta"]))
-    return sum(avg_time) / len(avg_time)
+    return sum(avg_time) / len(avg_time) if avg_time else 0
 
 def avg_init(log):
     for entry in log:
@@ -66,11 +56,23 @@ def different_case(result, mode="exe"):
             if abs(ratio[case][i] - mean_ratio[i]) > 3 * std_ratio[i]:
                 print(f"case {case} is abnormal in browser {browindex[i]}, ratio {ratio[case][i]}")
 
-for os in oss:
-    for mode in ["exe", "init"]:
-        print(f"## {os} abnormal case, mode {mode}")
-        different_case(results_book[os], mode)
-        print()
+
+if __name__ == "__main__":
+    for os in oss:
+        results = {}
+        with open(f"{os}/results.json", "r") as f:
+            results = json.load(f)
+        # remove the abnormal case
+        for case in mac_bug_case.ABNORMAL:
+            if case in results:
+                del results[case]
+        results_book[os] = results
+
+    for os in oss:
+        for mode in ["exe", "init"]:
+            print(f"## {os} abnormal case, mode {mode}")
+            different_case(results_book[os], mode)
+            print()
 
 '''
 ## linux abnormal case, mode exe

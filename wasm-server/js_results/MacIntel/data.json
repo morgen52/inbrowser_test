@@ -1148,33 +1148,33 @@
             "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "device": "MacIntel",
             "url": "shootoutc/ackermann",
-            "access": "2024-02-25T13:47:05.901Z",
+            "access": "2024-02-27T09:11:29.418Z",
             "status": "success",
             "times": [
                 {
                     "label": "page loaded",
-                    "time": "0.000",
-                    "delta": "0.000"
+                    "time": "4.200",
+                    "delta": "4.200"
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "35.400",
-                    "delta": "35.400"
+                    "time": "141.600",
+                    "delta": "137.400"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "580.000",
-                    "delta": "544.600"
+                    "time": "1242.100",
+                    "delta": "1100.500"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "1129.200",
-                    "delta": "549.200"
+                    "time": "2338.200",
+                    "delta": "1096.100"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "1676.800",
-                    "delta": "547.600"
+                    "time": "3429.200",
+                    "delta": "1091.000"
                 }
             ]
         }
