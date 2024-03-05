@@ -104,4 +104,24 @@ std [0.04524217909535858, 0.052743288061265096, 0.04315653360445969, 0.048110456
 browser ['Chrome', 'Edge', 'Firefox', 'Safari']
 mean [0.4724706779783827, 0.16622127451057558, 0.2551719153563142, 0.10613613215472746]
 std [0.09069920073850857, 0.09208603124199806, 0.025967133713725155, 0.028365041220227722]
+
+## dev: x86_64
+### mode: exe
+browser ['Firefox', 'Edge', 'Chrome']
+mean [0.32255537814856344, 0.3342508305225981, 0.34319379132883837]
+std [0.049145246644609036, 0.029861948963405067, 0.04332492676050403]
+case shootout/objinst is abnormal in browser Edge, ratio 0.2413793103448276
+case adobec/stepanov_abstraction is abnormal in browser Firefox, ratio 0.1498456404510684
+case adobec/stepanov_abstraction is abnormal in browser Edge, ratio 0.42449278983725747
+case polybench/durbin is abnormal in browser Firefox, ratio 0.17111567419575632
+case polybench/durbin is abnormal in browser Edge, ratio 0.45242984257357977
+case polybench/jacobi1d is abnormal in browser Firefox, ratio 0.09652509652509651
+case polybench/jacobi1d is abnormal in browser Edge, ratio 0.1718146718146718
+case polybench/jacobi1d is abnormal in browser Chrome, ratio 0.7316602316602316
+
+### mode: init
+browser ['Firefox', 'Edge', 'Chrome']
+mean [0.5066025502886693, 0.1677955659180708, 0.32560188379325966]
+std [0.22541557618136993, 0.10435131224094829, 0.16604685157867263]
+case polybench/correlation is abnormal in browser Edge, ratio 0.5944444444444444
 '''
