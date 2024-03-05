@@ -2174,36 +2174,36 @@
     },
     "stanford/oscar": {
         "Chrome": {
-            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "device": "MacIntel",
             "url": "stanford/oscar",
-            "access": "2024-02-23T12:36:23.749Z",
+            "access": "2024-03-05T06:17:03.242Z",
             "status": "success",
             "times": [
                 {
                     "label": "page loaded",
-                    "time": "0.900",
-                    "delta": "0.900"
+                    "time": "1.900",
+                    "delta": "1.900"
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "66.500",
-                    "delta": "65.600"
+                    "time": "90.900",
+                    "delta": "89.000"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "70.700",
-                    "delta": "4.200"
+                    "time": "95.800",
+                    "delta": "4.900"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "73.500",
-                    "delta": "2.800"
+                    "time": "97.800",
+                    "delta": "2.000"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "76.500",
-                    "delta": "3.000"
+                    "time": "99.600",
+                    "delta": "1.800"
                 }
             ]
         }
