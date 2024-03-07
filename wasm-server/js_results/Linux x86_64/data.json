@@ -4,32 +4,32 @@
             "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
             "device": "Linux x86_64",
             "url": "hello/hello",
-            "access": "2024-02-26T09:59:34.197Z",
+            "access": "2024-03-07T05:59:52.511Z",
             "times": [
                 {
                     "label": "page loaded",
-                    "time": "2.200",
-                    "delta": "2.200"
+                    "time": "2.600",
+                    "delta": "2.700"
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "96.900",
-                    "delta": "94.700"
+                    "time": "36.500",
+                    "delta": "33.800"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "374.700",
-                    "delta": "277.700"
+                    "time": "309.800",
+                    "delta": "273.400"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "527.800",
+                    "time": "462.700",
+                    "delta": "152.800"
+                },
+                {
+                    "label": "wasm benchmark",
+                    "time": "615.900",
                     "delta": "153.100"
-                },
-                {
-                    "label": "wasm benchmark",
-                    "time": "681.000",
-                    "delta": "153.200"
                 }
             ]
         }
@@ -2912,36 +2912,36 @@
             ]
         },
         "Chrome": {
-            "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
             "device": "Linux x86_64",
             "url": "benchmarkgame/fasta",
-            "access": "2024-03-05T01:50:23.698Z",
+            "access": "2024-03-07T05:43:02.789Z",
             "status": "success",
             "times": [
                 {
                     "label": "page loaded",
-                    "time": "0.200",
-                    "delta": "0.200"
+                    "time": "2.700",
+                    "delta": "2.700"
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "18.000",
-                    "delta": "17.800"
+                    "time": "37.600",
+                    "delta": "34.900"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "24.700",
-                    "delta": "6.700"
+                    "time": "103.000",
+                    "delta": "65.400"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "29.900",
-                    "delta": "5.200"
+                    "time": "165.700",
+                    "delta": "62.700"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "35.200",
-                    "delta": "5.300"
+                    "time": "219.100",
+                    "delta": "53.400"
                 }
             ]
         }
@@ -13207,36 +13207,36 @@
             ]
         },
         "Chrome": {
-            "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
             "device": "Linux x86_64",
             "url": "miscc/bigfib",
-            "access": "2024-03-05T03:30:24.052Z",
+            "access": "2024-03-05T12:02:46.255Z",
             "status": "success",
             "times": [
                 {
                     "label": "page loaded",
-                    "time": "0.200",
-                    "delta": "0.200"
+                    "time": "2.700",
+                    "delta": "2.700"
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "22.500",
-                    "delta": "22.300"
+                    "time": "59.800",
+                    "delta": "57.100"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "230.600",
-                    "delta": "208.100"
+                    "time": "304.500",
+                    "delta": "244.700"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "312.200",
-                    "delta": "81.600"
+                    "time": "428.100",
+                    "delta": "123.600"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "389.900",
-                    "delta": "77.700"
+                    "time": "546.200",
+                    "delta": "118.000"
                 }
             ]
         }

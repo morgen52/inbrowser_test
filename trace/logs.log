@@ -1,0 +1,6 @@
+Run fasta with v8 in 0:00:00.017082 seconds.
+Run fasta with spidermonkey in 0:00:00.019658 seconds.
+Run oscar with v8 in 0:00:00.013975 seconds.
+Run oscar with spidermonkey in 0:00:00.017295 seconds.
+Run stepanov_v1p2 with v8 in 0:00:10.865541 seconds.
+Run stepanov_v1p2 with spidermonkey in 0:00:02.833378 seconds.

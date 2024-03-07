@@ -1994,36 +1994,36 @@
     },
     "benchmarkgame/fasta": {
         "Chrome": {
-            "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "browser": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
             "device": "MacIntel",
             "url": "benchmarkgame/fasta",
-            "access": "2024-02-23T12:35:47.739Z",
+            "access": "2024-03-06T04:59:55.656Z",
             "status": "success",
             "times": [
                 {
                     "label": "page loaded",
-                    "time": "0.800",
-                    "delta": "0.800"
+                    "time": "0.700",
+                    "delta": "0.700"
                 },
                 {
                     "label": "wasm initialized",
-                    "time": "58.200",
-                    "delta": "57.300"
+                    "time": "75.800",
+                    "delta": "75.100"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "66.900",
-                    "delta": "8.700"
+                    "time": "112.100",
+                    "delta": "36.300"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "74.000",
-                    "delta": "7.100"
+                    "time": "143.500",
+                    "delta": "31.400"
                 },
                 {
                     "label": "wasm benchmark",
-                    "time": "80.600",
-                    "delta": "6.600"
+                    "time": "175.200",
+                    "delta": "31.700"
                 }
             ]
         }
